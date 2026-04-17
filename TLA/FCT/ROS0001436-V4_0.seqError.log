@@ -1,0 +1,248 @@
+TST-C-ROS-T2544    9/4/2024 2:31:56 PM ProcessModelError
+Error Code: -1, User-defined error code.
+Message: 'Key not found: ReportPath; Note: key are case sensitive
+findKeyValue.vi>findKeyValue.vi.ProxyCaller
+' at step 'Get ReportPath from MachinePrograms' in seq 'ReportOptions'
+
+TST-C-ROS-T2544    9/4/2024 2:32:28 PM ProcessModelError
+Error Code: -1, User-defined error code.
+Message: 'Key not found: ReportPath; Note: key are case sensitive
+findKeyValue.vi>findKeyValue.vi.ProxyCaller
+' at step 'Get ReportPath from MachinePrograms' in seq 'ReportOptions'
+
+TST-C-ROS-T2544    9/4/2024 2:41:36 PM ProcessModelError
+Error Code: -1, User-defined error code.
+Message: 'Key not found: ReportPath; Note: key are case sensitive
+findKeyValue.vi>findKeyValue.vi.ProxyCaller
+' at step 'Get ReportPath from MachinePrograms' in seq 'ReportOptions'
+
+TST-C-ROS-T2544    9/4/2024 2:42:54 PM ProcessModelError
+Error Code: -1, User-defined error code.
+Message: 'Key not found: ReportPath; Note: key are case sensitive
+findKeyValue.vi>findKeyValue.vi.ProxyCaller
+' at step 'Get ReportPath from MachinePrograms' in seq 'ReportOptions'
+
+TST-C-ROS-T2544    9/17/2024 3:39:18 PM ProcessModelError
+Error Code: 5000, User-defined error code.
+Message: 'Webscraper.lvlib:Parse pyWebscraper data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Webscraper.lvlib:Parse pyWebscraper data.vi
+     Webscraper.lvlib:Parse pyWebscraper data.vi.ProxyCaller' at step 'Parse pyWebscraper Result' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    9/18/2024 1:09:15 PM ProcessModelError
+Error Code: 0, User-defined error code.
+Message: 'Error Writing Report' at step 'Error Writing Report' in seq 'Socket'
+
+TST-C-ROS-T2544    9/20/2024 6:01:21 PM ProcessModelError
+Error Code: 5000, User-defined error code.
+Message: 'Webscraper.lvlib:Parse pyWebscraper data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Webscraper.lvlib:Parse pyWebscraper data.vi
+     Webscraper.lvlib:Parse pyWebscraper data.vi.ProxyCaller' at step 'Parse pyWebscraper Result' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    9/20/2024 8:18:16 PM ProcessModelError
+Error Code: 5000, User-defined error code.
+Message: 'Webscraper.lvlib:Parse pyWebscraper data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Webscraper.lvlib:Parse pyWebscraper data.vi
+     Webscraper.lvlib:Parse pyWebscraper data.vi.ProxyCaller' at step 'Parse pyWebscraper Result' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    9/20/2024 9:30:01 PM ProcessModelError
+Error Code: 5000, User-defined error code.
+Message: 'Webscraper.lvlib:Parse pyWebscraper data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Webscraper.lvlib:Parse pyWebscraper data.vi
+     Webscraper.lvlib:Parse pyWebscraper data.vi.ProxyCaller' at step 'TRS04.4.1 - SDN1 Current High' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    9/23/2024 9:38:08 AM ProcessModelError
+Error Code: 5000, User-defined error code.
+Message: 'Webscraper.lvlib:Parse pyWebscraper data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Webscraper.lvlib:Parse pyWebscraper data.vi
+     Webscraper.lvlib:Parse pyWebscraper data.vi.ProxyCaller' at step 'Parse pyWebscraper Result' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    9/23/2024 10:02:05 AM ProcessModelError
+Error Code: 5000, User-defined error code.
+Message: 'Webscraper.lvlib:Parse pyWebscraper data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Webscraper.lvlib:Parse pyWebscraper data.vi
+     Webscraper.lvlib:Parse pyWebscraper data.vi.ProxyCaller' at step 'Parse pyWebscraper Result' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    9/23/2024 10:06:07 AM ProcessModelError
+Error Code: 5000, User-defined error code.
+Message: 'Webscraper.lvlib:Parse pyWebscraper data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Webscraper.lvlib:Parse pyWebscraper data.vi
+     Webscraper.lvlib:Parse pyWebscraper data.vi.ProxyCaller' at step 'Parse pyWebscraper Result' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    9/23/2024 12:11:49 PM ProcessModelError
+Error Code: 5000, User-defined error code.
+Message: 'Webscraper.lvlib:Parse pyWebscraper data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Webscraper.lvlib:Parse pyWebscraper data.vi
+     Webscraper.lvlib:Parse pyWebscraper data.vi.ProxyCaller' at step 'Parse pyWebscraper Result' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    9/30/2024 9:20:31 PM ProcessModelError
+Error Code: 5000, User-defined error code.
+Message: 'Webscraper.lvlib:Parse pyWebscraper data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Webscraper.lvlib:Parse pyWebscraper data.vi
+     Webscraper.lvlib:Parse pyWebscraper data.vi.ProxyCaller' at step 'Parse pyWebscraper Result' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    9/30/2024 9:22:36 PM ProcessModelError
+Error Code: 5000, User-defined error code.
+Message: 'Webscraper.lvlib:Parse pyWebscraper data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Webscraper.lvlib:Parse pyWebscraper data.vi
+     Webscraper.lvlib:Parse pyWebscraper data.vi.ProxyCaller' at step 'Parse pyWebscraper Result' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    9/30/2024 9:22:39 PM ProcessModelError
+Error Code: 5000, User-defined error code.
+Message: 'Webscraper.lvlib:Parse pyWebscraper data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Webscraper.lvlib:Parse pyWebscraper data.vi
+     Webscraper.lvlib:Parse pyWebscraper data.vi.ProxyCaller' at step 'Parse pyWebscraper Result' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    10/1/2024 4:33:40 PM ProcessModelError
+Error Code: 5000, User-defined error code.
+Message: 'Webscraper.lvlib:Parse pyWebscraper data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Webscraper.lvlib:Parse pyWebscraper data.vi
+     Webscraper.lvlib:Parse pyWebscraper data.vi.ProxyCaller' at step 'Parse pyWebscraper Result' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    10/2/2024 2:33:55 PM ProcessModelError
+Error Code: 5000, User-defined error code.
+Message: 'Webscraper.lvlib:Parse pyWebscraper data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Webscraper.lvlib:Parse pyWebscraper data.vi
+     Webscraper.lvlib:Parse pyWebscraper data.vi.ProxyCaller' at step 'Parse pyWebscraper Result' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    10/4/2024 1:54:41 PM ProcessModelError
+Error Code: -1074130544, User-defined error code.
+Message: 'Keysight DAQ970.lvlib:IVI Error Converter.vi
+Invalid session handle.
+
+
+Complete call chain:
+     Keysight DAQ970.lvlib:IVI Error Converter.vi
+     Keysight DAQ970.lvlib:Route Close.vi
+     Keysight DAQ970.lvlib:Route Close.vi.ProxyCaller
+IVI: (Hex 0xBFFA1190) The session handle is not valid.' at step 'Enable Valve - PCBA Gate' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    10/4/2024 1:54:45 PM ProcessModelError
+Error Code: -1074130544, User-defined error code.
+Message: 'Keysight DAQ970.lvlib:IVI Error Converter.vi
+Invalid session handle.
+
+
+Complete call chain:
+     Keysight DAQ970.lvlib:IVI Error Converter.vi
+     Keysight DAQ970.lvlib:Get Output Data Byte.vi
+     Set Output Data Bit.vi
+     Set Output Data Bit.vi.ProxyCaller
+IVI: (Hex 0xBFFA1190) The session handle is not valid.' at step 'Energize RB1-J15' in seq 'ProcessModelPostStepRuntimeError'
+
+    10/4/2024 2:12:51 PM ProcessModelError
+Error Code: -1073807194, User-defined error code.
+Message: 'VISA Write in GENser Initialize.vi->TDK_Enable-Disable_With_Options.vi->TDK_Enable-Disable.vi->TDK_Enable-Disable.vi.ProxyCaller
+VISA:  (Hex 0xBFFF00A6) The connection for the given session has been lost.' at step 'Disable PPS#2' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    10/8/2024 10:11:04 AM ProcessModelError
+Error Code: 5000, User-defined error code.
+Message: 'Webscraper.lvlib:Parse pyWebscraper data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Webscraper.lvlib:Parse pyWebscraper data.vi
+     Webscraper.lvlib:Parse pyWebscraper data.vi.ProxyCaller' at step 'TRS04.1.1 - SCM Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    10/8/2024 10:17:42 AM ProcessModelError
+Error Code: 5000, User-defined error code.
+Message: 'Webscraper.lvlib:Parse pyWebscraper data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Webscraper.lvlib:Parse pyWebscraper data.vi
+     Webscraper.lvlib:Parse pyWebscraper data.vi.ProxyCaller' at step 'TRS04.1.1 - SCM Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    10/8/2024 10:19:17 AM ProcessModelError
+Error Code: 5000, User-defined error code.
+Message: 'Webscraper.lvlib:Parse pyWebscraper data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Webscraper.lvlib:Parse pyWebscraper data.vi
+     Webscraper.lvlib:Parse pyWebscraper data.vi.ProxyCaller' at step 'TRS04.1.1 - SCM Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    10/8/2024 10:19:21 AM ProcessModelError
+Error Code: 5000, User-defined error code.
+Message: 'Webscraper.lvlib:Parse pyWebscraper data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Webscraper.lvlib:Parse pyWebscraper data.vi
+     Webscraper.lvlib:Parse pyWebscraper data.vi.ProxyCaller' at step 'TRS04.1.1 - SCM Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    10/8/2024 10:19:25 AM ProcessModelError
+Error Code: 5000, User-defined error code.
+Message: 'Webscraper.lvlib:Parse pyWebscraper data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Webscraper.lvlib:Parse pyWebscraper data.vi
+     Webscraper.lvlib:Parse pyWebscraper data.vi.ProxyCaller' at step 'TRS04.1.1 - SCM Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    10/8/2024 10:19:40 AM ProcessModelError
+Error Code: 5000, User-defined error code.
+Message: 'Webscraper.lvlib:Parse pyWebscraper data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Webscraper.lvlib:Parse pyWebscraper data.vi
+     Webscraper.lvlib:Parse pyWebscraper data.vi.ProxyCaller' at step 'TRS04.1.1 - SCM Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+

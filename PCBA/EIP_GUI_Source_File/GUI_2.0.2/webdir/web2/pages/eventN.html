@@ -1,0 +1,77 @@
+
+  <style>
+    .fixTableHead {
+      overflow-y: auto;
+      height: 40vh;
+    }
+    .fixTableHead thead th {
+      position: sticky;
+      top: 0;
+    }
+    table {
+      border-collapse: collapse;        
+      width: 100%;
+    }
+    /* th,
+    td {
+      padding: 8px 15px;
+      border: 2px solid #529432;
+    }
+    th {
+      background: #ABDD93;
+    } */
+  </style>
+<div id="eventN-content">
+    <div class="fixTableHead">
+        <table id="eventN-table-p1">
+            <thead>
+                <tr style="display: none;">
+                    <th colspan="2"></th>                    
+                    <th colspan="2">PS#1 Serial Number: <label id="lbl_p1_serialnum"></label></th>                    
+                </tr>
+                <tr>
+                    <th style="width: 139px;">Description</th>
+                    <th style="width: 207px;">Event Code</th>
+                    <th style="width: 138px;">Event Start/End</th>
+                    <th style="width: 147px;">Timestamp (Hrs)</th>
+                </tr>
+            </thead>
+            <tbody id="tbody_p1">
+
+            </tbody>
+        </table>    
+    </div>
+    <div style="height: 28px;">    
+        <span id="spnLoadding" style="vertical-align: sub; "><img src="../img/Spinner24px.gif" id="imgLoadding" style="float: left;">Loading...</span>        
+        <input type="button" id="btn_excel_p1" value="SDN 1 Events" onclick="htmlToCSV('PS1')" class="flat-button" style="display: none; float: right; margin-right: 3px; margin-bottom: 2px;"/>         
+    </div>    
+    <div class="fixTableHead">
+        <table id="eventN-table-p2">
+            <thead>
+                <tr style="display: none;">
+                    <th colspan="2"></th>                    
+                    <th colspan="2">PS#2 Serial Number: <label id="lbl_p2_serialnum"></label></th>                    
+                </tr>
+                <tr>
+                    <th style="width: 139px;">Description</th>
+                    <th style="width: 207px;">Event Code</th>
+                    <th style="width: 138px;">Event Start/End</th>
+                    <th style="width: 147px;">Timestamp (Hrs)</th>
+                </tr>
+            </thead>
+            <tbody id="tbody_p2">
+
+            </tbody>
+        </table>
+    </div>
+    <input type="button" id="btn_excel_p2" value="SDN 2 Events" onclick="htmlToCSV('PS2')" class="flat-button" style="display: none; float: right; margin-right: 3px; margin-bottom: 2px;"/> 
+    
+</div><!-- <input type="button" onclick="htmlToCSV" value="CSV"> -->
+<script type="text/javascript" src="/web2/js/eventOperation.js"></script>
+<script type="text/javascript">
+  //debugger;
+	$.getScript('/web2/pages/eventN.js')
+			.fail(() => {
+				$('#header_SCM_Cnn').css({ display: 'block' });
+			});
+</script>

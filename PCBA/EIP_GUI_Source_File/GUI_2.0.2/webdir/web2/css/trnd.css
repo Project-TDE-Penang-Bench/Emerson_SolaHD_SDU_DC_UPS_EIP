@@ -1,0 +1,37 @@
+
+
+.rheader{ 
+    text-align: left;    
+    width: 115px;    
+    font-size: 11px !important;
+    font-weight: 500;
+}
+
+table.clsTrnds th{
+    border: 1px solid gray;
+    text-align: center;
+}
+
+table.clsTrnds td {
+    border: 1px solid gray;
+    padding-left:6px;
+    padding-right:6px;
+    font-size: 11px;
+    
+}
+
+table.clsTrnds tr:nth-child(1){
+    background: #c3d4dd;
+}
+table.clsTrnds tr:nth-child(3){
+    background: #c3d4dd;
+}
+table.clsTrnds tr:nth-child(5){
+    background: #c3d4dd;
+}
+
+.trndscroll {    
+    width: 100%;
+    overflow: auto;    
+    height: 250px;    
+ }

@@ -1,0 +1,260 @@
+<div id="para-content">
+    <table id="para-table">
+        <thead>
+            <tr>
+                <!-- <th class="order-col">#</th> -->
+                <th style="width: 250px;">Description</th>
+                <th style="width: 102px;">SCM</th>
+                <th style="width: 117px;">PS#1</th>
+                <th style="width: 117px;">PS#2</th>
+                <th style="width: 60px;">Unit</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr class="row-2">
+                <td>Part Number</td>
+                <td><span tooltip="EICP"><label id="1"></label></span></td>
+                <td title="This is Title"><label id="101"></label></td>
+                <td><label id="201"></label></td>
+                <td></td>
+            </tr>
+            <tr class="row-1">
+                <td>Serial Number</td>
+                <td><label id="2"></label></td>
+                <td><label id="102"></label></td>
+                <td><label id="202"></label></td>
+                <td></td>
+            </tr>
+            <tr class="row-2">
+                <td>Manufacturing Info</td>
+                <td><label id="3"></label></td>
+                <td><label id="103"></label></td>
+                <td><label id="203"></label></td>
+                <td></td>
+            </tr>
+            <tr class="row-1">
+                <td>Manufacturer Name</td>
+                <td><label id="4"></label></td>
+                <td><label id="104"></label></td>
+                <td><label id="204"></label></td>
+                <td></td>
+            </tr>
+            <tr class="row-2">
+                <td>Model Revision</td>
+                <td><label id="5"></label></td>
+                <td><label id="105"></label></td>
+                <td><label id="205"></label></td>
+                <td></td>
+            </tr>
+            <tr class="row-1">
+                <td>Primary Revision</td>
+                <td><label id="6"></label></td>
+                <td><label id="106"></label></td>
+                <td><label id="206"></label></td>
+                <td></td>
+            </tr>
+            <tr class="row-2">
+                <td>Secondary Revision</td>
+                <td><label id="7"></label></td>
+                <td><label id="107"></label></td>
+                <td><label id="207"></label></td>
+                <td></td>
+            </tr>
+            <tr class="row-1">
+                <td>LED Status</td>
+                <td>
+                    <svg width="32" height="13">
+                        <rect id="led2" width="13" height="13" style="fill:#FFFFFF;stroke-width:1;stroke:rgb(0,0,0);" />
+                        <text x="16" y="11">NS</text>
+                    </svg>
+                    <svg width="32" height="13">
+                        <rect id="led1" width="13" height="13" style="fill:#FFFFFF;stroke-width:1;stroke:rgb(0,0,0)" />
+                        <text x="16" y="11">MS</text>
+                    </svg>
+                </td>
+                <td><label id="112"></label></td>
+                <td><label id="212"></label></td>
+                <td></td>
+            </tr>
+            <!-- <tr class="row-2">
+               <td>SDN LED Status</td>
+               <td></td>
+               <td><label id="110"></label></td>
+               <td><label id="210"></label></td>
+               <td></td>
+           </tr> -->
+            <tr class="row-2">
+                <td>Event Flags</td>
+                <td></td>
+                <td><label id="113"></label></td>
+                <td><label id="213"></label></td>
+                <td></td>
+            </tr>
+            <tr class="row-1">
+                <td>User Alarm Limit: Output Current High</td>
+                <td></td>
+                <td><label id="300"></label></td>
+                <td><label id="316"></label></td>
+                <td>Amps</td>
+            </tr>
+            <tr class="row-2">
+                <td>User Alarm Limit: Temperature High</td>
+                <td></td>
+                <td><label id="301"></label></td>
+                <td><label id="317"></label></td>
+                <td>°C (°F)</td>
+            </tr>
+            <tr class="row-1">
+                <td>User Alarm Limit: Event Flags</td>
+                <td></td>
+                <td><label id="400"></label></td>
+                <td><label id="401"></label></td>
+                <td></td>
+            </tr>
+            <tr class="row-2">
+                <td>User Alarm : Enable Alarm Flags</td>
+                <td></td>
+                <!-- <td><input id="402" type="checkbox" class="adi-field-checkbox" disabled></td>
+               <td><input id="403" type="checkbox" class="adi-field-checkbox" disabled></td> -->
+                <td><label id="402"></label></td>
+                <td><label id="403"></label></td>
+                <td></td>
+            </tr>
+            <tr class="row-1">
+                <td>Total Turn On Time</td>
+                <td></td>
+                <td><label id="115"></label></td>
+                <td><label id="215"></label></td>
+                <td>hours</td>
+            </tr>
+            <tr class="row-2">
+                <td>Current Turn On Time</td>
+                <td></td>
+                <td><label id="114"></label></td>
+                <td><label id="214"></label></td>
+                <td>hours</td>
+            </tr>
+            <tr class="row-1">
+                <td>Count: DC Output ON Cycles</td>
+                <td></td>
+                <td><label id="117"></label></td>
+                <td><label id="217"></label></td>
+                <td></td>
+            </tr>
+            <tr class="row-2">
+                <td>Count: Output Short Circuit Protection</td>
+                <td></td>
+                <td><label id="118"></label></td>
+                <td><label id="218"></label></td>
+                <td></td>
+            </tr>
+            <tr class="row-1">
+                <td>Count: Output Over-Voltage Protection</td>
+                <td></td>
+                <td><label id="120"></label></td>
+                <td><label id="220"></label></td>
+                <td></td>
+            </tr>
+            <tr class="row-2">
+                <td>Count: Power Boost</td>
+                <td></td>
+                <td><label id="121"></label></td>
+                <td><label id="221"></label></td>
+                <td></td>
+            </tr>
+            <tr class="row-1">
+                <td>Count: Input Power applied</td>
+                <td></td>
+                <td><label id="122"></label></td>
+                <td><label id="222"></label></td>
+                <td></td>
+            </tr>
+            <tr class="row-2">
+                <td>Count: Over-Temperature Protection</td>
+                <td></td>
+                <td><label id="123"></label></td>
+                <td><label id="223"></label></td>
+                <td></td>
+            </tr>
+            <tr class="row-1">
+                <td>Output Voltage, Maximum value</td>
+                <td></td>
+                <td><label id="125"></label></td>
+                <td><label id="225"></label></td>
+                <td>Volts</td>
+            </tr>
+            <tr class="row-2">
+                <td>Output Current, Maximum value</td>
+                <td></td>
+                <td><label id="126"></label></td>
+                <td><label id="226"></label></td>
+                <td>Amps</td>
+            </tr>
+            <tr class="row-1">
+                <td>Input Voltage, Maximum value</td>
+                <td></td>
+                <td><label id="127"></label></td>
+                <td><label id="227"></label></td>
+                <td>Volts</td>
+            </tr>
+            <tr class="row-2">
+                <td>Temperature, Maximum value</td>
+                <td></td>
+                <td><label id="128"></label></td>
+                <td><label id="228"></label></td>
+                <td>°C (°F)</td>
+            </tr>
+            <!-- <tr class="row-1">
+                <td>Ambient Temperature, present value</td>
+                <td><label id="10"></label></td>
+                <td></td>
+                <td></td>
+                <td>°C (°F)</td>
+            </tr> -->
+            <tr class="row-1">
+                <td>Internal Temperature</td>
+                <td><label id="10"></label></td>
+                <td><label id="111"></label></td>
+                <td><label id="211"></label></td>
+                <td>°C (°F)</td>
+            </tr>
+            <tr class="row-2">
+                <td>Output Voltage, present value</td>
+                <td></td>
+                <td><label id="108"></label></td>
+                <td><label id="208"></label></td>
+                <td>Volts</td>
+            </tr>
+            <tr class="row-1">
+                <td>Output Current, present value</td>
+                <td></td>
+                <td><label id="109"></label></td>
+                <td><label id="209"></label></td>
+                <td>Amps</td>
+            </tr>
+            <tr class="row-2">
+                <td>Input Voltage, present value</td>
+                <td></td>
+                <td><label id="110"></label></td>
+                <td><label id="210"></label></td>
+                <td>Volts</td>
+            </tr>
+            <tr class="row-1">
+                <td>Input Voltage type</td>
+                <td></td>
+                <td><label id="116"></label></td>
+                <td><label id="216"></label></td>
+                <td>AC or DC</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+<script type="text/javascript">
+	//debugger;
+    
+    $.getScript('/web1/pages/para.js');
+
+</script>

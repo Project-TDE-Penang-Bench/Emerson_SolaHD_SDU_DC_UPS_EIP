@@ -1,0 +1,8 @@
+Connect
+Erase reset
+Exit
+
+/* Format */
+// Connect
+// Erase [<SAddr> <EAddr>] [<noreset | reset>]
+// Exit

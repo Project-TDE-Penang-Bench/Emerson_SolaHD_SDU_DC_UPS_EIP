@@ -1,0 +1,8 @@
+Connect
+LoadFile C:\Emerson\SolaHD\SCM-E-EIP\PCBA\EIP_Firmware\2.01\SCM-E-EIP-HMS.bin 0x08020000 reset
+Exit
+
+/* Format */
+// Connect
+// LoadFile <FileName> [<Addr(.bin only)>] [<noreset | reset>]
+// Exit

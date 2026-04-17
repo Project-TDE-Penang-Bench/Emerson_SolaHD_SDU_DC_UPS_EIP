@@ -1,0 +1,175 @@
+<div id="alarm_ph2-content">
+    <table id="alarm_ph2-table">
+        <thead>
+            <tr>
+                <!-- <th class="order-col">#</th> -->
+                <th class="name-col">Name</th>
+                <th>Threshold/Status</th>
+                <th>Value</th>
+                <th>Unit</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr class="row-2" style="width: 250px;">
+                <td>PS#1 Current High</td>
+                <td><span><label id="lbl300"></label></span></td>
+                <td><input id="300" type="text" spellcheck="false" value="" class="adi-field-input , number" style="width: 100px;" autocomplete="off" onpaste="fnOnPaste_CurentHigh(event);"></td>
+                <td><label>Amps</label></td>
+                <td><button class="adi-setbtn" onclick="btnSDN1CURRENT_HIGH()">Update</button></td>
+            </tr>
+            <tr class="row-1">
+                <td>PS#1 Temperature High</td>
+                <td><span><label id="lbl301"></label></span></td>
+                <td><input id="301" type="text" spellcheck="false" value="" class="adi-field-input , numberTemp" style="width: 100px;" autocomplete="off" onpaste="fnOnPaste_TempHigh(event);"></td>
+                <!-- <td>
+                    <div>
+                        <select name="cbSDN1TempHigh" id="cbSDN1TempHigh">
+                            <option value="dC" selected>&#8451</option>
+                            <option value="dF">&#8457</option>
+                        </select>
+                    </div>
+                </td> -->
+                <td><span><label id="lblSDN1TempHighUnit"></span></label></td>
+                <td><button id="SDN1TempHigh" class="adi-setbtn" onclick="btnTempHigh_Click(this)">Update</button></td>
+            </tr>
+            <tr class="row-2">
+                <td>PS#1 Input Voltage High</td>
+                <td><span><label id="lbl302"></label></span></td>
+                <td><input id="302" type="text" spellcheck="false" value="" class="adi-field-input , numVoltgHiLoValidate" style="width: 100px;" autocomplete="off" onpaste="fnOnPaste_InVoltgHiLo(event);"></td>
+                <td><label>Volts</label></td>
+                <td><button id="P1VinHigh" class="adi-setbtn" onclick="btnVoltageLimitSet(this)">Update</button></td>
+            </tr>
+            <tr class="row-1">
+                <td>PS#1 Input Voltage Low</td>
+                <td><span><label id="lbl303"></label></span></td>
+                <td><input id="303" type="text" spellcheck="false" value="" class="adi-field-input, numVoltgHiLoValidate" style="width: 100px;height: 17px;" autocomplete="off" onpaste="fnOnPaste_InVoltgHiLo(event);"></td>
+                <td><label>Volts</label></td>
+                <td><button id="P1VinLow" class="adi-setbtn" onclick="btnVoltageLimitSet(this)">Update</button></td>
+            </tr>
+            <tr class="row-2">
+                <td>PS#1 Current Change Threshold</td>
+                <td><span><label id="lbl304"></label></span></td>
+                <td><input id="304" type="text" spellcheck="false" value="" class="adi-field-input , number" style="width: 100px;" autocomplete="off" onpaste="fnOnPaste_CurentHigh(event);"></td>
+                <td><label>&percnt;</label></td>
+                <td><button id="P1AvgIoutLimit" class="adi-setbtn" onclick="btnAvgOutCurrChange(this)">Update</button></td>
+            </tr>
+            <tr class="row-1">
+                <td>PS#1 Alarm Enable/Disable</td>
+                <td><span><label id="lblChk_P1_Alarm"></label></span></td>
+                <td>
+                    <select id="cbP1Alarm" name="cbP1Alarm" style="width: 100px;">
+                        <option value="-1">------Select------</option>
+                        <option value="01">Enable</option>
+                        <option value="00">Disable</option>
+                    </select>
+                </td>
+                <td><label></label></td>
+                <td><button class="adi-setbtn" onclick="P1AlarmEnb()">Update</button></td>
+            </tr>
+            <tr class="row-1">
+                <td colspan="5">&nbsp;</td>
+            </tr>
+            <tr class="row-2">
+                <td>PS#2 Current High</td>
+                <td><span><label id="lbl332"></label></span></td>
+                <td><input id="332" type="text" spellcheck="false" value="" class="adi-field-input , number" style="width: 100px;" onpaste="fnOnPaste_CurentHigh(event);"></td>
+                <td><label>Amps</label></td>
+                <td><button class="adi-setbtn" onclick="btnSDN2CURRENT_HIGH()">Update</button></td>
+            </tr>
+            <tr class="row-1">
+                <td>PS#2 Temperature High</td>
+                <td><span><label id="lbl333"></label></span></td>
+                <td><input id="333" type="text" spellcheck="false" value="" class="adi-field-input , numberTemp" style="width: 100px;"  autocomplete="off" onpaste="fnOnPaste_TempHigh(event);"></td>                
+                <td><span><label id="lblSDN2TempHighUnit"></span></label></td>
+                <td><button id="SDN2TempHigh" class="adi-setbtn" onclick="btnTempHigh_Click(this)">Update</button></td>
+            </tr>
+            <tr class="row-2">
+                <td>PS#2 Input Voltage High</td>
+                <td><span><label id="lbl334"></label></span></td>
+                <td><input id="334" type="text" spellcheck="false" value="" class="adi-field-input , numVoltgHiLoValidate" style="width: 100px;"  autocomplete="off" onpaste="fnOnPaste_InVoltgHiLo(event);"></td>
+                <td><label>Volts</label></td>
+                <td><button id="P2VinHigh" class="adi-setbtn" onclick="btnVoltageLimitSet(this)">Update</button></td>
+            </tr>
+            <tr class="row-1">
+                <td>PS#2 Input Voltage Low</td>
+                <td><span><label id="lbl335"></label></span></td>
+                <td><input id="335" type="text" spellcheck="false" value="" class="adi-field-input , numVoltgHiLoValidate" style="width: 100px;"  autocomplete="off" onpaste="fnOnPaste_InVoltgHiLo(event);"></td>
+                <td><label>Volts</label></td>
+                <td><button id="P2VinLow" class="adi-setbtn" onclick="btnVoltageLimitSet(this)">Update</button></td>
+            </tr>
+            <tr class="row-2">
+                <td>PS#2 Current Change Threshold</td>
+                <td><span><label id="lbl336"></label></span></td>
+                <td><input id="336" type="text" spellcheck="false" value="" class="adi-field-input , number" style="width: 100px;" onpaste="fnOnPaste_CurentHigh(event);"></td>
+                <td><label>&percnt;</label></td>
+                <td><button id="P2AvgIoutLimit" class="adi-setbtn" onclick="btnAvgOutCurrChange(this)">Update</button></td>
+            </tr>
+            <tr class="row-1">
+                <td>PS#2 Alarm Enable/Disable</td>
+                <td><span><label id="lblChk_P2_Alarm"></label></span></td>
+                <td>
+                    <select id="cbP2Alarm" name="cbP1Alarm" style="width: 100px;">
+                        <option value="-1">------Select------</option>
+                        <option value="01">Enable</option>
+                        <option value="00">Disable</option>
+                    </select>
+                </td>
+                <td><label></label></td>
+                <td><button class="adi-setbtn" onclick="P2AlarmEnb()">Update</button></td>
+            </tr>
+            <tr class="row-1">
+                <td colspan="5">&nbsp;</td>
+            </tr>
+            <tr class="row-2">
+                <td>SCM Temperature High</td>
+                <td><span><label id="lbl364"></label></span></td>
+                <td><input id="364" type="text" spellcheck="false" value="" class="adi-field-input , numberTemp" style="width: 100px;"  autocomplete="off" onpaste="fnOnPaste_TempHigh(event);"></td>
+                <td><span><label id="lblSCMTempHighUnit"></span></label></td>
+                <td><button id="SCMTempHigh"  class="adi-setbtn" onclick="btnTempHigh_Click(this)">Update</button></td>
+            </tr>
+            <tr class="row-1">
+                <td>SCM Average Temperature Limit</td>
+                <td><span><label id="lbl365"></label></span></td>
+                <td><input id="365" type="text" spellcheck="false" value="" class="adi-field-input , number" style="width: 100px;" autocomplete="off"  onpaste="fnOnPaste_CurentHigh(event);"></td>
+                <td><label>&percnt;</label></td>
+                <td><button id="SCMAvgIoutLimit" class="adi-setbtn" onclick="btnAvgOutCurrChange(this)">Update</button></td>
+            </tr>
+            <tr class="row-2">
+                <td>SCM Alarm Enable/Disable</td>
+                <td><span><label id="lbl405"></label></span></td>
+                <td>
+                    <select id="cbPSCMAlarm" name="cbPSCMAlarm" style="width: 100px;">
+                        <option value="-1">------Select------</option>
+                        <option value="01">Enable</option>
+                        <option value="00">Disable</option>
+                    </select>
+                </td>
+                <td><label></label></td>
+                <td><button class="adi-setbtn" onclick="SCMAlarmEnb()">Update</button></td>
+            </tr>
+            <tr class="row-1">
+                <td colspan="5">&nbsp;</td>
+            </tr>
+            <tr class="row-2">
+                <td>Redundancy Alarm Enable/Disable</td>
+                <td><span><label id="lbl407"></label></span></td>
+                <td>
+                    <select id="cbREDAlarm" name="cbREDAlarm" style="width: 100px;">
+                        <option value="-1">------Select------</option>
+                        <option value="01">Enable</option>
+                        <option value="00">Disable</option>
+                    </select>
+                </td>
+                <td><label></label></td>
+                <td><button class="adi-setbtn" onclick="REDAlarmEnb()">Update</button></td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
+<script type="text/javascript">
+    //debugger;
+	$.getScript('/web2/pages/alarm_ph2.js');
+</script>

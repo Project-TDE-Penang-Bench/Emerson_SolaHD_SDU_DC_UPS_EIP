@@ -1,0 +1,8 @@
+Connect
+mem32 0x801FC00 256 
+Exit
+
+/* Format */
+// Connect
+// Read Binary
+// Exit

@@ -1,0 +1,43 @@
+<div id="adi-content">
+    <table>
+       <thead>
+       <tr>
+          <td>
+             <div id="adi-controls" style="width:100%">
+                <a href="#" id="first" class="adi-controls-hidden"><img src="img/arrow_far_left_blue.png" /></a>&nbsp;
+                <a href="#" id="prev" class="adi-controls-hidden"><img src="img/arrow_left_blue.png" /></a>&nbsp;
+                <input type="text" id="page" class="adi-controls-hidden"/>&nbsp;
+                <a href="#" id="next" class="adi-controls-hidden"><img src="img/arrow_right_blue.png" /></a>&nbsp;
+                <a href="#" id="last" class="adi-controls-hidden"><img src="img/arrow_far_right_blue.png" /></a>
+             </div>
+          </td>
+          <td></td>
+          <td><div id="adi-status"></div></td>
+       </tr>
+       </thead>
+       <tbody>
+       </tbody>
+    </table>
+ 
+    <button id="refresh-adi" class="refresh-btn">
+      Refresh
+   </button>
+    <table id="adi-table">
+       <thead>
+       <tr>          
+          <th class="name-col">Name</th>
+          <th>Value</th>
+          <th>Unit</th>
+          <th></th>
+       </tr>
+       </thead>
+       <tbody id="tbody">
+       </tbody>
+    </table>
+ </div>
+ 
+ <script type="text/javascript">
+    //$.getScript('pages/adi.js');
+    $.getScript('pages/myadi.js');
+    
+ </script>

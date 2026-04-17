@@ -1,0 +1,51 @@
+<div id="info-content">
+</div>
+
+<script type="text/x-tmpl" id="tmpl-info">
+	<table>
+		<tbody>
+			<tr>
+				<th colspan="2">
+					 Identification
+				</th>
+			</tr>
+			<tr class="row-1">
+				<td class="long">Module name:</td>
+				<td>{%=o.modulename%}</td>
+			</tr>
+			<tr class="row-2">
+				<td>Serial number:</td>
+				<td>{%=parseInt(o.serial, 16)%}</td>
+			</tr>
+			<tr class="row-1">
+				<td>FW version:</td>
+				<td>{%=o.fwvertext%}</td>
+			</tr>
+			<tr class="row-2">
+				<td>Uptime:</td>
+			<td>{%= (parseInt(("" + o.uptime[0] + o.uptime[1]))/ ((1000*60*60))).toFixed(2) %} hours</td>
+			</tr>
+			<!-- <tr class="row-1">
+				<td>CPU Load:</td>
+				<td>{%=o.cpuload%}%</td>
+			</tr> -->
+		</tbody>
+	</table>
+</script>
+
+<script type="text/javascript">
+	//debugger;
+	$.getScript('/web1/pages/info.js');
+	objOverview_1 = setInterval(() => {
+		$.getScript('/web1/pages/info.js')
+			.fail(() => {
+				$('#header_SCM_Cnn').css({ display: 'block' });
+			});
+	}, 15000);
+	//parseInt(_paramHexVal, 16);    
+	function fnStopOverviewRefresh() {
+		if (objOverview_1 != null) {
+			clearInterval(objOverview_1);
+		}
+	}
+</script>

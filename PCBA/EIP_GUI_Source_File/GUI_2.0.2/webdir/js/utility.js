@@ -1,0 +1,2 @@
+function getCookie(a){a=document.cookie.match(new RegExp("(^| )"+a+"=([^;]+)"));return null===a?null:a[2]}function getBase64EncodedCookie(a){a=getCookie(a);return null===a?null:atob(a)}function includeCsrf(){var a=getCookie("csrf");$(".csrf").remove();null!==a&&$("<input>").attr({type:"hidden",id:"csrf","class":"csrf",name:"csrf",value:a}).appendTo("form")}
+function EscapeInput(a){a=a.replace(/&/g,"&amp;");a=a.replace(/</g,"&lt;");a=a.replace(/>/g,"&gt;");a=a.replace(/\"/g,"&quot;");a=a.replace(/\'/g,"&#x27;");return a=a.replace(/\//g,"&#x2F;")};

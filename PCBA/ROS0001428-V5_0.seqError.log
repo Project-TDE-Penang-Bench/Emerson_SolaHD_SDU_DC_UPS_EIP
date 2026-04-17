@@ -1,0 +1,232 @@
+TST-C-ROS-T2544    6/13/2025 8:09:45 AM ProcessModelError
+Error Code: -1, User-defined error code.
+Message: 'Key not found: ConfigFilePath; Note: key are case sensitive
+findKeyValue.vi>findKeyValue.vi.ProxyCaller
+' at step 'Get ConfigINIfilepath  from MachinePrograms' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/13/2025 8:11:35 AM ProcessModelError
+Error Code: -1, User-defined error code.
+Message: 'Key not found: ConfigFilePath; Note: key are case sensitive
+findKeyValue.vi>findKeyValue.vi.ProxyCaller
+' at step 'Get ConfigINIfilepath  from MachinePrograms' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/13/2025 8:11:52 AM ProcessModelError
+Error Code: -1, User-defined error code.
+Message: 'Key not found: ConfigFilePath; Note: key are case sensitive
+findKeyValue.vi>findKeyValue.vi.ProxyCaller
+' at step 'Get ConfigINIfilepath  from MachinePrograms' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/13/2025 8:12:18 AM ProcessModelError
+Error Code: -18002, LabVIEW reported an error. See 'LabVIEW : ' message for more details of how to resolve this issue.
+Message: 'LabVIEW : VI execution terminated by the server.' at step 'Get ConfigINIfilepath  from MachinePrograms' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 8:39:43 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 8:47:55 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 8:49:40 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 8:51:39 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 9:11:05 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 9:17:04 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 9:25:00 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 9:33:44 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 9:37:03 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 9:47:14 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 10:01:54 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 10:48:49 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 12:08:48 PM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 12:33:48 PM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 12:37:10 PM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 12:52:37 PM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 1:01:22 PM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 1:13:28 PM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 1:47:58 PM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 1:50:07 PM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/14/2025 2:04:14 PM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/16/2025 8:04:11 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/16/2025 10:03:04 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write FRU Initialized' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/17/2025 4:49:32 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write EEROM Version' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/17/2025 4:51:11 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write EEROM Write Protect' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/17/2025 4:59:26 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write EEROM Write Protect' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/17/2025 5:12:46 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write ADI Data Set (Ph-2 GUI)' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/17/2025 7:30:44 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write EEROM Version' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/19/2025 4:05:00 PM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/19/2025 4:07:22 PM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/23/2025 11:48:08 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write ADI Data Set (Ph-2 GUI)' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/23/2025 1:32:58 PM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write EEROM Write Protect' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/24/2025 8:14:02 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write EEROM Write Protect' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    6/24/2025 8:15:39 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write FRU Initialized' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    3/19/2026 7:09:29 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    3/19/2026 7:35:10 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    3/19/2026 7:37:55 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    3/19/2026 7:47:02 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    3/19/2026 9:02:24 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    3/19/2026 11:45:37 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2544    3/19/2026 11:52:42 AM ProcessModelError
+Error Code: -301742, User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Write Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+    3/24/2026 9:10:21 AM ProcessModelError
+Error Code: -1073807194, User-defined error code.
+Message: 'VISA Write in GENser Initialize.vi->TDK_Enable-Disable_With_Options.vi->TDK_Enable-Disable.vi->TDK_Enable-Disable.vi.ProxyCaller
+VISA:  (Hex 0xBFFF00A6) The connection for the given session has been lost.' at step 'Disable PPS#2' in seq 'ProcessModelPostStepRuntimeError'
+
