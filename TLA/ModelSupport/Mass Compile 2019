@@ -1,0 +1,7 @@
+#### Starting Mass Compile: Wed, Sep 4, 2019 9:13:48 AM
+  Directory: "C:\BEI Model\BEIstdModel64_2019f"
+Search failed to find "user32" previously from "user32"  +=+   Caller: "allChildWindows.vi"
+  ### Bad VI:    "WinUtil.ut.vi"	Path="C:\BEI Model\BEIstdModel64_2019f\ModelSupport\WINUTIL.LLB\WinUtil.ut.vi"
+  ### Bad VI:    "WinUtil.ut.vi"	Path="C:\BEI Model\BEIstdModel64_2019f\ModelSupport\WINUTIL.LLB\WinUtil.ut.vi"
+  ### Bad subVI: "all.vi"	Path="C:\BEI Model\BEIstdModel64_2019f\ModelSupport\all.vi"
+#### Finished Mass Compile: Wed, Sep 4, 2019 9:14:57 AM
