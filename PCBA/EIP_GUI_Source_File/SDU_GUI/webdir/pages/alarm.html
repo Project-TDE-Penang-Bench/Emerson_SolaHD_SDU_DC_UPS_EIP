@@ -1,0 +1,43 @@
+<div id="alarm-content">
+    <table id="alarm-table">
+        <tbody>
+            <tr>
+                <th>Description</th>
+                <th>Enable/Disable</th>
+                <th>Threshold</th>
+                <th>Value</th>
+                <th>Unit</th>
+                <th></th>
+            </tr>
+            <tr class="row-1">
+                <td>High Internal Temperature</td>
+                <td><input id="cbHighIntTemp" type="checkbox" /></td>
+                <td><label id="adi-402"></label></td>
+                <td>
+                    <input id="tbHighIntTemp" type="number" style="width: 122px;" />
+                </td>
+                <td><label id="adi-454"></label></td>
+                <td><button id="btnHighIntTemp" class="adi-setbtn">Update</button></td>
+            </tr>
+            <tr class="row-2">
+                <td>Low Battery SOC Alarm</td>
+                <td><input id="cbLowBatterySoCAlarm" type="checkbox" /></td>
+                <td><label id="adi-403"></label></td>
+                <td><input id="tbLowBatterySoCAlarm" type="number" style="width: 122px;" /></td>
+                <td>&percnt;</td>
+                <td><button id="btnLowBatterySoCAlarm" class="adi-setbtn">Update</button></td>
+            </tr>
+            <tr class="row-1">
+                <td>Low Battery Runtime Alarm</td>
+                <td><input id="cbLowBatteryRunTimeAlarm" type="checkbox" /></td>
+                <td><label id="adi-404"></label></td>
+                <td><input id="tbLowBatteryRunTimeAlarm" type="number" style="width: 122px;" /></td>
+                <td>second</td>
+                <td><button id="btnLowBatteryRunTimeAlarm" class="adi-setbtn">Update</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<script type="text/javascript">
+    $.getScript(webContentPath + 'pages/alarm.js');
+</script>

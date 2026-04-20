@@ -1,0 +1,46 @@
+<div id="adi-content">
+   <table>
+      <thead>
+      <tr>
+         <td>
+            <div id="adi-controls" style="width:100%">
+               <a href="#" id="first" class="adi-controls-hidden"><img id="arrow_far_left"/></a>&nbsp;
+               <a href="#" id="prev" class="adi-controls-hidden"><img  id="arrow_left"/></a>&nbsp;
+               <input type="text" id="page" class="adi-controls-hidden"/>&nbsp;
+               <a href="#" id="next" class="adi-controls-hidden"><img  id="arrow_right"/></a>&nbsp;
+               <a href="#" id="last" class="adi-controls-hidden"><img  id="arrow_far_right"/></a>
+            </div>
+         </td>
+         <td></td>
+         <td><div id="adi-status"></div></td>
+      </tr>
+      </thead>
+      <tbody>
+      </tbody>
+   </table>
+
+   <table id="adi-table">
+      <thead>
+      <tr>
+         <th class="order-col">#</th>
+         <th colspan="2" class="name-col">Name</th>
+         <th>Value</th>
+         <th>
+            <button id="refresh-adi" class="refresh-btn">
+               Refresh
+            </button>
+         </th>
+      </tr>
+      </thead>
+      <tbody>
+      </tbody>
+   </table>
+</div>
+
+<script type="text/javascript">
+   $.getScript(webContentPath + 'pages/adi.js');
+   document.getElementById("arrow_far_left").src=webContentPath + "img/arrow_far_left_blue.png";
+   document.getElementById("arrow_left").src=webContentPath + "img/arrow_left_blue.png";
+   document.getElementById("arrow_right").src=webContentPath + "img/arrow_right_blue.png";
+   document.getElementById("arrow_far_right").src=webContentPath + "img/arrow_far_right_blue.png";
+</script>

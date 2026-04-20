@@ -1,0 +1,14 @@
+<html>
+<head><title>Append Log Entry</title></head>
+<body>
+<!-- SSI command to append form data to log.txt -->
+<?--#exec cmd_argument='SaveDataToFile("\\log\\log.csv", "logs", Append)'-->
+<form action="test_append.shtm" method="post">
+<div style="display:none">
+  <label for="UserInput">Enter Log Entry:</label><br>
+  <input type="text" name="logs"><br>
+  <input type="submit" value="Submit">
+</div>
+</form>
+</body>
+</html>

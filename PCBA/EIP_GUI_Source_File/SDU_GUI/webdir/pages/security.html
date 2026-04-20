@@ -1,0 +1,122 @@
+<div id="security-content">
+    <table id="security-table">
+        <tbody>
+            <tr>
+                <th style="width: 30%;">
+                    <label class="checkbox-label" style="padding-bottom: 2px;">
+                        <input id="cbCyberSecurity" type="checkbox">
+                        &nbsp;Cybersecurity
+                    </label>
+                </th>
+                <th>
+                    <span class="tooltip-icon">&#9432;
+                        <span class="tooltip-text">
+                            This will enable all of the Cyber Security features.
+                        </span>
+                    </span>
+                </th>
+                <th colspan="5"></th>
+            </tr>
+            <tr class="row-1">
+                <td colspan="7"><br></td>
+            </tr>
+        </tbody>
+        <tbody id="security-rows">
+            <tr>
+                <th colspan="7">Cybersecurity Configuration</th>
+            </tr>
+            <tr class="row-1">
+                <td>
+                    <label class="checkbox-label" style="padding-bottom: 2px;">
+                        <input id="cbPCShutdown" type="checkbox">
+                        &nbsp;PC Shutdown
+                    </label>
+                </td>
+                <td>
+                    <span class="tooltip-icon">&#9432;
+                        <span class="tooltip-text">
+                            This will enable all of the PC Shutdown features and act based on battery health parameters
+                        </span>
+                    </span>
+                </td>
+                <td colspan="5"></td>
+            </tr>
+            <!-- Alarm -->
+            <tr class="row-2">
+                <td>
+                    <label class="checkbox-label" style="padding-bottom: 2px;">
+                        <input id="cbAlarm" type="checkbox">
+                        &nbsp;Alarm
+                    </label>
+                </td>
+                <td>
+                    <span class="tooltip-icon">&#9432;
+                        <span class="tooltip-text">
+                            This will enable all Alarm-related features and configurations.
+                        </span>
+                    </span>
+                </td>
+                <td colspan="5"></td>
+            </tr>
+            <!-- Events -->
+            <tr class="row-1">
+                <td>
+                    <label class="checkbox-label" style="padding-bottom: 2px;">
+                        <input id="cbEvents" type="checkbox">
+                        &nbsp;Events
+                    </label>
+                </td>
+                <td>
+                    <span class="tooltip-icon">&#9432;
+                        <span class="tooltip-text">
+                            This will enable all Event-related features and configurations.
+                        </span>
+                    </span>
+                </td>
+                <td colspan="5"></td>
+            </tr>
+            <!-- Settings -->
+            <tr class="row-2">
+                <td>
+                    <label class="checkbox-label" style="padding-bottom: 2px;">
+                        <input id="cbSettings" type="checkbox">
+                        &nbsp;Settings
+                    </label>
+                </td>
+                <td>
+                    <span class="tooltip-icon">&#9432;
+                        <span class="tooltip-text">
+                            This will enable all Settings-related features and configurations.
+                        </span>
+                    </span>
+                </td>
+                <td colspan="5"></td>
+            </tr>
+            <!-- Network -->
+            <tr class="row-1">
+                <td>
+                    <label class="checkbox-label" style="padding-bottom: 2px;">
+                        <input id="cbNetwork" type="checkbox">
+                        &nbsp;Network
+                    </label>
+                </td>
+                <td>
+                    <span class="tooltip-icon">&#9432;
+                        <span class="tooltip-text">
+                            This will enable all Network-related features and configurations.
+                        </span>
+                    </span>
+                </td>
+                <td colspan="5"></td>
+            </tr>
+            <tr>
+                <td colspan="7" style="text-align: left;">
+                    <button id="btnResetSecurity" class="reset-btn">Reset</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<script type="text/javascript">
+    $.getScript(webContentPath + 'pages/security.js');
+</script>

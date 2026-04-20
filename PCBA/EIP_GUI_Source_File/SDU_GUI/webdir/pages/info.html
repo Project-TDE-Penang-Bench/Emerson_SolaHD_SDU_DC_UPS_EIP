@@ -1,0 +1,38 @@
+<div id="info-content">
+</div>
+
+<script type="text/x-tmpl" id="tmpl-info">
+	<table>
+		<tbody>
+			<tr>
+				<th colspan="2">
+					 Identification
+				</th>
+			</tr>
+			<tr class="row-1">
+				<td class="long">Module name:</td>
+				<td>{%=o.modulename%}</td>
+			</tr>
+			<tr class="row-2">
+				<td>Serial number:</td>
+				<td>{%=o.serial%}</td>
+			</tr>
+			<tr class="row-1">
+				<td>FW version:</td>
+				<td>{%=o.fwvertext%}</td>
+			</tr>
+			<tr class="row-2">
+				<td>Uptime:</td>
+			<td>{%=convertUptime(o.uptime[0], o.uptime[1])%}</td>
+			</tr>
+			<tr class="row-1">
+				<td>CPU Load:</td>
+				<td>{%=o.cpuload%}%</td>
+			</tr>
+		</tbody>
+	</table>
+</script>
+
+<script type="text/javascript">
+	$.getScript(webContentPath + 'pages/info.js');
+</script>
