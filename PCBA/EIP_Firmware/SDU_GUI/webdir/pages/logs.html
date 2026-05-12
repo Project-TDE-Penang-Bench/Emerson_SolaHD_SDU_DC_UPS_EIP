@@ -1,0 +1,29 @@
+<div id="logs-content">
+    <div style="max-height: 80vh; overflow-y: auto; overflow-x: auto; box-sizing: border-box; max-width: max-content;">
+        <table id="applogsTable" style="table-layout: fixed; width: 100%; white-space: nowrap;">
+            <thead>
+                <tr>
+                    <th style="width: 84px;">EventID</th>
+                    <th style="width: 135px;">Timestamp</th>
+                    <th style="width: 35px;">User</th>
+                    <th style="width: 200px;">LogName</th>
+                    <th style="width: 75px;">Source</th>
+                    <th style="width: 75px;">Level</th>
+                    <th style="width: 95px;">Opcode</th>
+                    <th style="width: 165px;">TaskCategory</th>
+                    <th style="width: 65px;">Keywords</th>
+                    <th style="width: 300px;">Description</th>
+                </tr>
+            </thead>
+            <tbody id="tbodyAppLogs">
+                <!-- Log rows will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <button id="btnDownloadAppLogs" class="adi-setbtn" style="margin-right: 8px; width: 135px; font-size: small;" >Download App Logs</button>
+    </div>
+</div>
+<script type="text/javascript">
+    $.getScript(webContentPath + 'pages/logs.js');
+</script>

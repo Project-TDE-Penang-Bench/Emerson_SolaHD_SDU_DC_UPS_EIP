@@ -1,0 +1,81 @@
+.header {
+    background-color: #004b8d;
+    height: 86px;
+}
+
+.emrHeaderLogo {
+    height: 80px;
+    padding-left: 4px;
+}
+
+.solaHDLogo {
+    height: 80px;
+    float: right;
+    padding-right: 4px;
+    padding-top: 58px;
+    height: 21px;
+    width: 135px;
+}
+
+.livepara {
+    color: inherit;
+}
+
+.count {
+    color: inherit;
+}
+
+.maxval {
+    color: inherit;
+}
+
+.lightRowBkGrd {
+    background-color: #e0eaef47 !important;
+}
+
+.lightRowBkGrd1 {
+    background-color: #fcf6f5 !important;
+}
+
+.EventFlagPara {
+    padding-left: 10px;
+}
+
+.rightBorder {
+    border-right: 1px solid gray !important;
+    padding-right: 3px !important;
+    padding-left: 3px !important;
+}
+
+.rightBorder-lt {
+    border-right: 1px solid gainsboro !important;
+    padding-right: 3px !important;
+    padding-left: 3px !important;
+}
+
+.mval {
+    float: right;
+    margin-left: 15px;
+}
+
+.txtRightAlign {
+    text-align: right;
+}
+
+.txtCenterAlign {
+    text-align: center;
+}
+
+.lodSpinner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    height: 100%;  
+}
+
+/* Hide the spinner for input type number in Chrome */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

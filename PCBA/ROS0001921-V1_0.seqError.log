@@ -1,0 +1,207 @@
+TST-C-ROS-T2935    1/5/2026 2:35:32 PM ProcessModelError
+Error Code: -1073807343, Code Module/User-defined error code.
+Message: 'VISA Write in GENser Initialize.vi
+VISA:  (Hex 0xBFFF0011) Insufficient location information or the device or resource is not present in the system.' at step 'Initialize PPS2' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    1/5/2026 2:36:15 PM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The precondition for the step 'GUIsocketMessage: <seq calling step name>' could not be evaluated.
+Error in argument 2, 'RunState.Root.FileGlobals.UsingGUI', in call to the expression function 'AllOf'.
+Unknown variable or property name 'RunState.Root.FileGlobals.UsingGUI'.' at step 'GUIsocketMessage: <seq calling step name>' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    1/5/2026 2:36:32 PM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The precondition for the step 'Autoupdate GUI Progress Bar' could not be evaluated.
+Error in argument 2, 'RunState.Root.FileGlobals.UsingGUI', in call to the expression function 'AllOf'.
+Unknown variable or property name 'RunState.Root.FileGlobals.UsingGUI'.' at step 'Autoupdate GUI Progress Bar' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    1/5/2026 2:48:55 PM ProcessModelError
+Error Code: 7, Code Module/User-defined error code.
+Message: 'Read from Text File in Verify_CRC.vi
+C:\Program Files\SEGGER\JLink_V936\Log\JFlash.log
+LabVIEW: (Hex 0x7) File not found. The file might be in a different location or deleted. Use the command prompt or the file explorer to verify that the path is correct.
+=========================
+Nonexistent GPIB interface.' at step 'TRS01.2 - Check PCB-FW CRC Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    1/5/2026 3:32:52 PM ProcessModelError
+Error Code: 2, Code Module/User-defined error code.
+Message: 'System Exec.vi. Command was ""C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility\STM32_Programmer_CLI.exe" -c  SWD     -ME"
+LabVIEW: (Hex 0x2) Memory is full.
+=========================
+LabVIEW: (Hex 0x2) ERROR_FILE_NOT_FOUND.
+=========================
+No Listeners on the GPIB.' at step 'TRS01.1 - Erase Flash' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    1/5/2026 3:34:30 PM ProcessModelError
+Error Code: 2, Code Module/User-defined error code.
+Message: 'System Exec.vi. Command was ""C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility\STM32_Programmer_CLI.exe" -c  SWD     -ME"
+LabVIEW: (Hex 0x2) Memory is full.
+=========================
+LabVIEW: (Hex 0x2) ERROR_FILE_NOT_FOUND.
+=========================
+No Listeners on the GPIB.' at step 'TRS01.1 - Erase Flash' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    1/5/2026 3:37:17 PM ProcessModelError
+Error Code: 2, Code Module/User-defined error code.
+Message: 'System Exec.vi. Command was ""C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility\STM32_Programmer_CLI.exe" -c  SWD     -ME"
+LabVIEW: (Hex 0x2) Memory is full.
+=========================
+LabVIEW: (Hex 0x2) ERROR_FILE_NOT_FOUND.
+=========================
+No Listeners on the GPIB.' at step 'TRS01.1 - Erase Flash' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    1/5/2026 3:40:29 PM ProcessModelError
+Error Code: 2, Code Module/User-defined error code.
+Message: 'System Exec.vi. Command was ""C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility\STM32_Utility.exe" -c  SWD     -ME"
+LabVIEW: (Hex 0x2) Memory is full.
+=========================
+LabVIEW: (Hex 0x2) ERROR_FILE_NOT_FOUND.
+=========================
+No Listeners on the GPIB.' at step 'TRS01.1 - Erase Flash' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    1/5/2026 3:56:06 PM ProcessModelError
+Error Code: 7, Code Module/User-defined error code.
+Message: 'Read from Text File in Verify_CRC.vi
+"C:\Users\pgb-adc-tst\AppData\Roaming\SEGGER\JFlash.log"
+LabVIEW: (Hex 0x7) File not found. The file might be in a different location or deleted. Use the command prompt or the file explorer to verify that the path is correct.
+=========================
+Nonexistent GPIB interface.' at step 'TRS01.2 - Check PCB-FW CRC Data' in seq 'ProcessModelPostStepRuntimeError'
+
+    11/5/2026 5:31:32 PM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Initialize.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Initialize E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+    11/5/2026 5:31:42 PM ProcessModelError
+Error Code: -17308, Specified value does not have the expected type.
+Message: 'Parameter 'error out':
+Specified value does not have the expected type.' at step 'Disconnect E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+    11/5/2026 5:31:50 PM ProcessModelError
+Error Code: -1073807343, Code Module/User-defined error code.
+Message: 'VISA Write in Agilent 3446X Series.lvlib:Error Query.vi->Agilent 3446X Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0011) Insufficient location information or the device or resource is not present in the system.' at step 'Disconnect DMM' in seq 'ProcessModelPostStepRuntimeError'
+
+    11/5/2026 5:31:56 PM ProcessModelError
+Error Code: 0, Code Module/User-defined error code.
+Message: 'Open Com Error
+LabVIEW: (Hex 0x0) Error connecting to GPIB driver or device. The NI-488.2 driver may not be installed.
+=========================
+Error connecting to driver or device. The NI-488.2 driver may not be installed.
+=========================
+VISA:  (Hex 0x0) Operation completed successfully.' at step 'Initialize DMM' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    11/5/2026 5:33:45 PM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Current Limit.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS1 Current' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    11/5/2026 5:34:13 PM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS1 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    11/5/2026 5:34:43 PM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Current Limit.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS1 Current' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    11/5/2026 5:34:56 PM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS1 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    11/5/2026 5:35:43 PM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Current Limit.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS1 Current' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    11/5/2026 5:35:54 PM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS1 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    11/5/2026 5:36:38 PM ProcessModelError
+Error Code: 2, Code Module/User-defined error code.
+Message: 'ST-LINK.lvlib:Parse Return Codes.vi
+Connection problem.
+
+
+Complete call chain:
+     ST-LINK.lvlib:Parse Return Codes.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi.ProxyCaller
+LabVIEW: (Hex 0x2) Memory is full.
+=========================
+LabVIEW: (Hex 0x2) ERROR_FILE_NOT_FOUND.
+=========================
+No Listeners on the GPIB.' at step 'TRS01.1 - Erase Flash' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    11/5/2026 5:42:12 PM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'Parameter 'Parameters String':
+Unknown variable or property name 'StationGlobals.ProgrammingCommands.STLink.Load_UUT_Bin'.' at step 'TRS01.5 - Download UUT PCB_FW' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    11/5/2026 5:43:54 PM ProcessModelError
+Error Code: -17348, Mismatched items or unmatched item.
+Message: 'Error executing 'Select' step.
+Error in step '' at index 5 in step group Main of sequence 'Enable/Disable PPS'.
+The End step for a Case step must be followed by another Case step or by the End step for the enclosing Select block.' at step 'Select' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    11/5/2026 5:44:04 PM ProcessModelError
+Error Code: -17348, Mismatched items or unmatched item.
+Message: 'Error executing 'Select' step.
+Error in step '' at index 5 in step group Main of sequence 'Enable/Disable PPS'.
+The End step for a Case step must be followed by another Case step or by the End step for the enclosing Select block.' at step 'Select' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    11/5/2026 5:44:12 PM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Enable Input.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    11/5/2026 5:45:58 PM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The precondition for the step 'GUIsocketMessage: <seq calling step name>' could not be evaluated.
+Error in argument 2, 'RunState.Root.FileGlobals.UsingGUI', in call to the expression function 'AllOf'.
+Unknown variable or property name 'RunState.Root.FileGlobals.UsingGUI'.' at step 'GUIsocketMessage: <seq calling step name>' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    11/5/2026 5:46:36 PM ProcessModelError
+Error Code: 2, Code Module/User-defined error code.
+Message: 'System Exec.vi. Command was ""C:\Program Files\SEGGER\JLink_V936\JLink.exe\JLink.exe" -Device STM32F722RE -SI SWD -Speed 4000 -CommandFile "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\JLink Commander\Data\Erase.jlink""
+LabVIEW: (Hex 0x2) Memory is full.
+=========================
+LabVIEW: (Hex 0x2) ERROR_FILE_NOT_FOUND.
+=========================
+No Listeners on the GPIB.' at step 'TRS06.1 - Erase Flash' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    11/5/2026 5:46:46 PM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The precondition for the step 'Autoupdate GUI Progress Bar' could not be evaluated.
+Error in argument 2, 'RunState.Root.FileGlobals.UsingGUI', in call to the expression function 'AllOf'.
+Unknown variable or property name 'RunState.Root.FileGlobals.UsingGUI'.' at step 'Autoupdate GUI Progress Bar' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    11/5/2026 5:48:00 PM ProcessModelError
+Error Code: 2, Code Module/User-defined error code.
+Message: 'System Exec.vi. Command was ""C:\Program Files\SEGGER\JLink_V936\JLink.exe\JLink.exe" -Device STM32F722RE -SI SWD -Speed 4000 -CommandFile "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\JLink Commander\Data\Erase.jlink""
+LabVIEW: (Hex 0x2) Memory is full.
+=========================
+LabVIEW: (Hex 0x2) ERROR_FILE_NOT_FOUND.
+=========================
+No Listeners on the GPIB.' at step 'TRS06.1 - Erase Flash' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    11/5/2026 6:01:10 PM ProcessModelError
+Error Code: 5, Code Module/User-defined error code.
+Message: 'Delete in Verify_CRC.vi
+C:\Users\pgb-adc-tst\AppData\Roaming\SEGGER\JFlash.log
+LabVIEW: (Hex 0x5) File already open.
+=========================
+Command requires GPIB Controller to be System Controller.' at step 'TRS06.2 - Check Bootloader CRC Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    11/5/2026 6:23:13 PM ProcessModelError
+Error Code: 5, Code Module/User-defined error code.
+Message: 'Delete in Verify_CRC.vi
+C:\Users\pgb-adc-tst\AppData\Roaming\SEGGER\JFlash.log
+LabVIEW: (Hex 0x5) File already open.
+=========================
+Command requires GPIB Controller to be System Controller.' at step 'TRS06.2 - Check Bootloader CRC Data' in seq 'ProcessModelPostStepRuntimeError'
+

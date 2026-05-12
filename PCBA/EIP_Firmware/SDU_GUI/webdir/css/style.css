@@ -1,0 +1,570 @@
+table {
+    border: 0;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 2px
+}
+
+th {
+    border: 0;
+    background-color: #004b8d;
+    padding: 1px 1px 1px 1px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    height: 18px
+}
+
+tr.row-1,
+td.alt-1 {
+    background-color: #fff
+}
+
+tr.row-2,
+td.alt-2 {
+    background-color: #e6f0f5
+}
+
+.banded-rows:nth-child(odd) {
+    background-color: #fff
+}
+
+.banded-rows:nth-child(even) {
+    background-color: #e6f0f5
+}
+
+table.highight-row tr:hover td {
+    background-color: #c3d4dd;
+    cursor: default
+}
+
+table.highight-row-clickable tr:hover td {
+    background-color: #c3d4dd;
+    cursor: pointer
+}
+
+tr#row_clickable td:hover {
+    cursor: pointer
+}
+
+tr.delete-row {
+    background-color: #e6f0f5;
+    font-style: italic;
+    opacity: .4;
+    cursor: default;
+    padding-top: 3px
+}
+
+.highight-row>tbody>tr.delete-row:hover>td {
+    background-color: #e6f0f5;
+    cursor: default
+}
+
+td.short {
+    width: 110px
+}
+
+td.long {
+    width: 210px
+}
+
+td.center {
+    text-align: center
+}
+
+td.order-col {
+    width: 40px
+}
+
+td.name-col {
+    width: 150px
+}
+
+td.alt-1.name-col,
+td.alt-2.name-col {
+    padding-left: 10px
+}
+
+td.right {
+    text-align: right;
+    padding-right: 5px
+}
+
+td.pad {
+    padding-bottom: 5px
+}
+
+td.nobr {
+    white-space: nowrap
+}
+
+table.center {
+    text-align: center
+}
+
+table.boldtext {
+    font-weight: bold
+}
+
+#adi-content {
+    padding-bottom: 25px
+}
+
+#adi-content table {
+    height: 18px
+}
+
+select,
+input,
+textarea {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 10px;
+    text-align: left;
+    border: 1px solid #bbb;
+    margin: 0;
+    padding: 0
+}
+
+input {
+    text-indent: 4px
+}
+
+input[type=radio] {
+    border: 0
+}
+
+.stdinput {
+    width: 150px
+}
+
+.chkboxinput {
+    width: auto
+}
+
+.wideinput {
+    margin-bottom: 6px;
+    width: 300px
+}
+
+img.clickable-tight {
+    padding: 0;
+    vertical-align: middle;
+    cursor: pointer
+}
+
+img.clickable {
+    padding-top: 3px;
+    cursor: pointer
+}
+
+a {
+    color: #305f7b;
+    font-weight: bold;
+    text-decoration: none
+}
+
+a:hover {
+    color: #a00
+}
+
+.tip {
+    cursor: help
+}
+
+.linkcell {
+    cursor: pointer
+}
+
+.footer a {
+    color: #fff;
+    margin-left: 10px;
+    font-weight: normal
+}
+
+#copyRight {
+    float: left
+}
+
+#tradeMark {
+    color: #fff;
+    text-align: right;
+    float: right;
+    margin-right: 10px
+}
+
+.fullwidthtable {
+    width: 100%
+}
+
+.menu {
+    width: 100%
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none
+}
+
+.menu a,
+.menu h2 {
+    margin: 0;
+    padding: 2px 3px;
+    font-size: 11px;
+    line-height: 14px;
+    display: block
+}
+
+.menu h2 {
+    border-style: solid;
+    border-color: #ccc #888 #839fb0 #bbb;
+    border-width: 1px;
+    background: #004b8d;;
+    color: #fff;
+    text-transform: uppercase
+}
+
+.menu a {
+    background: #fff;
+    color: #000;
+    text-decoration: none
+}
+
+.menu a:hover {
+    background: #c3d4dd;
+    color: #000
+}
+
+a.menuActive {
+    background: #c3d4dd;
+    color: #000;
+    text-decoration: none
+}
+
+#shicpmenuwarning {
+    float: right;
+    width: 15px;
+    height: 15px
+}
+
+.validation-error {
+    color: red
+}
+
+#adi-controls {
+    float: left
+}
+
+#adi-controls img,
+#adi-controls input {
+    vertical-align: middle
+}
+
+#adi-controls input {
+    width: 40px
+}
+
+#adi-controls img {
+    border: 0
+}
+
+.adi-arrow-inactive {
+    opacity: .4;
+    cursor: default
+}
+
+.adi-controls-hidden {
+    vertical-align: middle;
+    visibility: hidden
+}
+
+label {
+    vertical-align: middle
+}
+
+.adi-setbtn {
+    vertical-align: middle;
+    float: right;
+    clear: right;
+    font-size: 80%
+}
+
+.adi-setbtn[disabled] {
+    color: #ccc;
+    background-color: #aaa
+}
+
+.adi-field-input,
+.adi-field-input-edit {
+    vertical-align: middle;
+    height: 17px;
+    width: 235px;
+    float: left
+}
+
+.adi-field-input[disabled] {
+    background-color: #ddd
+}
+
+.adi-field-checkbox,
+.adi-field-checkbox-edit {
+    vertical-align: middle;
+    height: 17px;
+    float: left
+}
+
+.adi-field-text {
+    vertical-align: middle;
+    height: 17px;
+    float: left
+}
+
+#adi-refresh {
+    float: left;
+    vertical-align: middle;
+    margin-top: 4px
+}
+
+#adi-status {
+    float: right;
+    height: 18px
+}
+
+.flat-button {
+    margin-top: 5px;
+    padding: 3px 5px 5px 5px;
+    background-color: #5683a4;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s
+}
+
+.flat-button:hover,
+.adi-setbtn:hover {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19)
+}
+
+.flat-button:active,
+.adi-setbtn:active {
+    box-shadow: none
+}
+
+.flat-button:disabled {
+    opacity: .2
+}
+
+.adi-setbtn {
+    width: 4em;
+    margin: 1px 8px 0 0;
+    padding: 2px 5px 2px 3px;
+    background-color: #5683a4;
+    color: white;
+    border: 0;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s
+}
+
+.refresh-btn {
+    margin: 1px 8px 1px 0;
+    padding: 0 4px 0 20px;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    color: #315f7b;
+    background: #e6f0f5 url(../img/refresh-blue.png) no-repeat scroll 5px center;
+    cursor: pointer;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+    float: right
+}
+
+.refresh-btn:hover {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19)
+}
+
+.refresh-btn:active {
+    box-shadow: none
+}
+
+.refresh-btn:disabled {
+    opacity: .2
+}
+
+.check-box {
+    margin-right: 2px
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 150px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: calc(100% - 150px);
+    overflow: auto;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 550px;
+    max-height: calc(100% - 80px);
+    overflow-y: auto
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer
+}
+
+#diskusageconent {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 100px
+}
+
+.usagebar {
+    border: 1px solid #315f7b;
+    height: 8px
+}
+
+div.loginwindow {
+    background-color: #e6f0f5;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px
+}
+
+h1.loginheader {
+    font-size: 20px;
+    font-weight: bold
+}
+
+.logininput {
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    font-size: 13px
+}
+
+.logininput::-webkit-input-placeholder {
+    font-style: italic
+}
+
+.logininput::-moz-placeholder {
+    font-style: italic
+}
+
+.logininput:-ms-input-placeholder {
+    font-style: italic
+}
+
+.logininput:-moz-placeholder {
+    font-style: italic
+}
+
+.login-button {
+    margin: 20px;
+    background-color: #5683a4;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
+    width: 250px;
+    height: 30px
+}
+
+.login-button:disabled {
+    opacity: .2
+}
+
+.button-link {
+    background-color: transparent;
+    border: 0;
+    color: #315f7b;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: inherit;
+    cursor: pointer
+}
+
+div.user {
+    padding: 3px;
+    margin: 0;
+    background-color: #e6f0f5
+}
+
+div.username {
+    font-weight: bold;
+    display: inline;
+    margin-right: 20px
+}
+
+div.logout {
+    display: inline
+}
+
+div.highlight_red {
+    font-weight: bold;
+    color: red
+}
+
+#shicpwarningimg {
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+    padding: 0
+}
+
+#password {
+    margin-right: 70px
+}
+
+.fade-effect {
+    display: block;
+    border: 0;
+    color: white;
+    height: 1px;
+    background: radial-gradient(circle, #315f7b, #fff)
+}
+
+.nwcfg-dropdown {
+    width: 150px
+}
+
+#infoimg_ {
+    padding: 0;
+    vertical-align: middle
+}

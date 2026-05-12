@@ -1,0 +1,159 @@
+<div id="UPSConfig-content">
+    <table id="pcshutdown-table">
+        <tbody>
+            <tr>
+                <th style="width: 30%;"><input id="cbPCShutdown" type="checkbox">&nbsp;PC Shutdown</th>
+                <th>
+                    <span class="tooltip-icon">&#9432;
+                        <span class="tooltip-text">
+                            This will enable all of the PC Shutdown features and act based on battery health parameters
+                            and power status.
+                        </span>
+                    </span>
+                </th>
+                <th colspan="5"></th>
+            </tr>
+            <tr class="row-1">
+                <td colspan="7"><br></td>
+            </tr>
+        </tbody>
+        <tbody id="pcshutdown-rows">
+            <tr>
+                <th colspan="7">PC Shutdown Configuration</th>
+            </tr>
+            <tr class="row-1">
+                <td><input id="cbKeepPCALAP" type="checkbox">&nbsp;Keep PC ON as long as possible</td>
+                <td>
+                    <span class="tooltip-icon">&#9432;
+                        <span class="tooltip-text">
+                            This mode keeps PC ON until battery too low threshold point or battery cutoff point is
+                            reached.
+                        </span>
+                    </span>
+                </td>
+                <td colspan="5"></td>
+            </tr>
+            <tr id="trPreBatPow" class="row-2">
+                <td><input id="cbPreBatteryPow" type="checkbox">&nbsp;Preserve Battery Power</td>
+                <td>
+                    <span class="tooltip-icon">&#9432;
+                        <span class="tooltip-text">
+                            This mode allows user to set Shutdown delay. After power goes off the PC will be ON until
+                            shutdown delay elapses and then shutdown will be triggered.
+                        </span>
+                    </span>
+                </td>
+                <td>
+                    <!-- Hours Input -->
+                    <div>
+                        <label id="lblPreBatteryMMSS"></label>
+                        <span>mm:ss</span>
+                    </div>
+                </td>
+                <td>
+                    <!-- Minutes Input -->
+                    <input id="tbPreBatteryPowMinute" type="number" min="0" max="59" placeholder="00"
+                        style="width: 40px; text-align: center;" />
+                    <span>mm</span>
+                </td>
+                <td>
+                    <!-- Seconds Input -->
+                    <input id="tbPreBatteryPowSecond" type="number" min="0" max="59" placeholder="00"
+                        style="width: 40px; text-align: center;" />
+                    <span>ss</span>
+                </td>
+                <td>
+                    <!-- Max Time -->
+                    <span style="margin-left: 10px;">Max: 2 Hours</span>
+                </td>
+                <td><button id="btnPreBatteryPower" class="adi-setbtn">Update</button></td>
+            </tr>
+            <tr class="row-1">
+                <td><input id="cbShutdownDelayCount" type="checkbox">&nbsp;Shutdown Delay Counter</td>
+                <td>
+                    <span class="tooltip-icon">&#9432;
+                        <span class="tooltip-text">
+                            The PC Shutdown Delay Counter enable/disable feature allows the user to activate a countdown
+                            display on screen when 15 seconds remain before shutdown.
+                        </span>
+                    </span>
+                </td>
+                <td colspan="5"></td>
+            </tr>
+            <tr id="trPCRestartDelay" class="row-2">
+                <td><input id="cbPCRestartDelay" type="checkbox">&nbsp;PC Re-Start Delay</td>
+                <td>
+                    <span class="tooltip-icon">&#9432;
+                        <span class="tooltip-text">
+                            This allows the user to restart the PC once main power returns.
+                            After power is restored, the UPS output remains OFF for a configured delay period beforev
+                            turning ON to start the PC smoothly.
+                            (To enable this operation, the BIOS setting → PC boot option must be set to 'Wake up on
+                            power.')
+                        </span>
+                    </span>
+                </td>
+                <td colspan="2">
+                    <div>
+                        <label id="lblPCRestartDelaySS"></label>
+                        <span> ss</span>
+                    </div>
+                </td>
+                <td>
+                    <!-- Seconds Input -->
+                    <input id="tbPCRestartDelay" type="number" min="0" max="60" placeholder="00"
+                        style="width: 40px; text-align: center;" />
+                    <span>ss</span>
+                </td>
+                <td>
+                    <!-- Max Time -->
+                    <span style="margin-left: 10px;">Max: 60 Seconds</span>
+                </td>
+                <td><button id="btnPCRestartDelay" class="adi-setbtn">Update</button></td>
+            </tr>
+            <tr class="row-1">
+                <td colspan="7"><br></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <th>Battery Test&nbsp;&nbsp;&nbsp;&nbsp;<input id="btnBatteryTestStart" type="button" value="Start"
+                        class="adi-setbtn" style="float: none;" />
+                </th>
+                <th>
+                    <span class="tooltip-icon">&#9432;
+                        <span class="tooltip-text">
+                            This will perform a battery test to determine the battery health.
+                        </span>
+                    </span>
+                </th>
+                <th colspan="5"></th>
+            </tr>
+            <tr class="row-1">
+                <td colspan="7"><br></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <th>UPS Switch&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="cbToggle_UPS_Switch">
+                        <span class="slider"></span>
+                    </label>
+                </th>
+                <th>
+                    <span class="tooltip-icon">&#9432;
+                        <span class="tooltip-text">
+                            This will turn ON/OFF the UPS output.
+                        </span>
+                    </span>
+                </th>
+                <th colspan="5"></th>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+<script type="text/javascript">
+    $.getScript(webContentPath + 'pages/pcshutdown.js');
+</script>

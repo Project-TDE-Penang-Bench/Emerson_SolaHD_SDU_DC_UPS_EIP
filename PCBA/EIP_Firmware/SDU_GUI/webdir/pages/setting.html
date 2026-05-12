@@ -1,0 +1,64 @@
+<div id="alarm-content">
+    <table id="alarm-table">
+        <tbody>
+            <tr>
+                <th>Name</th>
+                <th>Threshold/Status</th>
+                <th>Value</th>
+                <th>
+                    <div class="lodSpinner">
+                        <img src="../img/Spinner24px.gif" alt="Loading..."
+                            style="width: 18px; height: 18px; display: block;" id="spinnerSysTemp">
+                    </div>
+                </th>
+            </tr>
+            <tr class="row-2">
+                <td>System Temperature</td>
+                <td><label id="adi-454"></label></td>
+                <td>
+                    <div>
+                        <select name="cbSysTemp" id="cbSysTemp" onchange="">
+                            <option value="dC">&#8451</option>
+                            <option value="dF">&#8457</option>
+                        </select>
+                    </div>
+                </td>
+                <td><button class="adi-setbtn" onclick="fnUpdateSysTemperature()">Update</button></td>
+            </tr>
+            <tr class="row-1">
+                <td>User System Name</td>
+                <td><label id="adi-450"></label></td>
+                <td><input id="tbUserSystemName" type="text" /></td>
+                <td><button class="adi-setbtn" onclick="fnUpdateSystemName()">Update</button></td>
+            </tr>
+            <tr class="row-2">
+                <td>User Device Name</td>
+                <td><label id="adi-451"></label></td>
+                <td><input id="tbUserDeviceName" type="text" /></td>
+                <td><button class="adi-setbtn" onclick="fnUpdateDeviceName()">Update</button></td>
+            </tr>
+            <tr class="row-1">
+                <td>Battery Type</td>
+                <td><label>VRLA</label></td>
+                <!-- <td><label id="adi-453"></label></td> -->
+                <td><label>VRLA</label></td>
+                <!-- <td>
+                    <div>
+                        <select name="cbBatteryType" id="cbBatteryType" onchange="">
+                            <option value="VRLA">VRLA</option>
+                            <option value="LiFePO4">LiFePO4</option>
+                            <option value="BAT-EM">BAT-EM</option>
+                        </select>
+                    </div>
+                </td> -->
+                <td></td>
+                <!-- <td><button class="adi-setbtn" onclick="fnUpdateBatteryType()">Update</button></td> -->
+            </tr>
+        </tbody>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<script type="text/javascript">
+    $.getScript(webContentPath + 'pages/setting.js');
+</script>

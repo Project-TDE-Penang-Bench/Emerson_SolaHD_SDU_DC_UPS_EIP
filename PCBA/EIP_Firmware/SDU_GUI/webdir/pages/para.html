@@ -1,0 +1,232 @@
+<div id="para-content">
+    <table id="para-table">
+        <tbody>
+            <tr>
+                <th>Description</th>
+                <th>Value</th>
+                <th>Unit</th>
+            </tr>
+            <tr class="row-1">
+                <td>Mode of Operation</td>
+                <td><label id="adi-103">??</label></td>
+                <td></td>
+            </tr>
+            <tr class="row-2">
+                <td>Output and Battery LED Status</td>
+                <td>
+                    <span>Output LED : <label id="adi-100-1">??</label></span><br>
+                    <span>Battery LED : <label id="adi-100-2">??</label></span><br>
+                </td>
+                <td></td>
+            </tr>
+            <tr class="row-1">
+                <td>Comm LED Status</td>
+                <td style="vertical-align: text-top;"><label id="adi-101">??</label></td>
+                <td></td>
+            </tr>
+            <tr class="row-2">
+                <td>Lifetime Turn On Time</td>
+                <td><label id="adi-201">??</label></td>
+                <td>hrs</td>
+            </tr>
+            <tr class="row-1">
+                <td>Turn On Time</td>
+                <td><label id="adi-200">??</label></td>
+                <td>hrs</td>
+            </tr>
+            <tr class="row-2">
+                <td>Battery Runtime</td>
+                <td><label id="adi-202">??</label></td>
+                <td>mm:ss</td>
+            </tr>
+            <tr class="row-1">
+                <td>Battery Charge</td>
+                <td><label id="adi-104">??</label></td>
+                <td>&percnt;</td>
+            </tr>
+            <tr class="row-2">
+                <td>Battery Health</td>
+                <td><label id="adi-105">??</label></td>
+                <td></td>
+            </tr>
+            <tr class="row-1">
+                <td>Input Voltage</td>
+                <td><label id="adi-150">??</label></td>
+                <td>Volts</td>
+            </tr>
+            <tr class="row-2">
+                <td>Output Voltage</td>
+                <td><label id="adi-151">??</label></td>
+                <td>Volts</td>
+            </tr>
+            <tr class="row-1">
+                <td>Battery Voltage</td>
+                <td><label id="adi-152">??</label></td>
+                <td>Volts</td>
+            </tr>
+            <tr class="row-2">
+                <td>Output Current</td>
+                <td><label id="adi-153">??</label></td>
+                <td>Amps</td>
+            </tr>
+            <tr class="row-1">
+                <td>Internal Temperature</td>
+                <td><label id="adi-154">??</label></td>
+                <td><label id="adi-15InTempUnit">??</label></td>
+            </tr>
+            <tr>
+                <td colspan="3"><br></td>
+            </tr>
+            <tr class="row-2" style="cursor: pointer;" onclick="toggleFlag(this, 'divEventFlag')">
+                <td><strong>Event Flag</strong></td>
+                <td><label id=""></label></td>
+                <td class="toggle-icon">▶</td>
+            </tr>
+            <tr id="divEventFlag" class="eventFlag" style="display: none;">
+                <td colspan="3" style="padding-left: 10px;">
+                    <div id="eventFlagContent" class="eventFlagContent">
+                        <table id="eventFlagTable">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 35%;">DC Power Failure</td>
+                                    <td><label id="adi-102-0">??</label></td>
+                                </tr>
+                                <tr class="lightRowBkGrd">
+                                    <td>Backup Mode</td>
+                                    <td><label id="adi-102-1">??</label></td>
+                                </tr>
+                                <tr>
+                                    <td>Switched Off</td>
+                                    <td><label id="adi-102-2">??</label></td>
+                                </tr>
+                                <tr class="lightRowBkGrd">
+                                    <td>No Battery</td>
+                                    <td><label id="adi-102-3">??</label></td>
+                                </tr>
+                                <tr>
+                                    <td>Battery Fault</td>
+                                    <td><label id="adi-102-4">??</label></td>
+                                </tr>
+                                <tr class="lightRowBkGrd">
+                                    <td>Power Boost</td>
+                                    <td><label id="adi-102-5">??</label></td>
+                                </tr>
+                                <tr>
+                                    <td>Over Current</td>
+                                    <td><label id="adi-102-6">??</label></td>
+                                </tr>
+                                <tr class="lightRowBkGrd">
+                                    <td>Over Temperature</td>
+                                    <td><label id="adi-102-7">??</label></td>
+                                </tr>
+                                <tr>
+                                    <td>Charger Failure</td>
+                                    <td><label id="adi-102-8">??</label></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+            <!-- <tr>
+                <td colspan="3"><br></td>
+            </tr>
+            <tr class="row-2" style="cursor: pointer;" onclick="toggleFlag(this, 'divAlarmFlag')">
+                <td><strong>Alarm Flag</strong></td>
+                <td><label id=""></label></td>
+                <td class="toggle-icon">▶</td>
+            </tr>
+            <tr id="divAlarmFlag" class="alarmFlag" style="display: none;">
+                <td colspan="3" style="padding-left: 10px;">
+                    <div id="alarmFlagContent" class="alarmFlagContent">
+                        <table id="alarmFlagTable">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 35%;">User Alarm Limit: Temperature High</td>
+                                    <td><label id="adi-402">??</label></td>
+                                    <td><label id="adi-402-Unit"></label></td>
+                                </tr>
+                                <tr class="lightRowBkGrd">
+                                    <td>User Alarm Limit: Battery Charge Low</td>
+                                    <td><label id="adi-403">??</label></td>
+                                    <td><label>&percnt;</label></td>
+                                </tr>
+                                <tr>
+                                    <td>User Alarm Limit: Battery Runtime Low</td>
+                                    <td><label id="adi-404">??</label></td>
+                                    <td><label>Seconds</label></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+            </tr> -->
+            <tr>
+                <td colspan="3"><br></td>
+            </tr>
+            <tr class="row-2" style="cursor: pointer;" onclick="toggleFlag(this, 'divAlarmFlag1')">
+                <td><strong>Alarm Flag</strong></td>
+                <td><label id=""></label></td>
+                <td class="toggle-icon">▶</td>
+            </tr>
+            <tr id="divAlarmFlag1" class="alarmFlag" style="display: none;">
+                <td colspan="3" style="padding-left: 10px;">
+                    <div id="alarmFlagContent1" class="alarmFlagContent1">
+                        <table id="alarmFlagTable1">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 35%;">High Internal Temperature </td>
+                                    <td><label id="adi-400-0">??</label></td>
+                                    <td><label></label></td>
+                                </tr>
+                                <tr class="lightRowBkGrd">
+                                    <td>Low Battery Charge</td>
+                                    <td><label id="adi-400-1">??</label></td>
+                                    <td><label></label></td>
+                                </tr>
+                                <tr>
+                                    <td>Low Battery Runtime</td>
+                                    <td><label id="adi-400-2">??</label></td>
+                                    <td><label></label></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"><br></td>
+            </tr>
+            <tr class="row-2" style="cursor: pointer;" onclick="toggleFlag(this, 'divPCShutdownFlag')">
+                <td><strong>PC Shutdown Flag</strong></td>
+                <td><label id=""></label></td>
+                <td class="toggle-icon">▶</td>
+            </tr>
+            <tr id="divPCShutdownFlag" class="pcShutdownFlag" style="display: none;">
+                <td colspan="3" style="padding-left: 10px;">
+                    <div id="pcShutdownFlagContent" class="pcShutdownFlagContent">
+                        <table id="pcShutdownFlagTable">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 35%;">Low Battery SoC</td>
+                                    <td><label id="adi-106-0">??</label></td>
+                                </tr>
+                                <tr class="lightRowBkGrd">
+                                    <td>Battery Runtime Limit</td>
+                                    <td><label id="adi-106-1">??</label></td>
+                                </tr>
+                                <tr>
+                                    <td>Schedule Shutdown</td>
+                                    <td><label id="adi-106-2">??</label></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<script type="text/javascript">
+    $.getScript(webContentPath + 'pages/para.js');
+</script>

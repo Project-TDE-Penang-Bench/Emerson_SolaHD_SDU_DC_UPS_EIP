@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<title>SolaHD</title>
+	<script type="text/javascript">
+		var abcctype = "standard";
+		var webContentPath = "/";
+		var apiAdiStatusPath = "/adi/";
+		var apiAdiConfigPath = "/adi/";
+		var apiModuleStatusPath = "/module/";
+		var apiNetworkStatusPath = "/network/";
+		var apiNetworkConfigPath = "/network/";
+		var apiServicesConfigPath = "/services/";
+	</script>
+
+	<script type="text/javascript">
+		document.write('<link rel=\"shortcut icon\" href=\"' + webContentPath + 'img/favicon.ico\">');
+		document.write('<link rel=\"stylesheet\" type=\"text/css\" href=\"' + webContentPath + 'css/pagelayout.css\">');
+		document.write('<link rel=\"stylesheet\" type=\"text/css\" href=\"' + webContentPath + 'css/style.css\">');
+		document.write('<link rel=\"stylesheet\" type=\"text/css\" href=\"' + webContentPath + 'css/ui.css\">');
+		document.write('<link rel=\"stylesheet\" type=\"text/css\" href=\"' + webContentPath + 'css/sola.css\">');
+		document.write('<link rel=\"stylesheet\" type=\"text/css\" href=\"' + webContentPath + 'css/trnd.css\">');
+		document.write('<link rel=\"stylesheet\" type=\"text/css\" href=\"' + webContentPath + 'css/msgpopup.css\">');
+	</script>
+
+	<!-- Imported libs, see import/README.txt for versions & additional docs -->
+	<script type="text/javascript">
+		document.write('<script type=\"text/javascript\" src=\"' + webContentPath + 'js/jquery-3.6.0.js\"><\/script>');
+		document.write('<script type=\"text/javascript\" src=\"' + webContentPath + 'js/tmpl.js\"><\/script>');
+		document.write('<script type=\"text/javascript\" src=\"' + webContentPath + 'js/rsvp.js\"><\/script>');
+		document.write('<script type=\"text/javascript\" src=\"' + webContentPath + 'js/big.js\"><\/script>');
+	</script>
+
+	<!-- Homebrew stuff -->
+	<script type="text/javascript">
+		document.write('<script type=\"text/javascript\" src=\"' + webContentPath + 'js/dev.js\"><\/script>');
+		document.write('<script type=\"text/javascript\" src=\"' + webContentPath + 'js/adi.js\"><\/script>');
+		document.write('<script type=\"text/javascript\" src=\"' + webContentPath + 'js/editor.js\"><\/script>');
+		document.write('<script type=\"text/javascript\" src=\"' + webContentPath + 'js/abp.js\"><\/script>');
+		document.write('<script type=\"text/javascript\" src=\"' + webContentPath + 'js/ieee754.js\"><\/script>');
+		document.write('<script type=\"text/javascript\" src=\"' + webContentPath + 'js/endianess.js\"><\/script>');
+		document.write('<script type=\"text/javascript\" src=\"' + webContentPath + 'js/utility.js\"><\/script>');
+		document.write('<script type=\"text/javascript\" src=\"' + webContentPath + 'js/comfn.js\"><\/script>');
+		document.write('<script type=\"text/javascript\" src=\"' + webContentPath + 'js/dataoperation.js\"><\/script>');
+		document.write('<script type=\"text/javascript\" src=\"' + webContentPath + 'js/msgpopup.js\"><\/script>');
+	</script>
+	<script type="text/javascript">
+		var objEventDataOperation = null;
+		var objOverviewDataOperation = null;
+		var objSettingDataOperation = null;
+		var objParaDataOperation = null;
+		var objMeasurementDataOperation = null;
+		var objTimerDataOperation = null;
+		var objAlarmParaDataOperation = null;
+		var objPCShutdownDataOperation = null;
+		$(document).ready(function () {
+			// document.getElementById("headerlogo").src=webContentPath + "img/anybus.jpg";
+			/* Initial page load */
+			$("#main-content").load(webContentPath + 'pages/overview.html');
+			$("#info").addClass("menuActive");
+
+			/* Bind content to the menu */
+			$('#menu a').on("click", function () {
+				$('#menu a').removeClass("menuActive");
+				$(this).addClass("menuActive");
+				$("#main-content").load(webContentPath + "pages/" + this.id + ".html");
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header" class="header">
+			<img class="emrHeaderLogo" src="img/emersonlogo.png" alt="EMERSON">
+			<img class="solaHDLogo" src="img/SolaHD-white.png" alt="SolaHD">
+		</div>
+		<div style="text-align: center;">
+			<h3 id="headerSDUCnn" style="display: none;color: red;">SDU is not connected...</h3>
+		</div>
+		<div id="content-wrapper" style="display: block;">
+			<div id="menu" class="menu">
+				<h2>MONITORING</h2>
+				<ul>
+					<!-- <li><a id="info" href="javascript:void(0)">Overview</a></li> -->
+					<li><a id="overview" href="javascript:void(0)">Overview</a></li>
+					<!-- <li><a id="adi" href="javascript:void(0)">Parameters</a></li> -->
+					<li><a id="para" href="javascript:void(0)">UPS Parameters</a></li>
+					<li><a id="event" href="javascript:void(0)">Events</a></li>
+					<!-- <li><a id="alarm" href="javascript:void(0)">Alarm</a></li> -->
+					<!-- <li><a id="pcshutdown" href="javascript:void(0)">PC Shutdown</a></li> -->
+				</ul>
+				<h2>SYSTEM</h2>
+				<ul>
+					<li><a id="alarm" href="javascript:void(0)">Alarm</a></li>
+					<li><a id="pcshutdown" href="javascript:void(0)">UPS Config</a></li>
+					<li><a id="setting" href="javascript:void(0)">Settings</a></li>
+					<li><a id="logs" href="javascript:void(0)">Logs</a></li>
+					<li><a id="security" href="javascript:void(0)">Security</a></li>
+				</ul>
+				<h2>Network</h2>
+				<ul>
+					<li><a id="nwstatus" href="javascript:void(0)">Status</a></li>
+					<li><a id="nwconfig" href="javascript:void(0)">Configuration</a></li>
+				</ul>
+			</div>
+			<div id="main-content">
+				<!-- This is where the contents are displayed -->
+			</div>
+		</div>
+		<div id="footer" class="footer">
+			<span id="copyRight"><a href="http://www.emerson.com">The Emerson and SolaHD logos are registered
+					trademarks. &copy;
+					<script>document.write(/\d{4}/.exec(Date())[0])</script> EMERSON - All rights
+					reserved
+				</a></span>
+			<span id="versionInfo" style="float: right;color: #88888869;margin-right: 4px;">v0.6</span>
+		</div>
+	</div>
+</body>
+<div id="customModal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span id="modal-title"></span><br/>
+        <!-- <h3 id="modal-title">Title</h3> -->
+        <p id="modal-message">Message</p>
+        <div class="modal-buttons">
+            <button id="modal-ok" class="modal-btn">OK</button>
+            <button id="modal-cancel" class="modal-btn" style="display: none;">Cancel</button>
+        </div>
+    </div>
+</div>
+</html>
