@@ -12,7 +12,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Send_Query_SCPI_Command.vi" Type="VI" URL="../Send_Query_SCPI_Command.vi"/>
+		<Item Name="RIGOL MHO900 Series.lvlib" Type="Library" URL="../RIGOL MHO900 Series.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
