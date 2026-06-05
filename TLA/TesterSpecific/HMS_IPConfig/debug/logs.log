@@ -1,0 +1,34 @@
+2026-06-05 13:18:37,044 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-06-05 13:18:37,044 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-05 13:18:48,879 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-05 13:18:49,024 - ERROR - [root.HMS_IPConfig.<module>:48] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "c:\Users\pgb-adc-tst\Downloads\HMS_ipconfig\HMS_IPConfig.py", line 22, in <module>
+    ui.find("SDU_20-24BC-EIP").click_input()
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\pgb-adc-tst\Downloads\HMS_ipconfig\tde_utilities\win_util.py", line 265, in find
+    raise TimeoutError(error_message)
+TimeoutError: RPA Search Failure: Pattern target 'SDU_20-24BC-EIP' was not discovered within 5s.
+2026-06-05 17:57:07,947 - INFO - [root.HMS_IPConfig_Verify_DHCP_Enabled.<module>:17] - begin: Check for default IP and DHCP
+2026-06-05 17:57:07,947 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-05 17:57:14,270 - DEBUG - [PIL.Image.Image._import_plugin_for_extension:421] - Importing PngImagePlugin
+2026-06-05 17:57:14,307 - INFO - [root.win_util._draw_debug_overlay:300] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\HMS_IPConfig\debug\a.png
+2026-06-05 17:57:14,956 - INFO - [root.HMS_IPConfig_Verify_DHCP_Enabled.<module>:23] - ip_address='192.168.1.5', dhcp_state=0
+2026-06-05 17:57:14,956 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-05 17:57:15,142 - INFO - [root.HMS_IPConfig_Verify_DHCP_Enabled.<module>:32] - end: Static IP Set-up via HMS IPConfig, took 7.20s
+2026-06-05 18:08:13,211 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-06-05 18:08:13,211 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-05 18:08:18,167 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-05 18:08:18,328 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 5.12s
+2026-06-05 18:08:30,316 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:17] - begin: Check for default IP and DHCP
+2026-06-05 18:08:30,316 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-05 18:08:35,830 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:29] - overwritting IP
+2026-06-05 18:08:37,024 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:34] - overwritting subnet mask
+2026-06-05 18:08:38,390 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-05 18:08:38,564 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:40] - end: Static IP Set-up via HMS IPConfig, took 8.25s
+2026-06-05 18:09:17,445 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-06-05 18:09:17,445 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-05 18:09:22,802 - INFO - [root.HMS_IPConfig.<module>:34] - overwritting IP
+2026-06-05 18:09:23,826 - INFO - [root.HMS_IPConfig.<module>:39] - overwritting subnet mask
+2026-06-05 18:09:25,206 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-05 18:09:25,379 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 7.93s

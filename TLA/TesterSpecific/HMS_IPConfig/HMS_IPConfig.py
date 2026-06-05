@@ -1,45 +1,48 @@
-from pywinauto.application import Application
-from pywinauto.controls.win32_controls import ButtonWrapper
-from io import StringIO
-import sys
-import re
-import time
-import pyautogui
+import os
+import logging
+import time 
+
+from tde_utilities.log_util import setup_custom_logger
+from tde_utilities.win_util import WindowApp
+
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+setup_custom_logger(script_dir)
+
+path = r"C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe"
+title = "HMS IPconfig"
 
 try:
-    app = Application(backend='uia').start('C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe')
-    app = Application(backend='uia').connect(title='HMS IPconfig', timeout=10)
-    app.window(title='HMS IPconfig').child_window(title="Hms.IPConfig.UI.Components.ViewModel.ScanListViewItemViewModel", control_type="DataItem").click_input()
-    if(app.window(title='HMS IPconfig').child_window(title="Retrieve IP settings dynamically from a DHCP server", auto_id="DhcpToggle", control_type="CheckBox").get_toggle_state()):
-        print("click!")   
-        app.window(title='HMS IPconfig').child_window(title="Retrieve IP settings dynamically from a DHCP server", auto_id="DhcpToggle", control_type="CheckBox").click_input()
-
-    #edit IP address
-    app.window(title='HMS IPconfig').child_window(auto_id="txtIPAddress", control_type="Edit").click_input()
-    app.window(title='HMS IPconfig').child_window(auto_id="txtIPAddress", control_type="Edit").type_keys("^A")
-    app.window(title='HMS IPconfig').child_window(auto_id="txtIPAddress", control_type="Edit").type_keys("{BACKSPACE}")
-    app.window(title='HMS IPconfig').child_window(auto_id="txtIPAddress", control_type="Edit").type_keys("192.168.1.5")
-
-    #edit Subnet mask
-    app.window(title='HMS IPconfig').child_window(auto_id="txtSubnetMask", control_type="Edit").click_input()
-    app.window(title='HMS IPconfig').child_window(auto_id="txtSubnetMask", control_type="Edit").type_keys("^A")
-    app.window(title='HMS IPconfig').child_window(auto_id="txtSubnetMask", control_type="Edit").type_keys("{BACKSPACE}")
-    app.window(title='HMS IPconfig').child_window(auto_id="txtSubnetMask", control_type="Edit").type_keys("255.255.255.0")
-
-    #apply IP change
-    print("start")
-    app.window(title='HMS IPconfig').child_window(title="Hms.IPConfig.UI.Components.ViewModel.ScanListViewItemViewModel", control_type="DataItem").click_input()
-    print("done")
-    app.window(title='HMS IPconfig').child_window(title="Apply", auto_id="ApplyButton", control_type="Button").click()
-    for i in range(10):
-        time.sleep(2)
-        if pyautogui.locateOnScreen('./Picture/error_rejection_popup.png', confidence=0.8) == None:
-            print("PASS")
-            break
-        app.window(title='HMS IPconfig').child_window(auto_id="CommandButton_1").click_input()
-        time.sleep(2)
-        app.window(title='HMS IPconfig').child_window(title="Apply", auto_id="ApplyButton", control_type="Button").click()
-        
-except:
-    print("FAIL")
-app.window(title='HMS IPconfig').close()
+    t1 = time.time()
+    logging.info("begin: Static IP Set-up via HMS IPConfig")
+    with WindowApp(path, title) as ui:
+        # 1. Capture our visual blueprint map
+        # ui.save_ui_blueprint(script_dir)
+        # open device configuration
+        ui.find("SDU_20-24BC-EIP").click_input()
+        # disable dhcp
+        dhcp_toggle = ui.find("Retrieve IP")
+        if dhcp_toggle.get_toggle_state():
+            logging.info("unchecking DHCP")
+            dhcp_toggle.click_input()
+        # set static
+        ip_field = ui.find("IP address", xy_ratio=(0, 1.5))
+        if ip_field.window_text() != "192.168.1.5":
+            # replace ip address
+            ip_field.click_input()
+            ip_field.type_keys("^a{BACKSPACE}192.168.1.5")
+            logging.info("overwritting IP")
+            # replace subnet mask
+            sub_mask_field = ui.find("Subnet mask", xy_ratio=(0, 1.5))
+            sub_mask_field.click_input()
+            sub_mask_field.type_keys("^a{BACKSPACE}255.255.255.0")
+            logging.info("overwritting subnet mask")
+            # click apply
+            ui.find("Apply").click_input()
+            # check for setup successfully keyword
+            ui.find("Success:")
+    print("SUCCESS: Static IP Set-up Succssfully")
+    logging.info(f"end: Static IP Set-up via HMS IPConfig, took {time.time()-t1:.2f}s")
+except Exception as e:
+    print(f"ERROR: Static IP Set-up via HMS IPConfig failed: {e}")
+    logging.exception("Static IP Set-up via HMS IPConfig failed")

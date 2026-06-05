@@ -1,0 +1,1409 @@
+2026-06-03 16:54:42,563 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 16:54:57,074 - ERROR - [root.selenium_util.__exit__:86] - Context closed due to an exception: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=148.0.7778.217)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff724177de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff724177e50+14900]
+	chromedriver!(No symbol) [0x7ff723edd5ad]
+	chromedriver!(No symbol) [0x7ff723eb40f2]
+	chromedriver!(No symbol) [0x7ff723f66f56]
+	chromedriver!(No symbol) [0x7ff723f84172]
+	chromedriver!(No symbol) [0x7ff723f29df8]
+	chromedriver!(No symbol) [0x7ff723f2ace3]
+	chromedriver!GetHandleVerifier [0x7ff72448cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff724487375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7244abc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff724196045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff72419ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff724181bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff724181d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7241660e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffa0584e957+17]
+	ntdll!RtlUserThreadStart [0x7ffa0714427c+2c]
+
+2026-06-03 16:54:57,074 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 16:54:59,973 - ERROR - [root.web_scrape.<module>:78] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\web_scrape.py", line 23, in <module>
+    browser.wait_for_visibility(browser.loc(element_id="main-content"))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\tde_utilities\selenium_util.py", line 98, in wait_for_visibility
+    return WebDriverWait(self.driver, t).until(EC.visibility_of_element_located(locator))
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\support\expected_conditions.py", line 184, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+                               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 868, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 468, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=148.0.7778.217)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff724177de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff724177e50+14900]
+	chromedriver!(No symbol) [0x7ff723edd5ad]
+	chromedriver!(No symbol) [0x7ff723eb40f2]
+	chromedriver!(No symbol) [0x7ff723f66f56]
+	chromedriver!(No symbol) [0x7ff723f84172]
+	chromedriver!(No symbol) [0x7ff723f29df8]
+	chromedriver!(No symbol) [0x7ff723f2ace3]
+	chromedriver!GetHandleVerifier [0x7ff72448cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff724487375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7244abc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff724196045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff72419ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff724181bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff724181d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7241660e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffa0584e957+17]
+	ntdll!RtlUserThreadStart [0x7ffa0714427c+2c]
+
+2026-06-03 16:55:09,170 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 16:55:22,368 - ERROR - [root.selenium_util.__exit__:86] - Context closed due to an exception: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=148.0.7778.217)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff724177de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff724177e50+14900]
+	chromedriver!(No symbol) [0x7ff723edd5ad]
+	chromedriver!(No symbol) [0x7ff723eb40f2]
+	chromedriver!(No symbol) [0x7ff723f66f56]
+	chromedriver!(No symbol) [0x7ff723f84172]
+	chromedriver!(No symbol) [0x7ff723f29df8]
+	chromedriver!(No symbol) [0x7ff723f2ace3]
+	chromedriver!GetHandleVerifier [0x7ff72448cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff724487375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7244abc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff724196045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff72419ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff724181bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff724181d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7241660e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffa0584e957+17]
+	ntdll!RtlUserThreadStart [0x7ffa0714427c+2c]
+
+2026-06-03 16:55:22,369 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 16:55:25,199 - ERROR - [root.web_scrape.<module>:78] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\web_scrape.py", line 23, in <module>
+    browser.wait_for_visibility(browser.loc(element_id="main-content"))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\tde_utilities\selenium_util.py", line 98, in wait_for_visibility
+    return WebDriverWait(self.driver, t).until(EC.visibility_of_element_located(locator))
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\support\expected_conditions.py", line 184, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+                               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 868, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 468, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=148.0.7778.217)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff724177de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff724177e50+14900]
+	chromedriver!(No symbol) [0x7ff723edd5ad]
+	chromedriver!(No symbol) [0x7ff723eb40f2]
+	chromedriver!(No symbol) [0x7ff723f66f56]
+	chromedriver!(No symbol) [0x7ff723f84172]
+	chromedriver!(No symbol) [0x7ff723f29df8]
+	chromedriver!(No symbol) [0x7ff723f2ace3]
+	chromedriver!GetHandleVerifier [0x7ff72448cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff724487375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7244abc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff724196045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff72419ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff724181bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff724181d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7241660e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffa0584e957+17]
+	ntdll!RtlUserThreadStart [0x7ffa0714427c+2c]
+
+2026-06-03 17:15:30,273 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 17:15:32,599 - DEBUG - [root.selenium_util.get_element_size:151] - Element ('id', 'header') width: 800px, height: 86px
+2026-06-03 17:15:42,885 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-03 17:15:46,735 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-03 17:15:47,424 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-03 17:15:49,350 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 17:18:39,352 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 17:18:41,649 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 17:25:10,913 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 17:25:12,953 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 17:25:44,411 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 17:26:14,728 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 17:26:46,912 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 17:26:48,957 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 17:27:08,583 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 17:33:36,279 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 17:33:38,383 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 17:33:42,644 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 17:33:44,662 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 17:58:56,473 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 17:59:02,103 - DEBUG - [root.selenium_util.get_element_size:151] - Element ('id', 'header') width: 800px, height: 86px
+2026-06-03 17:59:02,103 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 18:01:53,815 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 18:01:56,981 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 18:02:31,875 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 18:02:34,534 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 18:02:45,967 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 18:02:48,034 - DEBUG - [root.selenium_util.get_element_size:151] - Element ('id', 'header') width: 800px, height: 86px
+2026-06-03 18:02:58,157 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-03 18:03:01,953 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-03 18:03:02,621 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-03 18:03:04,084 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 18:03:44,134 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 18:03:47,048 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 18:07:44,311 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 18:09:22,157 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 18:09:23,622 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 18:09:35,887 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-03 18:09:39,638 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-03 18:09:40,301 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-03 18:09:41,713 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 18:10:12,864 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 18:10:19,969 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-03 18:10:23,761 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-03 18:10:24,425 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-03 18:10:25,948 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 18:10:42,160 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 18:10:42,953 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 18:10:50,270 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-03 18:10:54,192 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-03 18:10:54,920 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-03 18:10:56,424 - ERROR - [root.selenium_util.__exit__:86] - Context closed due to an exception: 'NoneType' object has no attribute 'is_displayed'
+2026-06-03 18:10:56,424 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 18:10:59,168 - ERROR - [root.web_scrape.<module>:80] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\web_scrape.py", line 75, in <module>
+    browser.check_box(browser.loc(element_id='cbNetwork'), True)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\tde_utilities\selenium_util.py", line 137, in check_box
+    element = self.wait_for_visibility(locator)
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\tde_utilities\selenium_util.py", line 98, in wait_for_visibility
+    return WebDriverWait(self.driver, t).until(EC.visibility_of_element_located(locator))
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\support\expected_conditions.py", line 184, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\support\expected_conditions.py", line 223, in _element_if_visible
+    return element if element.is_displayed() == visibility else False
+                      ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_displayed'
+2026-06-03 18:11:41,043 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 18:11:48,327 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-03 18:11:50,875 - ERROR - [root.selenium_util.__exit__:86] - Context closed due to an exception: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=148.0.7778.217); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff79ed57de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff79ed57e50+14900]
+	chromedriver!(No symbol) [0x7ff79eabd5ad]
+	chromedriver!(No symbol) [0x7ff79eaa8a92]
+	chromedriver!(No symbol) [0x7ff79eacee6c]
+	chromedriver!(No symbol) [0x7ff79eb471b0]
+	chromedriver!(No symbol) [0x7ff79eb64172]
+	chromedriver!(No symbol) [0x7ff79eb09df8]
+	chromedriver!(No symbol) [0x7ff79eb0ace3]
+	chromedriver!GetHandleVerifier [0x7ff79f06cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff79f067375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff79f08bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff79ed76045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff79ed7ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff79ed61bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff79ed61d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff79ed460e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff991c0e957+17]
+	ntdll!RtlUserThreadStart [0x7ff9935c427c+2c]
+
+2026-06-03 18:11:50,876 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 18:11:53,570 - ERROR - [root.web_scrape.<module>:79] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\web_scrape.py", line 51, in <module>
+    browser.wait_for_javascript_ready()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\tde_utilities\selenium_util.py", line 123, in wait_for_javascript_ready
+    WebDriverWait(self.driver, max_wait).until(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        lambda driver: driver.execute_script(js_condition)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\tde_utilities\selenium_util.py", line 124, in <lambda>
+    lambda driver: driver.execute_script(js_condition)
+                   ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 578, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 468, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=148.0.7778.217); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff79ed57de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff79ed57e50+14900]
+	chromedriver!(No symbol) [0x7ff79eabd5ad]
+	chromedriver!(No symbol) [0x7ff79eaa8a92]
+	chromedriver!(No symbol) [0x7ff79eacee6c]
+	chromedriver!(No symbol) [0x7ff79eb471b0]
+	chromedriver!(No symbol) [0x7ff79eb64172]
+	chromedriver!(No symbol) [0x7ff79eb09df8]
+	chromedriver!(No symbol) [0x7ff79eb0ace3]
+	chromedriver!GetHandleVerifier [0x7ff79f06cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff79f067375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff79f08bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff79ed76045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff79ed7ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff79ed61bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff79ed61d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff79ed460e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff991c0e957+17]
+	ntdll!RtlUserThreadStart [0x7ff9935c427c+2c]
+
+2026-06-03 18:12:16,278 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 18:12:23,656 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-03 18:12:26,497 - ERROR - [root.selenium_util.__exit__:86] - Context closed due to an exception: 'NoneType' object has no attribute 'strip'
+2026-06-03 18:12:26,497 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 18:30:37,763 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 18:30:55,837 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 18:30:57,863 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-03 18:30:58,486 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 18:31:06,284 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 18:31:08,965 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-03 18:34:10,600 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-03 18:34:13,746 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 08:32:04,049 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 08:32:08,149 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 08:41:16,996 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 08:41:19,072 - DEBUG - [root.selenium_util.get_element_size:151] - Element ('id', 'header') width: 800px, height: 86px
+2026-06-04 08:41:19,072 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 08:44:11,471 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 08:44:14,108 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 09:08:48,703 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 09:08:57,820 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 09:24:27,854 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 09:24:32,000 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 09:26:46,644 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 09:26:49,382 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 09:27:13,353 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 09:27:16,021 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 09:28:21,853 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 09:28:24,517 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 09:33:59,112 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 09:34:01,694 - ERROR - [root.selenium_util.__exit__:86] - Context closed due to an exception: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.217); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff79ed57de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff79ed57e50+14900]
+	chromedriver!(No symbol) [0x7ff79eabd5ad]
+	chromedriver!(No symbol) [0x7ff79eac5521]
+	chromedriver!(No symbol) [0x7ff79eac85e5]
+	chromedriver!(No symbol) [0x7ff79eac86af]
+	chromedriver!(No symbol) [0x7ff79eb12a5c]
+	chromedriver!(No symbol) [0x7ff79eb4005a]
+	chromedriver!(No symbol) [0x7ff79eb0b566]
+	chromedriver!(No symbol) [0x7ff79eb6486f]
+	chromedriver!(No symbol) [0x7ff79eb09df8]
+	chromedriver!(No symbol) [0x7ff79eb0ace3]
+	chromedriver!GetHandleVerifier [0x7ff79f06cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff79f067375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff79f08bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff79ed76045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff79ed7ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff79ed61bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff79ed61d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff79ed460e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff991c0e957+17]
+	ntdll!RtlUserThreadStart [0x7ff9935c427c+2c]
+
+2026-06-04 09:34:01,695 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 09:34:52,809 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 09:35:01,080 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 09:38:43,586 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 09:38:51,807 - ERROR - [root.selenium_util.__exit__:86] - Context closed due to an exception: 'charmap' codec can't encode character '\x84' in position 164: character maps to <undefined>
+2026-06-04 09:38:51,807 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 09:38:54,497 - ERROR - [root.Check_SN.<module>:42] - web scraping failed
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Check_SN.py", line 38, in <module>
+    print(output.getvalue())
+    ~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\x84' in position 164: character maps to <undefined>
+2026-06-04 09:39:10,202 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 09:39:19,349 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 09:39:27,592 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 09:39:40,802 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 09:39:49,671 - ERROR - [root.selenium_util.__exit__:86] - Context closed due to an exception: 'charmap' codec can't encode character '\x84' in position 164: character maps to <undefined>
+2026-06-04 09:39:49,671 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 09:39:52,375 - ERROR - [root.Check_SN.<module>:42] - web scraping failed
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Check_SN.py", line 38, in <module>
+    print(output.getvalue())
+    ~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\x84' in position 164: character maps to <undefined>
+2026-06-04 09:40:12,187 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 09:40:20,468 - ERROR - [root.selenium_util.__exit__:86] - Context closed due to an exception: 'charmap' codec can't encode character '\x84' in position 164: character maps to <undefined>
+2026-06-04 09:40:20,468 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 09:40:23,149 - ERROR - [root.Check_SN.<module>:42] - web scraping failed
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Check_SN.py", line 38, in <module>
+    print(output.getvalue())
+    ~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\x84' in position 164: character maps to <undefined>
+2026-06-04 09:40:36,235 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 09:40:44,491 - ERROR - [root.selenium_util.__exit__:86] - Context closed due to an exception: 'charmap' codec can't encode character '\x84' in position 164: character maps to <undefined>
+2026-06-04 09:40:44,491 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 09:40:47,188 - ERROR - [root.Check_SN.<module>:42] - web scraping failed
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Check_SN.py", line 38, in <module>
+    print(output.getvalue())
+    ~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\x84' in position 164: character maps to <undefined>
+2026-06-04 09:41:21,398 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 09:41:23,359 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 09:41:35,390 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 09:41:43,643 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 09:46:45,147 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 09:46:53,387 - ERROR - [root.selenium_util.__exit__:86] - Context closed due to an exception: 'charmap' codec can't encode character '\x84' in position 164: character maps to <undefined>
+2026-06-04 09:46:53,387 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 09:46:56,087 - ERROR - [root.Check_SN.<module>:42] - web scraping failed
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Check_SN.py", line 38, in <module>
+    print(output.getvalue())
+    ~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\x84' in position 164: character maps to <undefined>
+2026-06-04 09:50:47,243 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 09:50:55,477 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 09:51:07,927 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 09:51:16,207 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 09:52:33,814 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 09:52:42,126 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 10:13:20,587 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 10:13:30,113 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 10:14:39,345 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 10:14:47,551 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 10:16:11,970 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 10:16:20,144 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 10:18:46,713 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 10:18:54,826 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 10:19:20,084 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 10:19:28,206 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 10:19:43,420 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 10:19:51,679 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 10:20:23,105 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 10:20:27,542 - INFO - [root.tkinter_util._hotkey_exit:24] - hotkey pressed, terminating test program
+2026-06-04 10:47:51,190 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 10:48:00,699 - ERROR - [root.selenium_util.__exit__:86] - Context closed due to an exception: 'text'
+2026-06-04 10:48:00,699 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 10:48:03,381 - ERROR - [root.Check_SN.<module>:58] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Check_SN.py", line 44, in <module>
+    df['clean_text'] = df['text'].str.replace(r'[^a-zA-Z0-9\s]', '', regex=True)
+                       ~~^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4378, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\range.py", line 525, in get_loc
+    raise KeyError(key)
+KeyError: 'text'
+2026-06-04 10:52:28,981 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 10:52:37,195 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 10:53:46,446 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 10:53:54,691 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 10:54:52,971 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 10:55:01,184 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 10:57:07,803 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 10:57:16,038 - ERROR - [root.selenium_util.__exit__:86] - Context closed due to an exception: 'Manufacturer Name'
+2026-06-04 10:57:16,038 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 10:57:18,760 - ERROR - [root.Check_SN.<module>:63] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Check_SN.py", line 50, in <module>
+    print (df.loc["Manufacturer Name"])
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexing.py", line 1207, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexing.py", line 1449, in _getitem_axis
+    return self._get_label(key, axis=axis)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexing.py", line 1399, in _get_label
+    return self.obj.xs(label, axis=axis)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\generic.py", line 4253, in xs
+    loc = index.get_loc(key)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\range.py", line 525, in get_loc
+    raise KeyError(key)
+KeyError: 'Manufacturer Name'
+2026-06-04 10:58:16,395 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 10:58:24,627 - ERROR - [root.selenium_util.__exit__:86] - Context closed due to an exception: '       Manufacturer Name'
+2026-06-04 10:58:24,627 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 10:58:27,367 - ERROR - [root.Check_SN.<module>:63] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Check_SN.py", line 50, in <module>
+    print (df.loc["       Manufacturer Name"])
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexing.py", line 1207, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexing.py", line 1449, in _getitem_axis
+    return self._get_label(key, axis=axis)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexing.py", line 1399, in _get_label
+    return self.obj.xs(label, axis=axis)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\generic.py", line 4253, in xs
+    loc = index.get_loc(key)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\range.py", line 525, in get_loc
+    raise KeyError(key)
+KeyError: '       Manufacturer Name'
+2026-06-04 11:03:03,674 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 11:03:12,442 - ERROR - [root.selenium_util.__exit__:86] - Context closed due to an exception: 'Manufacturer Name'
+2026-06-04 11:03:12,442 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 11:03:15,175 - ERROR - [root.Check_SN.<module>:65] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Check_SN.py", line 49, in <module>
+    print (df.loc["Manufacturer Name"])
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexing.py", line 1207, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexing.py", line 1449, in _getitem_axis
+    return self._get_label(key, axis=axis)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexing.py", line 1399, in _get_label
+    return self.obj.xs(label, axis=axis)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\generic.py", line 4253, in xs
+    loc = index.get_loc(key)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\range.py", line 525, in get_loc
+    raise KeyError(key)
+KeyError: 'Manufacturer Name'
+2026-06-04 11:03:25,969 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 11:03:34,292 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 11:09:50,923 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 11:09:59,162 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 11:10:22,955 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 11:10:31,098 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 11:23:41,674 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 11:23:50,706 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 11:24:27,990 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 11:24:36,282 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 11:24:54,190 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 11:25:02,375 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 11:26:37,728 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 11:26:45,862 - ERROR - [root.selenium_util.__exit__:86] - Context closed due to an exception: 'charmap' codec can't encode character '\x84' in position 170: character maps to <undefined>
+2026-06-04 11:26:45,862 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 11:26:48,598 - ERROR - [root.Check_SN.<module>:52] - web scraping failed
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Check_SN.py", line 47, in <module>
+    print (csv_string)
+    ~~~~~~^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\x84' in position 170: character maps to <undefined>
+2026-06-04 11:27:43,121 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 11:27:51,336 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 11:31:21,796 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 11:31:30,009 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 11:39:50,834 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 11:39:59,678 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 11:40:40,634 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 11:40:48,834 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 11:43:46,249 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 11:43:54,466 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 11:45:43,860 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 11:45:52,095 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 12:02:18,231 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 12:02:28,199 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 15:23:53,650 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:23:57,369 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 15:26:39,785 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:26:41,732 - DEBUG - [root.selenium_util.get_element_size:151] - Element ('id', 'header') width: 800px, height: 86px
+2026-06-04 15:26:41,732 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 15:35:01,725 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:35:03,697 - DEBUG - [root.selenium_util.get_element_size:151] - Element ('id', 'header') width: 800px, height: 86px
+2026-06-04 15:35:03,697 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 15:35:32,842 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:35:34,875 - DEBUG - [root.selenium_util.get_element_size:151] - Element ('id', 'header') width: 800px, height: 86px
+2026-06-04 15:35:34,875 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 15:35:42,308 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:35:44,265 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 15:35:53,128 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:36:01,255 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 15:38:40,739 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:38:48,842 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 15:39:31,074 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:39:40,288 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 15:39:55,154 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:40:01,468 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 15:40:24,008 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:40:30,270 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 15:40:40,938 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:40:47,289 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 15:41:24,380 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:41:30,897 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 15:44:56,842 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:45:03,250 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 15:46:07,473 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:46:13,786 - ERROR - [root.selenium_util.__exit__:86] - Context closed due to an exception: 'charmap' codec can't encode character '\u2103' in position 501: character maps to <undefined>
+2026-06-04 15:46:13,786 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 15:46:16,529 - ERROR - [root.Read_Parameters.<module>:55] - web scraping failed
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Read_Parameters.py", line 48, in <module>
+    print (csv_string)
+    ~~~~~~^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2103' in position 501: character maps to <undefined>
+2026-06-04 15:47:12,757 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:47:14,753 - DEBUG - [root.selenium_util.get_element_size:151] - Element ('id', 'header') width: 800px, height: 86px
+2026-06-04 15:47:14,753 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 15:48:08,733 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:48:10,772 - DEBUG - [root.selenium_util.get_element_size:151] - Element ('id', 'header') width: 800px, height: 86px
+2026-06-04 15:48:10,772 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 15:48:36,119 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:48:37,998 - INFO - [root.tkinter_util._hotkey_exit:24] - hotkey pressed, terminating test program
+2026-06-04 15:54:24,705 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:54:31,809 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 15:54:59,649 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:55:06,593 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 15:55:39,280 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:55:45,606 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 15:58:52,783 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 15:58:54,782 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-04 15:58:58,998 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 16:01:03,351 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:01:05,318 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-04 16:01:05,952 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 16:03:53,499 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:03:56,043 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-04 16:03:56,659 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 16:04:44,149 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:04:46,165 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-04 16:04:46,789 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 16:05:02,502 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:05:04,544 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-04 16:05:05,174 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 16:15:30,376 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:15:33,823 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 16:15:53,693 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:15:56,443 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 16:18:59,322 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:19:02,169 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 16:19:19,427 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:20:15,045 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 16:22:17,899 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:22:33,734 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 16:28:57,131 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:28:59,514 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-04 16:29:00,145 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 16:29:23,588 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:29:25,572 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-04 16:29:26,197 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 16:29:38,347 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:29:51,643 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 16:35:08,479 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:35:11,605 - ERROR - [root.selenium_util.__exit__:86] - Context closed due to an exception: Alert Text: Are you sure you want to enable Cyber Security?
+Message: unexpected alert open: {Alert text : Are you sure you want to enable Cyber Security?}
+  (Session info: chrome=148.0.7778.217)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff79ed57de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff79ed57e50+14900]
+	chromedriver!(No symbol) [0x7ff79eabd5ad]
+	chromedriver!(No symbol) [0x7ff79eb65338]
+	chromedriver!(No symbol) [0x7ff79eb09df8]
+	chromedriver!(No symbol) [0x7ff79eb0ace3]
+	chromedriver!GetHandleVerifier [0x7ff79f06cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff79f067375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff79f08bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff79ed76045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff79ed7ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff79ed61bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff79ed61d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff79ed460e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff991c0e957+17]
+	ntdll!RtlUserThreadStart [0x7ff9935c427c+2c]
+
+2026-06-04 16:35:11,605 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 16:35:14,182 - ERROR - [root.Check_Security.<module>:69] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Check_Security.py", line 32, in <module>
+    browser.check_box(browser.loc(element_id='cbPCShutdown'), True)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\tde_utilities\selenium_util.py", line 137, in check_box
+    element = self.wait_for_visibility(locator)
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\tde_utilities\selenium_util.py", line 98, in wait_for_visibility
+    return WebDriverWait(self.driver, t).until(EC.visibility_of_element_located(locator))
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\support\expected_conditions.py", line 184, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+                               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 868, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 468, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\errorhandler.py", line 231, in check_response
+    raise exception_class(message, screen, stacktrace, alert_text)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: Are you sure you want to enable Cyber Security?
+Message: unexpected alert open: {Alert text : Are you sure you want to enable Cyber Security?}
+  (Session info: chrome=148.0.7778.217)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff79ed57de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff79ed57e50+14900]
+	chromedriver!(No symbol) [0x7ff79eabd5ad]
+	chromedriver!(No symbol) [0x7ff79eb65338]
+	chromedriver!(No symbol) [0x7ff79eb09df8]
+	chromedriver!(No symbol) [0x7ff79eb0ace3]
+	chromedriver!GetHandleVerifier [0x7ff79f06cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff79f067375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff79f08bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff79ed76045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff79ed7ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff79ed61bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff79ed61d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff79ed460e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff991c0e957+17]
+	ntdll!RtlUserThreadStart [0x7ff9935c427c+2c]
+
+2026-06-04 16:35:48,339 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:35:51,190 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 16:36:32,485 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:36:35,251 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 16:36:52,032 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:42:06,555 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:42:17,129 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 16:42:26,494 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:42:29,255 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 16:43:14,132 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:43:44,565 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 16:46:33,322 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:47:16,155 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 16:47:18,200 - INFO - [root.selenium_util.wait_for_javascript_ready:122] - Waiting for background JavaScript engine to settle...
+2026-06-04 16:47:18,835 - INFO - [root.selenium_util.close:71] - Closing browser session cleanly.
+2026-06-04 17:13:00,439 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:13:04,315 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:13:06,964 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:14:12,750 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:14:15,523 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:14:18,143 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:14:20,085 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:14:23,708 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:14:25,633 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:14:29,241 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:14:31,170 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:14:34,796 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:14:36,742 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:14:37,580 - INFO - [root.tkinter_util._hotkey_exit:24] - hotkey pressed, terminating test program
+2026-06-04 17:14:54,834 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:14:56,768 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-04 17:14:57,398 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:15:07,731 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:15:09,737 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-04 17:15:10,363 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:19:46,747 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:19:48,819 - ERROR - [root.selenium_util.__exit__:90] - Context closed due to an exception: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.217); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff79ed57de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff79ed57e50+14900]
+	chromedriver!(No symbol) [0x7ff79eabd5ad]
+	chromedriver!(No symbol) [0x7ff79eac5521]
+	chromedriver!(No symbol) [0x7ff79eac85e5]
+	chromedriver!(No symbol) [0x7ff79eac86af]
+	chromedriver!(No symbol) [0x7ff79eb12a5c]
+	chromedriver!(No symbol) [0x7ff79eb4005a]
+	chromedriver!(No symbol) [0x7ff79eb0b566]
+	chromedriver!(No symbol) [0x7ff79eb6486f]
+	chromedriver!(No symbol) [0x7ff79eb09df8]
+	chromedriver!(No symbol) [0x7ff79eb0ace3]
+	chromedriver!GetHandleVerifier [0x7ff79f06cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff79f067375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff79f08bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff79ed76045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff79ed7ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff79ed61bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff79ed61d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff79ed460e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff991c0e957+17]
+	ntdll!RtlUserThreadStart [0x7ff9935c427c+2c]
+
+2026-06-04 17:19:48,819 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:20:18,450 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:20:20,498 - ERROR - [root.selenium_util.__exit__:90] - Context closed due to an exception: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.217); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff79ed57de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff79ed57e50+14900]
+	chromedriver!(No symbol) [0x7ff79eabd5ad]
+	chromedriver!(No symbol) [0x7ff79eac5521]
+	chromedriver!(No symbol) [0x7ff79eac85e5]
+	chromedriver!(No symbol) [0x7ff79eac86af]
+	chromedriver!(No symbol) [0x7ff79eb12a5c]
+	chromedriver!(No symbol) [0x7ff79eb4005a]
+	chromedriver!(No symbol) [0x7ff79eb0b566]
+	chromedriver!(No symbol) [0x7ff79eb6486f]
+	chromedriver!(No symbol) [0x7ff79eb09df8]
+	chromedriver!(No symbol) [0x7ff79eb0ace3]
+	chromedriver!GetHandleVerifier [0x7ff79f06cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff79f067375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff79f08bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff79ed76045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff79ed7ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff79ed61bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff79ed61d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff79ed460e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff991c0e957+17]
+	ntdll!RtlUserThreadStart [0x7ff9935c427c+2c]
+
+2026-06-04 17:20:20,498 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:20:32,157 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:20:34,233 - ERROR - [root.selenium_util.__exit__:90] - Context closed due to an exception: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.217); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff79ed57de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff79ed57e50+14900]
+	chromedriver!(No symbol) [0x7ff79eabd5ad]
+	chromedriver!(No symbol) [0x7ff79eac5521]
+	chromedriver!(No symbol) [0x7ff79eac85e5]
+	chromedriver!(No symbol) [0x7ff79eac86af]
+	chromedriver!(No symbol) [0x7ff79eb16f9e]
+	chromedriver!(No symbol) [0x7ff79eb17b2c]
+	chromedriver!(No symbol) [0x7ff79eb0bbcc]
+	chromedriver!(No symbol) [0x7ff79eb0b566]
+	chromedriver!(No symbol) [0x7ff79eb6486f]
+	chromedriver!(No symbol) [0x7ff79eb09df8]
+	chromedriver!(No symbol) [0x7ff79eb0ace3]
+	chromedriver!GetHandleVerifier [0x7ff79f06cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff79f067375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff79f08bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff79ed76045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff79ed7ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff79ed61bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff79ed61d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff79ed460e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff991c0e957+17]
+	ntdll!RtlUserThreadStart [0x7ff9935c427c+2c]
+
+2026-06-04 17:20:34,233 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:20:36,839 - ERROR - [root.Read_Settings.<module>:58] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Read_Settings.py", line 32, in <module>
+    content = browser.scrape_table(browser.loc(element_id='overview-table'))
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\tde_utilities\selenium_util.py", line 168, in scrape_table
+    cells = row.find_elements(By.XPATH, ".//td | .//th")
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webelement.py", line 556, in find_elements
+    return self._execute(Command.FIND_CHILD_ELEMENTS, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webelement.py", line 508, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 468, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=148.0.7778.217); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff79ed57de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff79ed57e50+14900]
+	chromedriver!(No symbol) [0x7ff79eabd5ad]
+	chromedriver!(No symbol) [0x7ff79eac5521]
+	chromedriver!(No symbol) [0x7ff79eac85e5]
+	chromedriver!(No symbol) [0x7ff79eac86af]
+	chromedriver!(No symbol) [0x7ff79eb16f9e]
+	chromedriver!(No symbol) [0x7ff79eb17b2c]
+	chromedriver!(No symbol) [0x7ff79eb0bbcc]
+	chromedriver!(No symbol) [0x7ff79eb0b566]
+	chromedriver!(No symbol) [0x7ff79eb6486f]
+	chromedriver!(No symbol) [0x7ff79eb09df8]
+	chromedriver!(No symbol) [0x7ff79eb0ace3]
+	chromedriver!GetHandleVerifier [0x7ff79f06cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff79f067375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff79f08bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff79ed76045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff79ed7ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff79ed61bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff79ed61d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff79ed460e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff991c0e957+17]
+	ntdll!RtlUserThreadStart [0x7ff9935c427c+2c]
+
+2026-06-04 17:22:03,999 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:22:17,856 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:24:42,005 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:24:50,461 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:25:54,666 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:26:02,983 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:29:52,184 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:30:00,775 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:30:22,429 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:30:30,758 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:41:58,497 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:42:06,783 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:46:39,185 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:46:47,908 - ERROR - [root.selenium_util.__exit__:90] - Context closed due to an exception: 4
+2026-06-04 17:46:47,908 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:46:50,642 - ERROR - [root.Read_Settings.<module>:62] - web scraping failed
+Traceback (most recent call last):
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\range.py", line 521, in get_loc
+    return self._range.index(new_key)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+ValueError: 4 is not in range
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Read_Settings.py", line 46, in <module>
+    df.loc[df[4] == "Identification", 1] = "°C"
+           ~~^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4378, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\range.py", line 523, in get_loc
+    raise KeyError(key) from err
+KeyError: 4
+2026-06-04 17:47:04,804 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:47:13,097 - ERROR - [root.selenium_util.__exit__:90] - Context closed due to an exception: 4
+2026-06-04 17:47:13,097 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:47:15,847 - ERROR - [root.Read_Settings.<module>:62] - web scraping failed
+Traceback (most recent call last):
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\range.py", line 521, in get_loc
+    return self._range.index(new_key)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+ValueError: 4 is not in range
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Read_Settings.py", line 46, in <module>
+    df.loc[df[4] == "Identification", 1] = "°C"
+           ~~^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4378, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\range.py", line 523, in get_loc
+    raise KeyError(key) from err
+KeyError: 4
+2026-06-04 17:47:33,048 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:47:47,939 - ERROR - [root.selenium_util.__exit__:90] - Context closed due to an exception: 4
+2026-06-04 17:47:47,939 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:47:53,239 - ERROR - [root.Read_Settings.<module>:62] - web scraping failed
+Traceback (most recent call last):
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\range.py", line 521, in get_loc
+    return self._range.index(new_key)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^
+ValueError: 4 is not in range
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Read_Settings.py", line 46, in <module>
+    df.loc[df[4] == "Identification", 1] = "°C"
+           ~~^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\frame.py", line 4378, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pandas\core\indexes\range.py", line 523, in get_loc
+    raise KeyError(key) from err
+KeyError: 4
+2026-06-04 17:49:07,345 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:49:15,599 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:49:37,877 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:49:46,081 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:51:22,577 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:51:30,841 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:52:38,211 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:52:46,551 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:56:56,245 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:56:58,129 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-04 17:56:58,674 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:58:50,043 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:58:52,777 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:58:55,385 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:58:57,242 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:59:00,853 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-04 17:59:05,466 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-04 17:59:07,365 - INFO - [root.tkinter_util._hotkey_exit:24] - hotkey pressed, terminating test program
+2026-06-05 10:32:14,845 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 10:32:28,528 - ERROR - [root.selenium_util.__exit__:90] - Context closed due to an exception: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=148.0.7778.217); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff79ed57de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff79ed57e50+14900]
+	chromedriver!(No symbol) [0x7ff79eabd5ad]
+	chromedriver!(No symbol) [0x7ff79eaa8a92]
+	chromedriver!(No symbol) [0x7ff79eacee6c]
+	chromedriver!(No symbol) [0x7ff79eb471b0]
+	chromedriver!(No symbol) [0x7ff79eb64172]
+	chromedriver!(No symbol) [0x7ff79eb09df8]
+	chromedriver!(No symbol) [0x7ff79eb0ace3]
+	chromedriver!GetHandleVerifier [0x7ff79f06cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff79f067375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff79f08bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff79ed76045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff79ed7ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff79ed61bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff79ed61d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff79ed460e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff991c0e957+17]
+	ntdll!RtlUserThreadStart [0x7ff9935c427c+2c]
+
+2026-06-05 10:32:28,529 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 10:32:31,286 - ERROR - [root.Config_Ether1_Speed_100M.<module>:39] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Config_Ether1_Speed_100M.py", line 29, in <module>
+    browser.click(browser.loc(element_id='nw_config'))
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\tde_utilities\selenium_util.py", line 137, in click
+    element = WebDriverWait(self.driver, self.timeout).until(EC.element_to_be_clickable(locator))
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\support\wait.py", line 112, in until
+    value = method(self._driver)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\support\expected_conditions.py", line 514, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 868, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 468, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=148.0.7778.217); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff79ed57de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff79ed57e50+14900]
+	chromedriver!(No symbol) [0x7ff79eabd5ad]
+	chromedriver!(No symbol) [0x7ff79eaa8a92]
+	chromedriver!(No symbol) [0x7ff79eacee6c]
+	chromedriver!(No symbol) [0x7ff79eb471b0]
+	chromedriver!(No symbol) [0x7ff79eb64172]
+	chromedriver!(No symbol) [0x7ff79eb09df8]
+	chromedriver!(No symbol) [0x7ff79eb0ace3]
+	chromedriver!GetHandleVerifier [0x7ff79f06cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff79f067375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff79f08bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff79ed76045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff79ed7ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff79ed61bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff79ed61d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff79ed460e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff991c0e957+17]
+	ntdll!RtlUserThreadStart [0x7ff9935c427c+2c]
+
+2026-06-05 10:32:47,894 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 10:33:00,563 - ERROR - [root.selenium_util.__exit__:90] - Context closed due to an exception: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff79ed57de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff79ed57e50+14900]
+	chromedriver!(No symbol) [0x7ff79eabd5ad]
+	chromedriver!(No symbol) [0x7ff79eb17822]
+	chromedriver!(No symbol) [0x7ff79eb17b2c]
+	chromedriver!(No symbol) [0x7ff79eb67d17]
+	chromedriver!(No symbol) [0x7ff79eb6486f]
+	chromedriver!(No symbol) [0x7ff79eb09df8]
+	chromedriver!(No symbol) [0x7ff79eb0ace3]
+	chromedriver!GetHandleVerifier [0x7ff79f06cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff79f067375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff79f08bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff79ed76045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff79ed7ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff79ed61bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff79ed61d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff79ed460e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff991c0e957+17]
+	ntdll!RtlUserThreadStart [0x7ff9935c427c+2c]
+
+2026-06-05 10:33:00,563 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 10:33:03,206 - ERROR - [root.Config_Ether1_Speed_100M.<module>:39] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Config_Ether1_Speed_100M.py", line 29, in <module>
+    browser.click(browser.loc(element_id='nw_config'))
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\tde_utilities\selenium_util.py", line 137, in click
+    element = WebDriverWait(self.driver, self.timeout).until(EC.element_to_be_clickable(locator))
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff79ed57de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff79ed57e50+14900]
+	chromedriver!(No symbol) [0x7ff79eabd5ad]
+	chromedriver!(No symbol) [0x7ff79eb17822]
+	chromedriver!(No symbol) [0x7ff79eb17b2c]
+	chromedriver!(No symbol) [0x7ff79eb67d17]
+	chromedriver!(No symbol) [0x7ff79eb6486f]
+	chromedriver!(No symbol) [0x7ff79eb09df8]
+	chromedriver!(No symbol) [0x7ff79eb0ace3]
+	chromedriver!GetHandleVerifier [0x7ff79f06cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff79f067375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff79f08bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff79ed76045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff79ed7ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff79ed61bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff79ed61d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff79ed460e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff991c0e957+17]
+	ntdll!RtlUserThreadStart [0x7ff9935c427c+2c]
+
+2026-06-05 10:33:29,710 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 10:33:53,316 - ERROR - [root.selenium_util.__exit__:90] - Context closed due to an exception: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff79ed57de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff79ed57e50+14900]
+	chromedriver!(No symbol) [0x7ff79eabd5ad]
+	chromedriver!(No symbol) [0x7ff79eb17822]
+	chromedriver!(No symbol) [0x7ff79eb17b2c]
+	chromedriver!(No symbol) [0x7ff79eb67d17]
+	chromedriver!(No symbol) [0x7ff79eb6486f]
+	chromedriver!(No symbol) [0x7ff79eb09df8]
+	chromedriver!(No symbol) [0x7ff79eb0ace3]
+	chromedriver!GetHandleVerifier [0x7ff79f06cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff79f067375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff79f08bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff79ed76045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff79ed7ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff79ed61bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff79ed61d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff79ed460e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff991c0e957+17]
+	ntdll!RtlUserThreadStart [0x7ff9935c427c+2c]
+
+2026-06-05 10:33:53,317 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 10:34:02,184 - ERROR - [root.Config_Ether1_Speed_100M.<module>:34] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Config_Ether1_Speed_100M.py", line 24, in <module>
+    browser.click(browser.loc(element_id='nw_config'))
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\tde_utilities\selenium_util.py", line 137, in click
+    element = WebDriverWait(self.driver, self.timeout).until(EC.element_to_be_clickable(locator))
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\support\wait.py", line 121, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff79ed57de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff79ed57e50+14900]
+	chromedriver!(No symbol) [0x7ff79eabd5ad]
+	chromedriver!(No symbol) [0x7ff79eb17822]
+	chromedriver!(No symbol) [0x7ff79eb17b2c]
+	chromedriver!(No symbol) [0x7ff79eb67d17]
+	chromedriver!(No symbol) [0x7ff79eb6486f]
+	chromedriver!(No symbol) [0x7ff79eb09df8]
+	chromedriver!(No symbol) [0x7ff79eb0ace3]
+	chromedriver!GetHandleVerifier [0x7ff79f06cc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff79f067375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff79f08bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff79ed76045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff79ed7ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff79ed61bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff79ed61d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff79ed460e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff991c0e957+17]
+	ntdll!RtlUserThreadStart [0x7ff9935c427c+2c]
+
+2026-06-05 10:35:31,397 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 10:35:47,836 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 10:36:00,848 - ERROR - [root.selenium_util.__exit__:90] - Context closed due to an exception: Browser.select_by_value() missing 1 required positional argument: 'value'
+2026-06-05 10:36:00,848 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 10:36:03,677 - ERROR - [root.Config_Ether1_Speed_100M.<module>:34] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Config_Ether1_Speed_100M.py", line 30, in <module>
+    browser.select_by_value(browser.loc(name='comm1'))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Browser.select_by_value() missing 1 required positional argument: 'value'
+2026-06-05 10:38:41,426 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 10:38:46,436 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 10:39:18,233 - ERROR - [root.selenium_util.__exit__:90] - Context closed due to an exception: 'tuple' object is not callable
+2026-06-05 10:39:18,233 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 10:39:20,933 - ERROR - [root.Config_Ether1_Speed_100M.<module>:34] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Config_Ether1_Speed_100M.py", line 30, in <module>
+    browser.select_by_value(browser.loc(name='comm1')(value=1))
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+TypeError: 'tuple' object is not callable
+2026-06-05 10:39:30,838 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 10:39:32,886 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 10:39:39,885 - ERROR - [root.selenium_util.__exit__:90] - Context closed due to an exception: 'tuple' object is not callable
+2026-06-05 10:39:39,886 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 10:39:42,589 - ERROR - [root.Config_Ether1_Speed_100M.<module>:34] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Config_Ether1_Speed_100M.py", line 30, in <module>
+    browser.select_by_value(browser.loc(name='comm1')(value=1))
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+TypeError: 'tuple' object is not callable
+2026-06-05 10:39:49,995 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 10:39:51,948 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 10:39:52,457 - ERROR - [root.selenium_util.__exit__:90] - Context closed due to an exception: 'tuple' object is not callable
+2026-06-05 10:39:52,457 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 10:39:55,059 - ERROR - [root.Config_Ether1_Speed_100M.<module>:34] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Config_Ether1_Speed_100M.py", line 30, in <module>
+    browser.select_by_value(browser.loc(name='comm1')(value=1))
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+TypeError: 'tuple' object is not callable
+2026-06-05 10:41:58,974 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 10:42:00,965 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 10:42:01,475 - ERROR - [root.selenium_util.__exit__:90] - Context closed due to an exception: 'tuple' object is not callable
+2026-06-05 10:42:01,475 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 10:42:04,118 - ERROR - [root.Config_Ether1_Speed_100M.<module>:34] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Config_Ether1_Speed_100M.py", line 30, in <module>
+    browser.select_by_value(browser.loc(name='comm1')(value='1'))
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+TypeError: 'tuple' object is not callable
+2026-06-05 10:45:15,295 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 10:45:17,752 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 10:45:18,260 - ERROR - [root.selenium_util.__exit__:90] - Context closed due to an exception: 'tuple' object has no attribute 'tag_name'
+2026-06-05 10:45:18,260 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 10:45:20,867 - ERROR - [root.Config_Ether1_Speed_100M.<module>:38] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Config_Ether1_Speed_100M.py", line 31, in <module>
+    select_object = Select(browser.loc(name='comm1'))
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\support\select.py", line 38, in __init__
+    if webelement.tag_name.lower() != "select":
+       ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'tag_name'
+2026-06-05 10:48:57,707 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 10:48:59,700 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 10:49:00,210 - ERROR - [root.selenium_util.__exit__:90] - Context closed due to an exception: 'Browser' object has no attribute 'find_element'
+2026-06-05 10:49:00,211 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 10:49:02,843 - ERROR - [root.Config_Ether1_Speed_100M.<module>:39] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Config_Ether1_Speed_100M.py", line 31, in <module>
+    element = browser.find_element(By.NAME, 'comm1')
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Browser' object has no attribute 'find_element'
+2026-06-05 10:49:46,316 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 10:49:48,317 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 10:49:48,825 - ERROR - [root.selenium_util.__exit__:90] - Context closed due to an exception: 'tuple' object has no attribute 'tag_name'
+2026-06-05 10:49:48,825 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 10:49:51,443 - ERROR - [root.Config_Ether1_Speed_100M.<module>:39] - web scraping failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\Webscraper\Config_Ether1_Speed_100M.py", line 32, in <module>
+    select_object = Select(element)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\support\select.py", line 38, in __init__
+    if webelement.tag_name.lower() != "select":
+       ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'tag_name'
+2026-06-05 10:51:26,684 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 10:51:28,717 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 10:51:29,773 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 10:51:41,333 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 10:51:43,307 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 10:52:00,922 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 10:54:03,036 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 10:54:05,669 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 10:54:09,831 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 10:56:34,982 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 10:56:37,026 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 10:56:40,934 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 10:57:16,914 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 10:57:18,940 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 10:57:19,526 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 10:57:49,981 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 10:57:52,005 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 10:57:53,086 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 10:58:48,250 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 10:58:50,257 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 10:58:51,352 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 10:59:39,037 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 10:59:40,977 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 10:59:42,090 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 11:00:10,850 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 11:00:12,857 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 11:00:13,962 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 11:05:08,764 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 11:05:10,815 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 11:05:11,976 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 11:26:27,019 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 11:26:29,918 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 11:26:31,021 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 11:27:09,712 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 11:27:11,777 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 11:27:12,860 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 11:27:21,050 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 11:27:23,036 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 11:27:24,120 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 11:27:42,288 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 11:27:44,278 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 11:27:45,350 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 11:33:54,032 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 11:33:56,492 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 11:33:57,598 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 11:34:06,891 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 11:34:08,824 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 11:34:10,414 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 11:34:18,700 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 11:34:20,649 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 11:34:21,734 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 11:34:28,896 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 11:34:30,863 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 11:34:36,468 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 11:34:44,943 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 11:34:47,582 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 11:34:53,190 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 11:35:06,963 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 11:35:35,384 - INFO - [root.tkinter_util._hotkey_exit:24] - hotkey pressed, terminating test program
+2026-06-05 11:35:42,845 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 11:35:57,055 - INFO - [root.tkinter_util._hotkey_exit:24] - hotkey pressed, terminating test program
+2026-06-05 13:50:44,853 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 13:50:50,824 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 13:50:52,582 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 13:51:00,374 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 13:51:03,761 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 13:51:04,872 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 13:51:21,696 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 13:51:25,099 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 13:51:26,211 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 13:51:36,288 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 13:51:39,678 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 13:51:45,289 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 13:52:13,112 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 13:52:16,524 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 13:52:18,613 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 13:52:30,198 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 13:52:33,688 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 13:52:39,339 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 13:58:06,744 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 13:58:10,020 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 13:58:11,093 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 13:58:24,778 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 13:58:26,871 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 13:58:27,947 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 13:58:42,540 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 13:58:44,555 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 13:58:45,620 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 13:58:52,558 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 13:58:55,821 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 13:59:01,424 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 13:59:10,517 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 13:59:13,958 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 13:59:15,024 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 13:59:25,957 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 13:59:29,514 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 13:59:30,598 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 13:59:35,982 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 13:59:39,427 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 13:59:40,506 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 13:59:45,521 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 13:59:48,932 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 13:59:54,530 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:00:00,367 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:00:02,363 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:00:03,447 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:00:25,729 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:00:27,852 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:00:28,922 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:00:35,204 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:00:38,294 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:00:43,900 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:00:49,949 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:00:53,409 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:00:54,479 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:00:58,944 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:01:02,350 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:01:07,957 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:01:26,001 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:01:29,032 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:01:30,116 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:01:34,630 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:01:36,778 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:01:47,416 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:02:06,573 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:02:09,966 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:02:14,070 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:04:01,357 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:04:04,634 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:04:20,348 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:04:51,363 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:04:55,258 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:04:56,357 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:05:19,224 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:05:22,725 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:05:24,821 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:07:26,222 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:07:29,577 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:07:30,651 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:07:36,217 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:07:39,634 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:07:45,297 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:08:02,362 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:08:04,370 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:08:05,437 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:08:13,498 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:08:15,487 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:08:21,652 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:12:03,126 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:12:06,549 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:12:10,225 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:12:18,266 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:12:21,765 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:12:22,848 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:13:06,592 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:13:09,986 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:13:11,073 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:13:16,257 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:13:19,697 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:13:25,847 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:13:31,815 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:13:33,825 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:13:39,971 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 14:14:11,470 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 14:14:14,881 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 14:14:18,546 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 18:18:32,402 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 18:18:36,798 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 18:18:41,777 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 18:22:47,415 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 18:22:50,862 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 18:22:55,037 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 18:26:42,057 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 18:26:45,515 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 18:26:54,950 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 18:32:19,185 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 18:32:22,595 - INFO - [root.selenium_util.wait_for_javascript_ready:126] - Waiting for background JavaScript engine to settle...
+2026-06-05 18:32:32,040 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.
+2026-06-05 18:46:19,430 - INFO - [root.selenium_util.start:47] - Launching Chrome session for: http://192.168.1.5
+2026-06-05 18:46:29,728 - INFO - [root.selenium_util.close:75] - Closing browser session cleanly.

@@ -1,34 +1,35 @@
-from pywinauto.application import Application
-from pywinauto.controls.win32_controls import ButtonWrapper
-from io import StringIO
-import sys
-import re
-import time
-import pyautogui
+import os
+import logging
+import time 
 
-def is_ip_zero():
-    print("is_ip_zero")
-    return (pyautogui.locateOnScreen('./Picture/ip_zero.png', confidence=0.9) != None)
+from tde_utilities.log_util import setup_custom_logger
+from tde_utilities.win_util import WindowApp
 
-def is_dhcp_enabled():
-    print("is_dhcp_enabled")
-    return (pyautogui.locateOnScreen('./Picture/dhcp_enabled.png', confidence=0.9) != None)    
-   
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+setup_custom_logger(script_dir)
+
+path = r"C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe"
+title = "HMS IPconfig"
 
 try:
-    app = Application(backend='uia').start('C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe')
-    app = Application(backend='uia').connect(title='HMS IPconfig', timeout=10)
-    #move cursor to top right corner to prevent false failure
-    pyautogui.moveTo(0, 0)
-    time.sleep(5)
-    if (is_ip_zero() and is_dhcp_enabled()):
+    t1 = time.time()
+    logging.info("begin: Check for default IP and DHCP")
+    with WindowApp(path, title) as ui:
+        # open device configuration
+        ui.find("SDU_20-24BC-EIP").click_input()
+        ip_address = ui.find("IP address", xy_ratio=(0, 1.5), debug_img_path=script_dir+r"\debug\a.png").window_text()
+        dhcp_state = ui.find("Retrieve IP").get_toggle_state()
+        logging.info(f"{ip_address=}, {dhcp_state=}")
+    if (ip_address == '0.0.0.0' and dhcp_state):
         print("VERIFY_DHCP_ENABLED_SUCCESS")
     else:
-        if not (is_ip_zero()):
+        if ip_address != '0.0.0.0':
             print("IP is not 0.0.0.0")
-        if not (is_dhcp_enabled()):
+        if not dhcp_state:
             print("DHCP is not Enabled")
-    
-except:
-    print("FAIL")
-app.window(title='HMS IPconfig').close()
+    # print("SUCCESS: Static IP Set-up Succssfully")
+    logging.info(f"end: Static IP Set-up via HMS IPConfig, took {time.time()-t1:.2f}s")
+except Exception as e:
+    print(f"ERROR: Check for default IP and DHCP failed: {e}")
+    logging.exception("Check for default IP and DHCP failed")
