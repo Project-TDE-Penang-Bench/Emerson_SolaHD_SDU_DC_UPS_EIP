@@ -1,0 +1,1204 @@
+TST-C-ROS-T2935    9/6/2026 8:44:08 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<0>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:28 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<1>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:36 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<2>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:36 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<3>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:36 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<4>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:37 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<5>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:37 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<6>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:37 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<7>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:38 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<8>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:38 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<9>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:38 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<A>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:38 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:39 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<C>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:39 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<D>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:39 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<E>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:40 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<F>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:40 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<10>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:40 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<11>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:41 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<12>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:41 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<13>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:41 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<14>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:42 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<15>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:42 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<16>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:42 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<17>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:43 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<18>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:43 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<19>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:43 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<1A>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:44 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<1B>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:44 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<1C>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:44 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<1D>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:44 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<1E>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:45 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<1F>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:45 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<20>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:45 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<21>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:46 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<22>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:46 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<23>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:46 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<24>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:47 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<25>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:47 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<26>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:47 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<27>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:48 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<28>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:48 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<29>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:48 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<2A>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:49 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<2B>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:49 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<2C>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:49 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<2D>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:50 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<2E>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:50 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<2F>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:50 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<30>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:51 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<31>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:51 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<32>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:51 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<33>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:51 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<34>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:52 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<35>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:52 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<36>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:52 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<37>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:53 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<38>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:53 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<39>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:53 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<3A>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:54 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<3B>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:54 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<3C>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:54 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<3D>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:55 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<3E>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:55 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<3F>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:44:55 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<40>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read UUT PCBA EESPY' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:50:39 AM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The precondition for the step 'GUIsocketMessage: <seq calling step name>' could not be evaluated.
+Error in argument 2, 'RunState.Root.FileGlobals.UsingGUI', in call to the expression function 'AllOf'.
+Unknown variable or property name 'RunState.Root.FileGlobals.UsingGUI'.' at step 'GUIsocketMessage: <seq calling step name>' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:50:55 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS1 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:50:56 AM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The precondition for the step 'Autoupdate GUI Progress Bar' could not be evaluated.
+Error in argument 2, 'RunState.Root.FileGlobals.UsingGUI', in call to the expression function 'AllOf'.
+Unknown variable or property name 'RunState.Root.FileGlobals.UsingGUI'.' at step 'Autoupdate GUI Progress Bar' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:50:58 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS1 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:50:58 AM ProcessModelError
+Error Code: -17348, Mismatched items or unmatched item.
+Message: 'Error executing 'Select' step.
+Error in step '' at index 5 in step group Main of sequence 'Enable/Disable PPS'.
+The End step for a Case step must be followed by another Case step or by the End step for the enclosing Select block.' at step 'Select' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:51:01 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Enable Input.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:51:01 AM ProcessModelError
+Error Code: -1073807298, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Enable Input.vi
+VISA:  (Hex 0xBFFF003E) Could not perform operation because of I/O error.' at step 'Enable/Disable E-Load2' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:59:15 AM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The precondition for the step 'GUIsocketMessage: <seq calling step name>' could not be evaluated.
+Error in argument 2, 'RunState.Root.FileGlobals.UsingGUI', in call to the expression function 'AllOf'.
+Unknown variable or property name 'RunState.Root.FileGlobals.UsingGUI'.' at step 'GUIsocketMessage: <seq calling step name>' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:59:39 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS1 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:59:42 AM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The precondition for the step 'Autoupdate GUI Progress Bar' could not be evaluated.
+Error in argument 2, 'RunState.Root.FileGlobals.UsingGUI', in call to the expression function 'AllOf'.
+Unknown variable or property name 'RunState.Root.FileGlobals.UsingGUI'.' at step 'Autoupdate GUI Progress Bar' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:59:45 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS1 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:59:45 AM ProcessModelError
+Error Code: -17348, Mismatched items or unmatched item.
+Message: 'Error executing 'Select' step.
+Error in step '' at index 5 in step group Main of sequence 'Enable/Disable PPS'.
+The End step for a Case step must be followed by another Case step or by the End step for the enclosing Select block.' at step 'Select' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:59:49 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Enable Input.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 8:59:51 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Enable Input.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Enable/Disable E-Load2' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 9:00:47 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Current Limit.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS1 Current' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 9:01:12 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS1 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 9:01:12 AM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The precondition for the step 'Autoupdate GUI Progress Bar' could not be evaluated.
+Error in argument 2, 'RunState.Root.FileGlobals.UsingGUI', in call to the expression function 'AllOf'.
+Unknown variable or property name 'RunState.Root.FileGlobals.UsingGUI'.' at step 'Autoupdate GUI Progress Bar' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 9:01:14 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS1 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 9:01:14 AM ProcessModelError
+Error Code: -17348, Mismatched items or unmatched item.
+Message: 'Error executing 'Select' step.
+Error in step '' at index 5 in step group Main of sequence 'Enable/Disable PPS'.
+The End step for a Case step must be followed by another Case step or by the End step for the enclosing Select block.' at step 'Select' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 9:01:17 AM ProcessModelError
+Error Code: -17308, Specified value does not have the expected type.
+Message: 'Parameter 'error out':
+Specified value does not have the expected type.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    9/6/2026 9:01:18 AM ProcessModelError
+Error Code: -17308, Specified value does not have the expected type.
+Message: 'Parameter 'error out':
+Specified value does not have the expected type.' at step 'Enable/Disable E-Load2' in seq 'ProcessModelPostStepRuntimeError'
+
+    9/6/2026 10:45:19 AM ProcessModelError
+Error Code: -1073807343, Code Module/User-defined error code.
+Message: 'VISA Write in GENser Initialize.vi
+VISA:  (Hex 0xBFFF0011) Insufficient location information or the device or resource is not present in the system.' at step 'Initialize PPS3' in seq 'ProcessModelPostStepRuntimeError'
+
+    9/6/2026 10:45:40 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Disconnect E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+    10/6/2026 7:13:51 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Disconnect E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+    10/6/2026 7:15:27 AM ProcessModelError
+Error Code: -1073807343, Code Module/User-defined error code.
+Message: 'VISA Write in GENser Initialize.vi
+VISA:  (Hex 0xBFFF0011) Insufficient location information or the device or resource is not present in the system.' at step 'Initialize PPS2' in seq 'ProcessModelPostStepRuntimeError'
+
+    10/6/2026 7:15:48 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Disconnect E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+    10/6/2026 7:21:29 AM ProcessModelError
+Error Code: -1073807343, Code Module/User-defined error code.
+Message: 'VISA Write in GENser Initialize.vi
+VISA:  (Hex 0xBFFF0011) Insufficient location information or the device or resource is not present in the system.' at step 'Initialize PPS3' in seq 'ProcessModelPostStepRuntimeError'
+
+    10/6/2026 7:21:38 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Disconnect E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+    10/6/2026 7:28:42 AM ProcessModelError
+Error Code: -201003, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DI-Digital Input).vi:2320002
+Device Specified: USB6509
+
+Task Name: _unnamedTask<0>
+Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.' at step 'Read Fixture Detected' in seq 'ProcessModelPostStepRuntimeError'
+
