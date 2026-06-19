@@ -32,3 +32,14 @@ TimeoutError: RPA Search Failure: Pattern target 'SDU_20-24BC-EIP' was not disco
 2026-06-05 18:09:23,826 - INFO - [root.HMS_IPConfig.<module>:39] - overwritting subnet mask
 2026-06-05 18:09:25,206 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
 2026-06-05 18:09:25,379 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 7.93s
+2026-06-16 16:22:02,318 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-06-16 16:22:02,318 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-16 16:22:13,101 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-16 16:22:13,285 - ERROR - [root.HMS_IPConfig.<module>:48] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\HMS_IPConfig\HMS_IPConfig.py", line 22, in <module>
+    ui.find("SDU_20-24BC-EIP").click_input()
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\HMS_IPConfig\tde_utilities\win_util.py", line 265, in find
+    raise TimeoutError(error_message)
+TimeoutError: RPA Search Failure: Pattern target 'SDU_20-24BC-EIP' was not discovered within 5s.

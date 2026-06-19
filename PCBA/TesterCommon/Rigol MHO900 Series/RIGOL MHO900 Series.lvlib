@@ -9,7 +9,7 @@
 			<Item Name="Configure Channel Unit.vi" Type="VI" URL="../Public/Configure/Configure Channel Unit.vi"/>
 			<Item Name="Configure Channel.vi" Type="VI" URL="../Public/Configure/Configure Channel.vi"/>
 			<Item Name="Configure Timebase.vi" Type="VI" URL="../Public/Configure/Configure Timebase.vi"/>
-			<Item Name="Configure Trigger.vi" Type="VI" URL="../Public/Configure/Configure Trigger.vi"/>
+			<Item Name="Zero_Degauss Current Probe.vi" Type="VI" URL="../Public/Configure/Zero_Degauss Current Probe.vi"/>
 		</Item>
 		<Item Name="Data" Type="Folder">
 			<Item Name="Low Level" Type="Folder">

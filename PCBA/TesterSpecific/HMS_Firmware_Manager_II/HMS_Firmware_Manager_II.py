@@ -61,7 +61,7 @@ def run_firmware_update():
     is_firmware_update_done()
 
 try:
-    app = Application(backend='uia').start('C:\PROGRA~2\HMS\FIRMWA~1\FIRMWA~1.EXE')
+    app = Application(backend='uia').start(r'C:\PROGRA~2\HMS\FIRMWA~1\FIRMWA~1.EXE')
     app = Application(backend='uia').connect(title='Firmware Manager II', timeout=10)
 
     time.sleep(3)

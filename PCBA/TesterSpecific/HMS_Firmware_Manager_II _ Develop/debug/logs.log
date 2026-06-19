@@ -1,0 +1,714 @@
+2026-06-05 13:18:37,044 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-06-05 13:18:37,044 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-05 13:18:48,879 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-05 13:18:49,024 - ERROR - [root.HMS_IPConfig.<module>:48] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "c:\Users\pgb-adc-tst\Downloads\HMS_ipconfig\HMS_IPConfig.py", line 22, in <module>
+    ui.find("SDU_20-24BC-EIP").click_input()
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\pgb-adc-tst\Downloads\HMS_ipconfig\tde_utilities\win_util.py", line 265, in find
+    raise TimeoutError(error_message)
+TimeoutError: RPA Search Failure: Pattern target 'SDU_20-24BC-EIP' was not discovered within 5s.
+2026-06-05 17:57:07,947 - INFO - [root.HMS_IPConfig_Verify_DHCP_Enabled.<module>:17] - begin: Check for default IP and DHCP
+2026-06-05 17:57:07,947 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-05 17:57:14,270 - DEBUG - [PIL.Image.Image._import_plugin_for_extension:421] - Importing PngImagePlugin
+2026-06-05 17:57:14,307 - INFO - [root.win_util._draw_debug_overlay:300] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\HMS_IPConfig\debug\a.png
+2026-06-05 17:57:14,956 - INFO - [root.HMS_IPConfig_Verify_DHCP_Enabled.<module>:23] - ip_address='192.168.1.5', dhcp_state=0
+2026-06-05 17:57:14,956 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-05 17:57:15,142 - INFO - [root.HMS_IPConfig_Verify_DHCP_Enabled.<module>:32] - end: Static IP Set-up via HMS IPConfig, took 7.20s
+2026-06-05 18:08:13,211 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-06-05 18:08:13,211 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-05 18:08:18,167 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-05 18:08:18,328 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 5.12s
+2026-06-05 18:08:30,316 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:17] - begin: Check for default IP and DHCP
+2026-06-05 18:08:30,316 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-05 18:08:35,830 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:29] - overwritting IP
+2026-06-05 18:08:37,024 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:34] - overwritting subnet mask
+2026-06-05 18:08:38,390 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-05 18:08:38,564 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:40] - end: Static IP Set-up via HMS IPConfig, took 8.25s
+2026-06-05 18:09:17,445 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-06-05 18:09:17,445 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-05 18:09:22,802 - INFO - [root.HMS_IPConfig.<module>:34] - overwritting IP
+2026-06-05 18:09:23,826 - INFO - [root.HMS_IPConfig.<module>:39] - overwritting subnet mask
+2026-06-05 18:09:25,206 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-05 18:09:25,379 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 7.93s
+2026-06-16 16:22:02,318 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-06-16 16:22:02,318 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-16 16:22:13,101 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-16 16:22:13,285 - ERROR - [root.HMS_IPConfig.<module>:48] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\HMS_IPConfig\HMS_IPConfig.py", line 22, in <module>
+    ui.find("SDU_20-24BC-EIP").click_input()
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\TLA\TesterSpecific\HMS_IPConfig\tde_utilities\win_util.py", line 265, in find
+    raise TimeoutError(error_message)
+TimeoutError: RPA Search Failure: Pattern target 'SDU_20-24BC-EIP' was not discovered within 5s.
+2026-06-16 16:24:11,167 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-06-16 16:24:11,167 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-16 16:24:19,883 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-16 16:24:20,081 - ERROR - [root.HMS_IPConfig.<module>:48] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_IPConfig\HMS_IPConfig.py", line 22, in <module>
+    ui.find("SDU_20-24BC-EIP").click_input()
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_IPConfig\tde_utilities\win_util.py", line 265, in find
+    raise TimeoutError(error_message)
+TimeoutError: RPA Search Failure: Pattern target 'SDU_20-24BC-EIP' was not discovered within 5s.
+2026-06-16 16:25:32,627 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-06-16 16:25:32,627 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-16 16:25:52,943 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-16 16:25:54,103 - ERROR - [root.HMS_IPConfig.<module>:48] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_IPConfig\HMS_IPConfig.py", line 22, in <module>
+    ui.find("SDU_20-24BC-EIP").click_input()
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_IPConfig\tde_utilities\win_util.py", line 265, in find
+    raise TimeoutError(error_message)
+TimeoutError: RPA Search Failure: Pattern target 'SDU_20-24BC-EIP' was not discovered within 5s.
+2026-06-18 09:12:44,315 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-06-18 09:12:44,316 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-18 09:12:58,823 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-18 09:12:58,901 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 14.59s
+2026-06-18 09:19:07,177 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-06-18 09:19:07,177 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-18 09:19:22,424 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-18 09:19:22,525 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 15.35s
+2026-06-18 09:22:23,091 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-06-18 09:22:23,091 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-18 09:22:41,084 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-18 09:22:42,090 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 19.00s
+2026-06-18 09:58:39,849 - INFO - [root.HMS_Firmware_Manager_II.<module>:17] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 09:58:39,850 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 09:58:41,182 - ERROR - [root.HMS_Firmware_Manager_II.<module>:33] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\HMS_Firmware_Manager_II.py", line 18, in <module>
+    with WindowApp(path, title) as ui:
+         ~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 305, in __enter__
+    return self.start()
+           ~~~~~~~~~~^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 21, in start
+    self.app = Application(backend=self.backend).connect(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        title=self.title, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 990, in connect
+    self.process = timings.wait_until_passes(
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~^
+            timeout, retry_interval, findwindows.find_element,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+            *(), **kwargs
+            ^^^^^^^^^^^^^
+        ).process_id
+        ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\findwindows.py", line 98, in find_element
+    raise exception
+pywinauto.findwindows.ElementAmbiguousError: There are 2 elements that match the criteria {'title': 'Firmware Manager II', 'backend': 'uia', 'visible_only': False}
+2026-06-18 09:58:54,581 - INFO - [root.HMS_Firmware_Manager_II.<module>:17] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 09:58:54,581 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 09:58:55,836 - ERROR - [root.HMS_Firmware_Manager_II.<module>:33] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\HMS_Firmware_Manager_II.py", line 18, in <module>
+    with WindowApp(path, title) as ui:
+         ~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 305, in __enter__
+    return self.start()
+           ~~~~~~~~~~^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 21, in start
+    self.app = Application(backend=self.backend).connect(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        title=self.title, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 990, in connect
+    self.process = timings.wait_until_passes(
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~^
+            timeout, retry_interval, findwindows.find_element,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+            *(), **kwargs
+            ^^^^^^^^^^^^^
+        ).process_id
+        ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\findwindows.py", line 98, in find_element
+    raise exception
+pywinauto.findwindows.ElementAmbiguousError: There are 2 elements that match the criteria {'title': 'Firmware Manager II', 'backend': 'uia', 'visible_only': False}
+2026-06-18 10:00:28,777 - INFO - [root.HMS_Firmware_Manager_II.<module>:17] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:00:28,777 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:00:36,083 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 10:00:42,501 - INFO - [root.HMS_Firmware_Manager_II.<module>:17] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:00:42,501 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:00:53,035 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 10:00:54,582 - INFO - [root.HMS_Firmware_Manager_II.<module>:17] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:00:54,582 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:00:55,952 - ERROR - [root.HMS_Firmware_Manager_II.<module>:28] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\HMS_Firmware_Manager_II.py", line 18, in <module>
+    with WindowApp(path, title) as ui:
+         ~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 305, in __enter__
+    return self.start()
+           ~~~~~~~~~~^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 21, in start
+    self.app = Application(backend=self.backend).connect(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        title=self.title, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 990, in connect
+    self.process = timings.wait_until_passes(
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~^
+            timeout, retry_interval, findwindows.find_element,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+            *(), **kwargs
+            ^^^^^^^^^^^^^
+        ).process_id
+        ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\findwindows.py", line 98, in find_element
+    raise exception
+pywinauto.findwindows.ElementAmbiguousError: There are 2 elements that match the criteria {'title': 'Firmware Manager II', 'backend': 'uia', 'visible_only': False}
+2026-06-18 10:05:12,486 - INFO - [root.HMS_Firmware_Manager_II.<module>:17] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:05:12,486 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:05:14,068 - ERROR - [root.HMS_Firmware_Manager_II.<module>:28] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\HMS_Firmware_Manager_II.py", line 18, in <module>
+    with WindowApp(path, title) as ui:
+         ~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 305, in __enter__
+    return self.start()
+           ~~~~~~~~~~^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 21, in start
+    self.app = Application(backend=self.backend).connect(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        title=self.title, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 990, in connect
+    self.process = timings.wait_until_passes(
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~^
+            timeout, retry_interval, findwindows.find_element,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+            *(), **kwargs
+            ^^^^^^^^^^^^^
+        ).process_id
+        ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\findwindows.py", line 98, in find_element
+    raise exception
+pywinauto.findwindows.ElementAmbiguousError: There are 3 elements that match the criteria {'title': 'Firmware Manager II', 'backend': 'uia', 'visible_only': False}
+2026-06-18 10:05:46,931 - INFO - [root.HMS_Firmware_Manager_II.<module>:17] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:05:46,931 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:05:48,191 - ERROR - [root.HMS_Firmware_Manager_II.<module>:28] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\HMS_Firmware_Manager_II.py", line 18, in <module>
+    with WindowApp(path, title) as ui:
+         ~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 305, in __enter__
+    return self.start()
+           ~~~~~~~~~~^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 21, in start
+    self.app = Application(backend=self.backend).connect(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        title=self.title, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 990, in connect
+    self.process = timings.wait_until_passes(
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~^
+            timeout, retry_interval, findwindows.find_element,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+            *(), **kwargs
+            ^^^^^^^^^^^^^
+        ).process_id
+        ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\findwindows.py", line 98, in find_element
+    raise exception
+pywinauto.findwindows.ElementAmbiguousError: There are 4 elements that match the criteria {'title': 'Firmware Manager II', 'backend': 'uia', 'visible_only': False}
+2026-06-18 10:08:40,921 - INFO - [root.HMS_Firmware_Manager_II.<module>:17] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:08:40,921 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:08:42,276 - ERROR - [root.HMS_Firmware_Manager_II.<module>:28] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\HMS_Firmware_Manager_II.py", line 18, in <module>
+    with WindowApp(path, title) as ui:
+         ~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 305, in __enter__
+    return self.start()
+           ~~~~~~~~~~^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 21, in start
+    self.app = Application(backend=self.backend).connect(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        title=self.title, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 990, in connect
+    self.process = timings.wait_until_passes(
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~^
+            timeout, retry_interval, findwindows.find_element,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+            *(), **kwargs
+            ^^^^^^^^^^^^^
+        ).process_id
+        ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\findwindows.py", line 98, in find_element
+    raise exception
+pywinauto.findwindows.ElementAmbiguousError: There are 5 elements that match the criteria {'title': 'Firmware Manager II', 'backend': 'uia', 'visible_only': False}
+2026-06-18 10:08:58,601 - INFO - [root.HMS_Firmware_Manager_II.<module>:17] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:08:58,601 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:09:06,758 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 10:09:10,219 - ERROR - [root.HMS_Firmware_Manager_II.<module>:28] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 250, in __resolve_control
+    ctrl = wait_until_passes(
+        timeout,
+    ...<5 lines>...
+         controls.InvalidElement),
+        criteria)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\HMS_Firmware_Manager_II.py", line 22, in <module>
+    ui.find("Scan").click_input()
+    ~~~~~~~^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 204, in find
+    all_elements = self.dlg.descendants()
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 396, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 203, in __get_ctrl
+    dialog = self.backend.generic_wrapper_class(findwindows.find_element(**criteria[0]))
+                                                ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'title': 'Firmware Manager II', 'backend': 'uia', 'process': 47544}
+2026-06-18 10:09:17,407 - INFO - [root.HMS_Firmware_Manager_II.<module>:17] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:09:17,408 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:09:28,086 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 10:09:33,941 - ERROR - [root.HMS_Firmware_Manager_II.<module>:28] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 250, in __resolve_control
+    ctrl = wait_until_passes(
+        timeout,
+    ...<5 lines>...
+         controls.InvalidElement),
+        criteria)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\HMS_Firmware_Manager_II.py", line 22, in <module>
+    ui.find("Scan").click_input()
+    ~~~~~~~^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 204, in find
+    all_elements = self.dlg.descendants()
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 396, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 203, in __get_ctrl
+    dialog = self.backend.generic_wrapper_class(findwindows.find_element(**criteria[0]))
+                                                ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'title': 'Firmware Manager II', 'backend': 'uia', 'process': 41632}
+2026-06-18 10:09:58,014 - INFO - [root.HMS_Firmware_Manager_II.<module>:17] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:09:58,015 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:10:10,664 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 10:10:16,498 - ERROR - [root.HMS_Firmware_Manager_II.<module>:29] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 250, in __resolve_control
+    ctrl = wait_until_passes(
+        timeout,
+    ...<5 lines>...
+         controls.InvalidElement),
+        criteria)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\HMS_Firmware_Manager_II.py", line 23, in <module>
+    ui.find("Scan").click_input()
+    ~~~~~~~^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 204, in find
+    all_elements = self.dlg.descendants()
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 396, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 261, in __resolve_control
+    raise e.original_exception
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 203, in __get_ctrl
+    dialog = self.backend.generic_wrapper_class(findwindows.find_element(**criteria[0]))
+                                                ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\findwindows.py", line 87, in find_element
+    raise ElementNotFoundError(kwargs)
+pywinauto.findwindows.ElementNotFoundError: {'title': 'Firmware Manager II', 'backend': 'uia', 'process': 38080}
+2026-06-18 10:25:46,804 - INFO - [root.HMS_Firmware_Manager_II.<module>:17] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:25:46,804 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:25:48,122 - ERROR - [root.HMS_Firmware_Manager_II.<module>:40] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\HMS_Firmware_Manager_II.py", line 19, in <module>
+    with WindowApp(path, title) as ui:
+         ~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 305, in __enter__
+    return self.start()
+           ~~~~~~~~~~^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 21, in start
+    self.app = Application(backend=self.backend).connect(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        title=self.title, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 990, in connect
+    self.process = timings.wait_until_passes(
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~^
+            timeout, retry_interval, findwindows.find_element,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+            *(), **kwargs
+            ^^^^^^^^^^^^^
+        ).process_id
+        ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\findwindows.py", line 98, in find_element
+    raise exception
+pywinauto.findwindows.ElementAmbiguousError: There are 2 elements that match the criteria {'title': 'Firmware Manager II', 'backend': 'uia', 'visible_only': False}
+2026-06-18 10:40:16,562 - WARNING - [easyocr.easyocr.easyocr.__init__:71] - Using CPU. Note: This module is much faster with a GPU.
+2026-06-18 10:40:16,569 - WARNING - [easyocr.easyocr.easyocr.getDetectorPath:251] - Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+2026-06-18 10:40:19,426 - INFO - [easyocr.easyocr.easyocr.getDetectorPath:255] - Download complete
+2026-06-18 10:40:19,426 - WARNING - [easyocr.easyocr.easyocr.__init__:176] - Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+2026-06-18 10:40:20,611 - INFO - [easyocr.easyocr.easyocr.__init__:180] - Download complete.
+2026-06-18 10:40:21,508 - INFO - [root.HMS_Firmware_Manager_II.<module>:23] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:40:21,509 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:40:22,826 - ERROR - [root.HMS_Firmware_Manager_II.<module>:65] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\HMS_Firmware_Manager_II.py", line 25, in <module>
+    with WindowApp(path, title) as ui:
+         ~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 305, in __enter__
+    return self.start()
+           ~~~~~~~~~~^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 21, in start
+    self.app = Application(backend=self.backend).connect(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        title=self.title, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 990, in connect
+    self.process = timings.wait_until_passes(
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~^
+            timeout, retry_interval, findwindows.find_element,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+            *(), **kwargs
+            ^^^^^^^^^^^^^
+        ).process_id
+        ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\findwindows.py", line 98, in find_element
+    raise exception
+pywinauto.findwindows.ElementAmbiguousError: There are 3 elements that match the criteria {'title': 'Firmware Manager II', 'backend': 'uia', 'visible_only': False}
+2026-06-18 10:40:43,485 - WARNING - [easyocr.easyocr.easyocr.__init__:71] - Using CPU. Note: This module is much faster with a GPU.
+2026-06-18 10:40:44,494 - INFO - [root.HMS_Firmware_Manager_II.<module>:23] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:40:44,494 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:40:48,282 - INFO - [root.HMS_Firmware_Manager_II.<module>:34] - Scanning screen text using OCR...
+2026-06-18 10:40:51,007 - INFO - [root.HMS_Firmware_Manager_II.<module>:51] - Found text 'Scan' via OCR at screen coordinates: (153, 1016) with 100.0% confidence.
+2026-06-18 10:40:51,134 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 10:40:52,140 - INFO - [root.HMS_Firmware_Manager_II.<module>:61] - end: Static IP Set-up via HMS IPConfig, took 7.65s
+2026-06-18 10:47:09,879 - WARNING - [easyocr.easyocr.easyocr.__init__:71] - Using CPU. Note: This module is much faster with a GPU.
+2026-06-18 10:47:10,854 - INFO - [root.HMS_Firmware_Manager_II.<module>:23] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:47:10,855 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:47:12,075 - ERROR - [root.HMS_Firmware_Manager_II.<module>:65] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\HMS_Firmware_Manager_II.py", line 25, in <module>
+    with WindowApp(path, title) as ui:
+         ~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 305, in __enter__
+    return self.start()
+           ~~~~~~~~~~^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 21, in start
+    self.app = Application(backend=self.backend).connect(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        title=self.title, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 990, in connect
+    self.process = timings.wait_until_passes(
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~^
+            timeout, retry_interval, findwindows.find_element,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+            *(), **kwargs
+            ^^^^^^^^^^^^^
+        ).process_id
+        ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\findwindows.py", line 98, in find_element
+    raise exception
+pywinauto.findwindows.ElementAmbiguousError: There are 2 elements that match the criteria {'title': 'Firmware Manager II', 'backend': 'uia', 'visible_only': False}
+2026-06-18 10:51:25,555 - WARNING - [easyocr.easyocr.easyocr.__init__:71] - Using CPU. Note: This module is much faster with a GPU.
+2026-06-18 10:51:26,523 - INFO - [root.HMS_Firmware_Manager_II.<module>:25] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:51:26,524 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:51:27,919 - ERROR - [root.HMS_Firmware_Manager_II.<module>:67] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\HMS_Firmware_Manager_II.py", line 27, in <module>
+    with WindowApp(path, title) as ui:
+         ~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 305, in __enter__
+    return self.start()
+           ~~~~~~~~~~^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 21, in start
+    self.app = Application(backend=self.backend).connect(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        title=self.title, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 990, in connect
+    self.process = timings.wait_until_passes(
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~^
+            timeout, retry_interval, findwindows.find_element,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+            *(), **kwargs
+            ^^^^^^^^^^^^^
+        ).process_id
+        ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\findwindows.py", line 98, in find_element
+    raise exception
+pywinauto.findwindows.ElementAmbiguousError: There are 3 elements that match the criteria {'title': 'Firmware Manager II', 'backend': 'uia', 'visible_only': False}
+2026-06-18 10:54:14,638 - INFO - [root.HMS_Firmware_Manager_II.<module>:28] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:54:14,638 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:54:18,481 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 10:54:38,755 - INFO - [root.HMS_Firmware_Manager_II.<module>:28] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:54:38,755 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:54:42,550 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 10:55:22,766 - INFO - [root.HMS_Firmware_Manager_II.<module>:29] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:55:22,766 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:55:26,645 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 10:55:45,990 - INFO - [root.HMS_Firmware_Manager_II.<module>:29] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:55:45,990 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:55:49,894 - DEBUG - [asyncio.proactor_events.__init__:633] - Using proactor: IocpProactor
+2026-06-18 10:55:49,903 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 10:55:51,000 - ERROR - [root.HMS_Firmware_Manager_II.<module>:73] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\HMS_Firmware_Manager_II.py", line 34, in <module>
+    result = asyncio.run(ocr_screen(keyword="Scan"))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 196, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 119, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\ocr_util.py", line 24, in ocr_screen
+    import winocr
+ModuleNotFoundError: No module named 'winocr'
+2026-06-18 10:56:42,467 - INFO - [root.HMS_Firmware_Manager_II.<module>:29] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:56:42,467 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:56:46,244 - DEBUG - [asyncio.proactor_events.__init__:633] - Using proactor: IocpProactor
+2026-06-18 10:56:46,306 - INFO - [root.ocr_util.ocr_screen:35] - Executing native Windows WinRT OCR sequence...
+2026-06-18 10:56:46,435 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 10:57:03,593 - INFO - [root.HMS_Firmware_Manager_II.<module>:29] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:57:03,593 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:57:07,416 - DEBUG - [asyncio.proactor_events.__init__:633] - Using proactor: IocpProactor
+2026-06-18 10:57:07,464 - INFO - [root.ocr_util.ocr_screen:35] - Executing native Windows WinRT OCR sequence...
+2026-06-18 10:57:07,515 - INFO - [root.ocr_util.ocr_screen:56] - Keyword match target localized: 'File Tools Help' at (24.5, 40.5)
+2026-06-18 10:57:07,517 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 10:58:27,332 - INFO - [root.HMS_Firmware_Manager_II.<module>:29] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 10:58:27,332 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 10:58:28,711 - ERROR - [root.HMS_Firmware_Manager_II.<module>:73] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\HMS_Firmware_Manager_II.py", line 31, in <module>
+    with WindowApp(path, title) as ui:
+         ~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 305, in __enter__
+    return self.start()
+           ~~~~~~~~~~^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II _ Develop\tde_utilities\win_util.py", line 21, in start
+    self.app = Application(backend=self.backend).connect(
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        title=self.title, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\application.py", line 990, in connect
+    self.process = timings.wait_until_passes(
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~^
+            timeout, retry_interval, findwindows.find_element,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+            *(), **kwargs
+            ^^^^^^^^^^^^^
+        ).process_id
+        ^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\timings.py", line 436, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\findwindows.py", line 98, in find_element
+    raise exception
+pywinauto.findwindows.ElementAmbiguousError: There are 2 elements that match the criteria {'title': 'Firmware Manager II', 'backend': 'uia', 'visible_only': False}
+2026-06-18 11:00:45,730 - INFO - [root.HMS_Firmware_Manager_II.<module>:29] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 11:00:45,730 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 11:00:49,584 - DEBUG - [asyncio.proactor_events.__init__:633] - Using proactor: IocpProactor
+2026-06-18 11:00:49,651 - INFO - [root.ocr_util.ocr_screen:35] - Executing native Windows WinRT OCR sequence...
+2026-06-18 11:00:49,711 - INFO - [root.ocr_util.ocr_screen:56] - Keyword match target localized: 'File Tools Help' at (16.5, 32.5)
+2026-06-18 11:00:49,716 - INFO - [root.ocr_util._save_debug_image:94] - Saving system debug verification capture layout directly to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\debug\ocr\File_1781751649.png
+2026-06-18 11:00:49,717 - DEBUG - [PIL.Image.Image._import_plugin_for_extension:421] - Importing PngImagePlugin
+2026-06-18 11:00:49,741 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 11:01:28,202 - INFO - [root.HMS_Firmware_Manager_II.<module>:29] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 11:01:28,202 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 11:01:32,046 - DEBUG - [asyncio.proactor_events.__init__:633] - Using proactor: IocpProactor
+2026-06-18 11:01:32,118 - INFO - [root.ocr_util.ocr_screen:35] - Executing native Windows WinRT OCR sequence...
+2026-06-18 11:01:32,172 - INFO - [root.ocr_util.ocr_screen:56] - Keyword match target localized: 'Update Module' at (38.5, 1009.0)
+2026-06-18 11:01:32,175 - INFO - [root.ocr_util._save_debug_image:94] - Saving system debug verification capture layout directly to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\debug\ocr\UpdateModule_1781751692.png
+2026-06-18 11:01:32,175 - DEBUG - [PIL.Image.Image._import_plugin_for_extension:421] - Importing PngImagePlugin
+2026-06-18 11:01:32,196 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 11:04:24,369 - INFO - [root.HMS_Firmware_Manager_II.<module>:29] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 11:04:24,369 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 11:04:28,235 - DEBUG - [asyncio.proactor_events.__init__:633] - Using proactor: IocpProactor
+2026-06-18 11:04:28,307 - INFO - [root.ocr_util.ocr_screen:35] - Executing native Windows WinRT OCR sequence...
+2026-06-18 11:04:28,363 - INFO - [root.ocr_util.ocr_screen:56] - Keyword match target localized: 'Update Module' at (38.5, 1009.0)
+2026-06-18 11:04:28,366 - INFO - [root.ocr_util._save_debug_image:94] - Saving system debug verification capture layout directly to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\debug\ocr\UpdateModule_1781751868.png
+2026-06-18 11:04:28,366 - DEBUG - [PIL.Image.Image._import_plugin_for_extension:421] - Importing PngImagePlugin
+2026-06-18 11:04:28,387 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 11:06:23,537 - INFO - [root.HMS_Firmware_Manager_II.<module>:29] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 11:06:23,537 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 11:06:27,336 - DEBUG - [asyncio.proactor_events.__init__:633] - Using proactor: IocpProactor
+2026-06-18 11:06:27,403 - INFO - [root.ocr_util.ocr_screen:35] - Executing native Windows WinRT OCR sequence...
+2026-06-18 11:06:27,456 - INFO - [root.ocr_util.ocr_screen:56] - Keyword match target localized: 'Update Module' at (38.5, 1009.0)
+2026-06-18 11:06:27,459 - INFO - [root.ocr_util._save_debug_image:94] - Saving system debug verification capture layout directly to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\debug\ocr\UpdateModule_1781751987.png
+2026-06-18 11:06:27,459 - DEBUG - [PIL.Image.Image._import_plugin_for_extension:421] - Importing PngImagePlugin
+2026-06-18 11:06:27,480 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 11:10:08,195 - INFO - [root.HMS_Firmware_Manager_II.<module>:29] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 11:10:08,195 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 11:10:12,075 - DEBUG - [asyncio.proactor_events.__init__:633] - Using proactor: IocpProactor
+2026-06-18 11:10:12,150 - INFO - [root.ocr_util.ocr_screen:35] - Executing native Windows WinRT OCR sequence...
+2026-06-18 11:10:12,205 - INFO - [root.ocr_util.ocr_screen:56] - Keyword match target localized: 'Update Module' at (38.5, 1009.0)
+2026-06-18 11:10:12,208 - INFO - [root.ocr_util._save_debug_image:94] - Saving system debug verification capture layout directly to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\debug\ocr\UpdateModule_1781752212.png
+2026-06-18 11:10:12,209 - DEBUG - [PIL.Image.Image._import_plugin_for_extension:421] - Importing PngImagePlugin
+2026-06-18 11:10:12,230 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 11:11:21,373 - INFO - [root.HMS_Firmware_Manager_II.<module>:29] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 11:11:21,373 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 11:11:25,720 - DEBUG - [asyncio.proactor_events.__init__:633] - Using proactor: IocpProactor
+2026-06-18 11:11:25,839 - INFO - [root.ocr_util.ocr_screen:35] - Executing native Windows WinRT OCR sequence...
+2026-06-18 11:11:26,025 - INFO - [root.ocr_util.ocr_screen:56] - Keyword match target localized: 'Update Module' at (38.5, 1009.0)
+2026-06-18 11:11:26,028 - INFO - [root.ocr_util._save_debug_image:94] - Saving system debug verification capture layout directly to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\debug\ocr\UpdateModule_1781752286.png
+2026-06-18 11:11:26,028 - DEBUG - [PIL.Image.Image._import_plugin_for_extension:421] - Importing PngImagePlugin
+2026-06-18 11:11:26,052 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 11:13:09,402 - INFO - [root.HMS_Firmware_Manager_II.<module>:29] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 11:13:09,402 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 11:13:13,195 - DEBUG - [asyncio.proactor_events.__init__:633] - Using proactor: IocpProactor
+2026-06-18 11:13:13,276 - INFO - [root.ocr_util.ocr_screen:35] - Executing native Windows WinRT OCR sequence...
+2026-06-18 11:13:13,332 - INFO - [root.ocr_util.ocr_screen:56] - Keyword match target localized: 'Update Module' at (38.5, 1009.0)
+2026-06-18 11:13:13,335 - INFO - [root.ocr_util._save_debug_image:94] - Saving system debug verification capture layout directly to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\debug\ocr\UpdateModule_1781752393.png
+2026-06-18 11:13:13,335 - DEBUG - [PIL.Image.Image._import_plugin_for_extension:421] - Importing PngImagePlugin
+2026-06-18 11:13:13,355 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 11:13:57,509 - INFO - [root.HMS_Firmware_Manager_II.<module>:29] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 11:13:57,509 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 11:14:01,393 - DEBUG - [asyncio.proactor_events.__init__:633] - Using proactor: IocpProactor
+2026-06-18 11:14:01,463 - INFO - [root.ocr_util.ocr_screen:35] - Executing native Windows WinRT OCR sequence...
+2026-06-18 11:14:01,518 - INFO - [root.ocr_util.ocr_screen:56] - Keyword match target localized: 'Update Module' at (38.5, 1009.0)
+2026-06-18 11:14:01,521 - INFO - [root.ocr_util._save_debug_image:94] - Saving system debug verification capture layout directly to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\debug\ocr\UpdateModule_1781752441.png
+2026-06-18 11:14:01,521 - DEBUG - [PIL.Image.Image._import_plugin_for_extension:421] - Importing PngImagePlugin
+2026-06-18 11:14:01,541 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 11:15:26,019 - INFO - [root.HMS_Firmware_Manager_II.<module>:22] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 11:15:26,019 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 11:15:29,924 - DEBUG - [asyncio.proactor_events.__init__:633] - Using proactor: IocpProactor
+2026-06-18 11:15:30,029 - INFO - [root.ocr_util.ocr_screen:35] - Executing native Windows WinRT OCR sequence...
+2026-06-18 11:15:30,087 - INFO - [root.ocr_util.ocr_screen:56] - Keyword match target localized: 'Update Module' at (38.5, 1009.0)
+2026-06-18 11:15:30,091 - INFO - [root.ocr_util._save_debug_image:94] - Saving system debug verification capture layout directly to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\debug\ocr\UpdateModule_1781752530.png
+2026-06-18 11:15:30,091 - DEBUG - [PIL.Image.Image._import_plugin_for_extension:421] - Importing PngImagePlugin
+2026-06-18 11:15:30,228 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 11:15:31,390 - INFO - [root.HMS_Firmware_Manager_II.<module>:57] - End: Static IP Set-up via HMS IPConfig, took 5.37s
+2026-06-18 11:15:44,340 - INFO - [root.HMS_Firmware_Manager_II.<module>:22] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 11:15:44,340 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 11:15:48,132 - DEBUG - [asyncio.proactor_events.__init__:633] - Using proactor: IocpProactor
+2026-06-18 11:15:48,214 - INFO - [root.ocr_util.ocr_screen:35] - Executing native Windows WinRT OCR sequence...
+2026-06-18 11:15:48,274 - INFO - [root.ocr_util.ocr_screen:56] - Keyword match target localized: 'Update Module' at (38.5, 1009.0)
+2026-06-18 11:15:48,278 - INFO - [root.ocr_util._save_debug_image:94] - Saving system debug verification capture layout directly to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\debug\ocr\UpdateModule_1781752548.png
+2026-06-18 11:15:48,278 - DEBUG - [PIL.Image.Image._import_plugin_for_extension:421] - Importing PngImagePlugin
+2026-06-18 11:15:48,416 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 11:15:49,626 - INFO - [root.HMS_Firmware_Manager_II.<module>:57] - End: Static IP Set-up via HMS IPConfig, took 5.29s
+2026-06-18 11:15:58,747 - INFO - [root.HMS_Firmware_Manager_II.<module>:22] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 11:15:58,747 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 11:16:02,586 - DEBUG - [asyncio.proactor_events.__init__:633] - Using proactor: IocpProactor
+2026-06-18 11:16:02,686 - INFO - [root.ocr_util.ocr_screen:35] - Executing native Windows WinRT OCR sequence...
+2026-06-18 11:16:02,745 - INFO - [root.ocr_util.ocr_screen:56] - Keyword match target localized: 'Update Module' at (38.5, 1009.0)
+2026-06-18 11:16:02,749 - INFO - [root.ocr_util._save_debug_image:94] - Saving system debug verification capture layout directly to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\debug\ocr\UpdateModule_1781752562.png
+2026-06-18 11:16:02,749 - DEBUG - [PIL.Image.Image._import_plugin_for_extension:421] - Importing PngImagePlugin
+2026-06-18 11:16:02,885 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 11:16:04,084 - INFO - [root.HMS_Firmware_Manager_II.<module>:57] - End: Static IP Set-up via HMS IPConfig, took 5.34s
+2026-06-18 11:17:56,227 - INFO - [root.HMS_Firmware_Manager_II.<module>:65] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 11:17:56,227 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 11:18:00,025 - DEBUG - [asyncio.proactor_events.__init__:633] - Using proactor: IocpProactor
+2026-06-18 11:18:00,089 - INFO - [root.ocr_util.ocr_screen:35] - Executing native Windows WinRT OCR sequence...
+2026-06-18 11:18:00,145 - INFO - [root.ocr_util.ocr_screen:56] - Keyword match target localized: 'Update Module' at (38.5, 1009.0)
+2026-06-18 11:18:00,149 - INFO - [root.ocr_util._save_debug_image:94] - Saving system debug verification capture layout directly to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\debug\ocr\UpdateModule_1781752680.png
+2026-06-18 11:18:00,149 - DEBUG - [PIL.Image.Image._import_plugin_for_extension:421] - Importing PngImagePlugin
+2026-06-18 11:18:00,290 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 11:18:44,010 - INFO - [root.HMS_Firmware_Manager_II.<module>:65] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 11:18:44,010 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 11:18:47,815 - DEBUG - [asyncio.proactor_events.__init__:633] - Using proactor: IocpProactor
+2026-06-18 11:18:47,901 - INFO - [root.ocr_util.ocr_screen:35] - Executing native Windows WinRT OCR sequence...
+2026-06-18 11:18:47,957 - INFO - [root.ocr_util.ocr_screen:56] - Keyword match target localized: 'Update Module' at (38.5, 1009.0)
+2026-06-18 11:18:47,962 - INFO - [root.ocr_util._save_debug_image:94] - Saving system debug verification capture layout directly to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\debug\ocr\UpdateModule_1781752727.png
+2026-06-18 11:18:47,962 - DEBUG - [PIL.Image.Image._import_plugin_for_extension:421] - Importing PngImagePlugin
+2026-06-18 11:18:48,104 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
+2026-06-18 11:18:55,391 - INFO - [root.HMS_Firmware_Manager_II.<module>:65] - Begin: Static IP Set-up via HMS IPConfig
+2026-06-18 11:18:55,391 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-06-18 11:18:59,169 - DEBUG - [asyncio.proactor_events.__init__:633] - Using proactor: IocpProactor
+2026-06-18 11:18:59,247 - INFO - [root.ocr_util.ocr_screen:35] - Executing native Windows WinRT OCR sequence...
+2026-06-18 11:18:59,301 - INFO - [root.ocr_util.ocr_screen:56] - Keyword match target localized: 'Update Module' at (38.5, 1009.0)
+2026-06-18 11:18:59,305 - INFO - [root.ocr_util._save_debug_image:94] - Saving system debug verification capture layout directly to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\debug\ocr\UpdateModule_1781752739.png
+2026-06-18 11:18:59,305 - DEBUG - [PIL.Image.Image._import_plugin_for_extension:421] - Importing PngImagePlugin
+2026-06-18 11:18:59,448 - INFO - [root.win_util.close:32] - Closing window: Firmware Manager II
