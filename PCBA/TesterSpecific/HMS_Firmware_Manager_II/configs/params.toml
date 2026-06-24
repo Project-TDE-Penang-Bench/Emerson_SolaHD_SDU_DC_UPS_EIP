@@ -1,0 +1,3 @@
+firmware_path = "firmware"
+build_version = "v1.59"
+log_path = "C:\\Users\\pgb-adc-tst\\Documents\\HMS\\Firmware Manager II\\Logs"

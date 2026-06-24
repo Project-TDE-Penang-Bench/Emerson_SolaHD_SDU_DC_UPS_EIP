@@ -1,136 +1,169 @@
-from pywinauto.application import Application
-from pywinauto.controls.win32_controls import ButtonWrapper
-from io import StringIO
-import sys
+import os
+import logging
+import time 
 import re
-import time
-import pyautogui
-import win32api
 
-def success_close_app():
-    app.window(title='Firmware Manager II').close()
-    print("PASS")
+from tde_utilities.log_util import setup_custom_logger
+from tde_utilities.win_util import WindowApp
+from tde_utilities.ocr_util import OcrUtil
+from tde_utilities.state_util import load_params
 
-def is_firmware_update_done():
-    print("is_firmware_update_done")
-    app.window(title='Firmware Manager II').window(control_type="Text",title="Finished").wait('enabled', timeout=300)
-    time.sleep(3)
-    app.window(title='Firmware Manager II').window(title='Firmware Download').close()
-    app.window(title='Firmware Manager II').close()
-    print("PASS")
 
-def click_target(str):
-    if pyautogui.locateOnScreen(str, confidence=0.8) != None:
-        x,y = pyautogui.locateCenterOnScreen(str, confidence=0.8)
-        pyautogui.click(x,y)
-        time.sleep(0.5)
+class CustomWorkflow:
+    def __init__(self, app_path, script_path):
+        self.app_path = app_path
+        self.script_path = script_path
+        self.ocr =  OcrUtil(script_path=script_path)
+        self.params = load_params(rf"{script_path}\configs\params.toml")
 
-def change_auto_update():
-    print("change_auto_update")
-    app.window(title='Firmware Manager II').type_keys('%F')
-    app.window(title='Firmware Manager II').type_keys('A')
-    
-def change_network_type():
-    print("change_network_type")
-    app.window(title='Firmware Manager II').type_keys('%F')
-    app.window(title='Firmware Manager II').type_keys('C')  
+    def run(self):
+        with WindowApp(self.app_path) as ui:
+            self.ui = ui
+            self.ui.ensure_active_and_front()
 
-def is_module_detected():
-    print("is_module_detected")
-    app.window(title='Firmware Manager II').window(found_index=0,control_type="Pane",class_name="HMSGUI_COMPONENT_HOLLOW_1")
-    return (pyautogui.locateOnScreen('./Picture/module_detected_post_bfu.png', confidence=0.9) != None) or (pyautogui.locateOnScreen('./Picture/module_detected_pre_bfu.png', confidence=0.9) != None) or (pyautogui.locateOnScreen('./Picture/module_detected_post_bfu_network_changed.png', confidence=0.9) != None)
+            # Step 1: Scan for SDU
+            self.navigate_to_change_network_type()
+            self.scan_for_devices()
 
-def is_network_MBUS():
-    print("is_network_MBUS")
-    app.window(title='Firmware Manager II').window(found_index=0,control_type="Pane",class_name="HMSGUI_COMPONENT_HOLLOW_1").wait('enabled', timeout=3)
-    #UPDATE BOTH PICTURE BELOW
-    return (pyautogui.locateOnScreen('./Picture/available_network_latest.png', confidence=0.9) != None) and (pyautogui.locateOnScreen('./Picture/current_network_latest.png', confidence=0.9) != None)
-    
-def is_firmware_updated():
-    print("is_firmware_updated")
-    app.window(title='Firmware Manager II').window(found_index=0,control_type="Pane",class_name="HMSGUI_COMPONENT_HOLLOW_1").wait('enabled', timeout=3)
-    time.sleep(1)
-    return (pyautogui.locateOnScreen('./Picture/available_firmware.png', confidence=0.9) != None) and (pyautogui.locateOnScreen('./Picture/current_firmware.png', confidence=0.9) != None)
+            # Step 2: Check if login needed to UUT and perform if needed
+            self.login_to_uut_if_needed()
 
-def run_firmware_update():
-    print("run_firmware_update")
-    app.window(title='Firmware Manager II').window(found_index=0,control_type="Pane",class_name="HMSGUI_COMPONENT_HOLLOW_1").wait('enabled', timeout=3)
-    app.window(title='Firmware Manager II').window(found_index=0,control_type="Pane",class_name="HMSGUI_COMPONENT_HOLLOW_1").click_input()
-    click_target('./Picture/update_module.png')
-    app.window(title='Firmware Manager II').window(found_index=0,control_type="Button",class_name="Button").type_keys('%Y')
-    is_firmware_update_done()
+            # Step 3: Check if network change needed and perform if needed
+            if self.check_change_network_needed():
+                self.perform_change_network()
+                self.is_change_network_type_done()
+            
+            #Step 4: Perform firmware update
+            self.navigate_to_automatic_firmware_update()
+            self.scan_for_devices()
+            # if self.check_update_needed():
+            self.perform_firmware_update()
+            if self.is_firmware_update_done():
+                return
 
-try:
-    app = Application(backend='uia').start(r'C:\PROGRA~2\HMS\FIRMWA~1\FIRMWA~1.EXE')
-    app = Application(backend='uia').connect(title='Firmware Manager II', timeout=10)
-
-    time.sleep(3)
-    click_target('./Picture/scan.png')
-    print("Scanning...")
-    time.sleep(3)
-    if not(is_module_detected()):
-        print("MODULE DETECTION FAIL")
-        raise Exception("Module detection failed")
-    else:
+    def scan_for_devices(self):
+        self.ui.ensure_active_and_front()
+        # Use OCR because locator name not available
+        rel_coord = self.ocr.locate("Scan", self.ui.get_windows_region())
+        self.ui.find_by_coord(coord=rel_coord).click_input()
+        if not self.ocr.locate("SDU", self.ui.get_windows_region(), timeout=5):
+            raise Exception("Module detection failed")
         print("MODULE DETECTION PASS")
-    
-    app.window(title='Firmware Manager II').window(found_index=0,control_type="Pane",class_name="HMSGUI_COMPONENT_HOLLOW_1").wait('enabled', timeout=3)
-    
-    if (pyautogui.locateOnScreen('./Picture/is_update_module.png', confidence=0.9) != None):
-        print("run-1")
-        change_network_type()
-        if not (is_network_MBUS()):
-            app.window(title='Firmware Manager II').window(found_index=0,control_type="Pane",class_name="HMSGUI_COMPONENT_HOLLOW_1").click_input()
-            
-            # Select Modbus in drop-down
-            app.window(title='Firmware Manager II').window(found_index=2, class_name='HMSGUI_COMPONENT_1').click_input()
-            print("DROPDOWN CLICKED")
-            csr_x_dd_ethernet,csr_y_dd_ethernet = win32api.GetCursorPos()
-            csr_x_dd_modbus,csr_y_dd_modbus = csr_x_dd_ethernet, csr_y_dd_ethernet+30
-            pyautogui.click(csr_x_dd_modbus, csr_y_dd_modbus)
-            print("DROPDOWN MODBUS OPTION CLICKED")
-            
-            click_target('./Picture/change_network.png')
-            app.window(title='Firmware Manager II').window(found_index=0,control_type="Button",class_name="Button").type_keys('%Y') 
-            print("NETWORK TYPE CHANGED")            
-            is_firmware_update_done()
-        else:
-            change_auto_update()
-            if not (is_firmware_updated()):
-                run_firmware_update()
-            else:
-                print("MBUS FW IS LATEST. NO UPDATE REQUIRED.")
-                print("PASS")
-                app.window(title='Firmware Manager II').close()
-    elif is_network_MBUS():
-        change_auto_update()
-        if not (is_firmware_updated()):
-            run_firmware_update()
-        else:
-                print("MBUS FW IS LATEST. NO UPDATE REQUIRED.")
-                print("PASS")
-                app.window(title='Firmware Manager II').close()
-    else:
-        if not (is_firmware_updated()):
-            app.window(title='Firmware Manager II').window(found_index=0,control_type="Pane",class_name="HMSGUI_COMPONENT_HOLLOW_1").click_input()
-            
-            # Select Modbus in drop-down
-            app.window(title='Firmware Manager II').window(found_index=2, class_name='HMSGUI_COMPONENT_1').click_input()
-            print("DROPDOWN CLICKED")
-            csr_x_dd_ethernet,csr_y_dd_ethernet = win32api.GetCursorPos()
-            csr_x_dd_modbus,csr_y_dd_modbus = csr_x_dd_ethernet, csr_y_dd_ethernet+30
-            pyautogui.click(csr_x_dd_modbus, csr_y_dd_modbus)
-            print("DROPDOWN MODBUS OPTION CLICKED")
-            
-            click_target('./Picture/change_network.png')
-            app.window(title='Firmware Manager II').window(found_index=0,control_type="Button",class_name="Button").type_keys('%Y')
-            print("NETWORK TYPE CHANGED")
-            is_firmware_update_done()
-        else:
-                print("MBUS FW IS LATEST. NO UPDATE REQUIRED.")
-                print("PASS")
-                app.window(title='Firmware Manager II').close()
+
+    def navigate_to_change_network_type(self):
+        self.ui.ensure_active_and_front()
+        self.ui.shortcut("%F")
+        self.ui.shortcut("C")
+
+    def login_to_uut_if_needed(self):
+        rel_coord = self.ocr.locate("Login", self.ui.get_windows_region())
+        if rel_coord:
+            self.ui.find_by_coord(coord=rel_coord).click_input()
+            rel_coord = self.ocr.locate("Username", self.ui.get_windows_region())
+            self.ui.find_by_coord(rel_coord, xy_ratio=(0, 1.5)).type_keys('SolaHD')
+            rel_coord = self.ocr.locate("Password", self.ui.get_windows_region())
+            self.ui.find_by_coord(rel_coord, xy_ratio=(0, 1.5)).type_keys('r00t_sola')
+            # Somehow OCR cannot find Ok, use Cancel to press Ok
+            rel_coord = self.ocr.locate("Cancel", self.ui.get_windows_region())
+            self.ui.find_by_coord(rel_coord, xy_ratio=(-1, 0), script_path=self.script_path).click_input()
+            time.sleep(5)
+
+    def check_change_network_needed(self):
+        rel_coords = self.ocr.locate_all("EtherNet/IP")
+        if len(rel_coords) != 2:
+            logging.info('Attempt to change network type')
+            return True
+        logging.info("Network change not needed")
+        return False
         
-except:
-    app.window(title='Firmware Manager II').close()
-    print("FAIL")
+    def perform_change_network(self):
+        self.ui.find("File",xy_ratio=(0,3.5), script_path=self.script_path).click_input()
+        # Use OCR because locator name not available
+        rel_coord = self.ocr.locate("Change", self.ui.get_windows_region())
+        self.ui.find_by_coord(coord=rel_coord).click_input()
+        self.ocr.locate("Change", self.ui.get_windows_region())
+        self.ui.find("Yes").click_input()
+
+    def is_change_network_type_done(self):
+        self.ui.find("Finished", timeout=300)
+        self.ui.find('Close').click_input()
+        print("NETWORK TYPE CHANGED")
+        return True
+
+    def navigate_to_automatic_firmware_update(self):
+        self.ui.ensure_active_and_front()
+        self.ui.shortcut("%F")
+        self.ui.shortcut("A")
+
+    def check_update_needed(self):
+        print(self.params['build_version'])
+        rel_coords = self.ocr.locate_all(re.compile(rf'{self.params["build_version"]}'),preprocess = True)
+        if len(rel_coords) == 2:
+            logging.info('attempt to update firmware')
+            return True
+        logging.info("no need to update firmware")
+        return False
+    
+    def perform_firmware_update(self):
+        self.ui.find("File",xy_ratio=(0,3.5), script_path=self.script_path).click_input()
+        # Use OCR because locator name not available
+        rel_coord = self.ocr.locate("Update", self.ui.get_windows_region())
+        self.ui.find_by_coord(coord=rel_coord).click_input()
+        self.ocr.locate("firmware?", self.ui.get_windows_region())
+        self.ui.find("Yes").click_input()
+
+    import os
+
+    def is_firmware_update_done(self):
+        self.ui.find("Finished", timeout=300)
+        self.ui.find('Close').click_input()
+        
+        # Retrieve configuration parameters
+        folder_path = self.params.get("log_path")
+        expected_version = str(self.params.get("build_version"))
+        
+        if folder_path and os.path.exists(folder_path):
+            # 1. Identify the latest file in the directory using only 'os'
+            try:
+                files = [os.path.join(folder_path, f) for f in os.listdir(folder_path)]
+                files = [f for f in files if os.path.isfile(f)]
+                
+                if files:
+                    latest_log = max(files, key=os.path.getmtime)
+                    
+                    # 2. Read and strip content from the latest file
+                    with open(latest_log, 'r', errors='ignore') as f:
+                        log_content = f.read().strip()
+                        print (log_content)
+                    
+                    # 3. Clean up: Delete the file right after reading it
+                    os.remove(latest_log)
+                    
+                    # 4. Exact match version check
+                    if expected_version in log_content:
+                        print("UUT FIRMWARE IS LATEST. NO UPDATE REQUIRED. \nPASS")
+                        return True
+            except Exception as e:
+                print(f"Error handling files: {e}")
+
+        print("FAIL: Firmware version mismatch or log file missing.")
+        return False
+
+def main():
+    script_path = os.path.dirname(os.path.abspath(__file__))
+    setup_custom_logger(script_path,
+                        disabled_loggers=["PIL",
+                                          "asyncio"])
+    path = r"C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe"
+    try:
+        t1 = time.time()
+        logging.info("begin HMS FIRMWARE MANAGER CONVERT")
+        workflow = CustomWorkflow(path, script_path)
+        workflow.run()
+        logging.info(f"end HMS FIRMWARE MANAGER CONVERT, took{t1-time.time():.2f}s")
+    except Exception as e:
+        print(f"HMS_MANAGER_CONVERT FAIL: {e}")
+        logging.exception("HMS_MANAGER_CONVERT FAIL")
+
+if __name__ == "__main__":
+    main()

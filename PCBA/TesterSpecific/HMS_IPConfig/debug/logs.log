@@ -155,3 +155,49 @@ Traceback (most recent call last):
   File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pywinauto\timings.py", line 458, in wait_until_passes
     raise err
 pywinauto.timings.TimeoutError
+2026-06-22 17:54:30,597 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-06-22 17:54:30,597 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-22 17:54:41,067 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-22 17:54:42,279 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 11.68s
+2026-06-22 18:03:58,748 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:17] - begin: Check for default IP and DHCP
+2026-06-22 18:03:58,748 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-22 18:04:06,824 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-22 18:04:07,065 - ERROR - [root.HMS_IPConfig_Conflict_IP.<module>:43] - Check for default IP and DHCP failed
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_IPConfig\HMS_IPConfig_Conflict_IP.py", line 20, in <module>
+    ui.find("SDU_20-24BC-EIP").click_input()
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_IPConfig\tde_utilities\win_util.py", line 265, in find
+    raise TimeoutError(error_message)
+TimeoutError: RPA Search Failure: Pattern target 'SDU_20-24BC-EIP' was not discovered within 5s.
+2026-06-22 18:05:29,302 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-06-22 18:05:29,303 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-22 18:05:48,288 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-22 18:05:49,440 - ERROR - [root.HMS_IPConfig.<module>:48] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_IPConfig\HMS_IPConfig.py", line 22, in <module>
+    ui.find("SDU_20-24BC-EIP").click_input()
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_IPConfig\tde_utilities\win_util.py", line 265, in find
+    raise TimeoutError(error_message)
+TimeoutError: RPA Search Failure: Pattern target 'SDU_20-24BC-EIP' was not discovered within 5s.
+2026-06-22 18:07:29,437 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-06-22 18:07:29,437 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-22 18:07:47,105 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-22 18:07:48,285 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 18.85s
+2026-06-22 18:10:04,406 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-06-22 18:10:04,407 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-22 18:10:22,630 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-22 18:10:23,793 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 19.39s
+2026-06-22 19:41:07,753 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-06-22 19:41:07,753 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-22 19:41:27,911 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-22 19:41:28,899 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 21.15s
+2026-06-22 19:54:57,594 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-06-22 19:54:57,595 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-22 19:55:16,326 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-22 19:55:17,464 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 19.87s
+2026-06-23 08:27:19,792 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-06-23 08:27:19,792 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-06-23 08:27:30,956 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-06-23 08:27:32,302 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 12.51s

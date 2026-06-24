@@ -109,7 +109,7 @@ class SerialDevice:
             logging.info(f'timed-out wating for {keyword}, full_buffer:\n' + "\n".join(self.full_buffer.splitlines()))
         return None
         
-    def send_and_wait(self, command, keyword="Main", timeout=10, allow_fail=False):
+    def send_and_wait(self, command, keyword="Main", timeout=1, allow_fail=False):
         """
         Sends a command and returns the full output once the keyword reappears.
         """
