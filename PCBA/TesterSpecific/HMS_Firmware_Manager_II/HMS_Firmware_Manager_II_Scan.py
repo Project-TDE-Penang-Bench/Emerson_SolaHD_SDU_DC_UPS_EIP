@@ -1,6 +1,8 @@
 import os
 import logging
 import time 
+import pyautogui
+import pywinauto.mouse as mouse  # <-- Imported for mouse movement
 
 from tde_utilities.log_util import setup_custom_logger
 from tde_utilities.win_util import WindowApp
@@ -12,13 +14,22 @@ class CustomWorkflow:
     def __init__(self, app_path, script_path):
         self.app_path = app_path
         self.script_path = script_path
-        self.ocr =  OcrUtil(script_path=script_path)
+        self.ocr = OcrUtil(script_path=script_path)
         self.params = load_params(rf"{script_path}\configs\params.toml")
+
+    def move_mouse_away(self, coords=(0, 0)):
+        """Moves the mouse cursor to a safe space to avoid hovering artifacts."""
+        try:
+            mouse.move(coords=coords)
+            time.sleep(0.5)  # Brief pause to let the UI register the move
+        except Exception as e:
+            logging.warning(f"Failed to move mouse away: {e}")
 
     def run(self):
         with WindowApp(self.app_path) as ui:
             self.ui = ui
-            self.ui.ensure_active_and_front()
+            # self.ui.ensure_active_and_front()
+            self.move_mouse_away()
 
             # Step 1: Scan for SDU
             self.navigate_to_change_network_type()
@@ -26,13 +37,34 @@ class CustomWorkflow:
         
     def scan_for_devices(self):
         self.ui.ensure_active_and_front()
-        # Use OCR because locator name not available
-        rel_coord = self.ocr.locate("Scan", self.ui.get_windows_region())
-        self.ui.find_by_coord(coord=rel_coord).click_input()
+        
+        # Path to your template image
+        scan_img_path = r"C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\Picture\scan.png"
+        
+        print("Looking for 'Scan' button on screen...")
+        try:
+            # Locate the center of the image on the screen
+            # confidence=0.9 requires the 'opencv-python' package installed
+            scan_location = pyautogui.locateCenterOnScreen(scan_img_path, confidence=0.9)
+            
+            if scan_location is None:
+                raise Exception("Could not find the 'Scan' button image on screen.")
+                
+            # Unpack the screen coordinates
+            screen_x, screen_y = scan_location
+            
+            # Click the button using your UI framework's coordinate method
+            self.ui.find_by_coord(coord=(screen_x, screen_y)).click_input()
+            
+        except Exception as e:
+            raise Exception(f"Failed to locate or click the Scan button: {e}")
+
+        # Keep your existing OCR check for "SDU", or replace if you have an image for that too
         if not self.ocr.locate("SDU", self.ui.get_windows_region(), timeout=5):
-            raise Exception("MODULE DETECTION FAIL")
+            raise Exception("Module detection failed")
+            
         print("MODULE DETECTION PASS")
-        print("HMS_MANAGER_TOOL_SCAN PASS")
+
 
     def navigate_to_change_network_type(self):
         self.ui.ensure_active_and_front()
@@ -50,6 +82,8 @@ class CustomWorkflow:
             # Somehow OCR cannot find Ok, use Cancel to press Ok
             rel_coord = self.ocr.locate("Cancel", self.ui.get_windows_region())
             self.ui.find_by_coord(rel_coord, xy_ratio=(-1, 0), script_path=self.script_path).click_input()
+            
+            self.move_mouse_away()  # <-- Move mouse away after finishing the login form
             time.sleep(5)
 
     def check_change_network_needed(self):
@@ -67,10 +101,12 @@ class CustomWorkflow:
         self.ui.find_by_coord(coord=rel_coord).click_input()
         self.ocr.locate("Change", self.ui.get_windows_region())
         self.ui.find("Yes").click_input()
+        self.move_mouse_away()  # <-- Move mouse away
 
     def is_change_network_type_done(self):
         self.ui.find("Finished", timeout=300)
         self.ui.find('Close').click_input()
+        self.move_mouse_away()  # <-- Move mouse away
         print("NETWORK TYPE CHANGED")
         return True
 
@@ -95,10 +131,12 @@ class CustomWorkflow:
         self.ui.find_by_coord(coord=rel_coord).click_input()
         self.ocr.locate("firmware?", self.ui.get_windows_region())
         self.ui.find("Yes").click_input()
+        self.move_mouse_away()  # <-- Move mouse away
 
     def is_firmware_update_done(self):
         self.ui.find("Finished", timeout=300)
         self.ui.find('Close').click_input()
+        self.move_mouse_away()  # <-- Move mouse away
         print("UUT FIRMWARE IS LATEST. NO UPDATE REQUIRED")
         print("PASS")
         return True

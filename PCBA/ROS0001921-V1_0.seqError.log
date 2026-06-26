@@ -3512,3 +3512,469 @@ Complete call chain:
      BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
 LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
 
+TST-C-ROS-T2935    24/6/2026 6:51:55 PM ProcessModelError
+Error Code: -1073807246, Code Module/User-defined error code.
+Message: 'Property Node (arg 1) in VISA Configure Serial Port (Instr).vi->Serial Write.vi
+VISA:  (Hex 0xBFFF0072) The resource is valid, but VISA cannot currently access it.' at step 'Write Serial Port' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 9:05:26 AM ProcessModelError
+Error Code: -1073807253, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Enable Input.vi
+VISA:  (Hex 0xBFFF006B) A framing error occurred during transfer.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 9:05:45 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Enable Input.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 9:05:45 AM ProcessModelError
+Error Code: -1073807253, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Enable Input.vi
+VISA:  (Hex 0xBFFF006B) A framing error occurred during transfer.' at step 'Enable/Disable E-Load2' in seq 'ProcessModelPostStepRuntimeError'
+
+    25/6/2026 9:05:57 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Disconnect E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 9:28:25 AM ProcessModelError
+Error Code: -1073807298, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Enable Input.vi
+VISA:  (Hex 0xBFFF003E) Could not perform operation because of I/O error.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 9:28:43 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Enable Input.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+    25/6/2026 9:28:55 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Disconnect E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 9:38:45 AM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 9:38:51 AM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 10:35:57 AM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The post-expression for the step 'Verify PCBAOutput_GND' could not be evaluated.
+Unknown variable or property name 'RunState.Sequence.Main["Verify PCBAOutput_GND"].Result.PassFail'.' at step 'Verify PCBAOutput_GND' in seq 'ProcessModelPostStepRuntimeError'
+
+    25/6/2026 11:29:05 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Disconnect E-Load2' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 1:21:57 PM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'Parameter 'Output':
+Unknown variable or property name 'Locals.SerialPortReady'.' at step 'Check Serial Port Ready' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 2:06:18 PM ProcessModelError
+Error Code: -301745, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The I2C master lost arbitration and failed to seize the bus during transmission of a data byte.' at step 'Event Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 2:07:16 PM ProcessModelError
+Error Code: -301745, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The I2C master lost arbitration and failed to seize the bus during transmission of a data byte.' at step 'Event Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 2:09:14 PM ProcessModelError
+Error Code: -301708, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  Timeout expired before operation completed. For the NI USB-8451, a power cycle may be required.' at step 'User System Name' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 2:09:31 PM ProcessModelError
+Error Code: -301745, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The I2C master lost arbitration and failed to seize the bus during transmission of a data byte.' at step 'Ambient Temp C.C 1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 2:11:53 PM ProcessModelError
+Error Code: -301742, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Event Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 2:12:05 PM ProcessModelError
+Error Code: -301742, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Event Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 2:12:15 PM ProcessModelError
+Error Code: -301742, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Event Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 2:12:28 PM ProcessModelError
+Error Code: -301742, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Event Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 2:29:28 PM ProcessModelError
+Error Code: -301706, Code Module/User-defined error code.
+Message: 'Property Node (arg 1) in Configure I2C Device.vi
+NI-845x:  The device reference is invalid. Verify that the supplied device reference contains a valid device name.' at step 'Configure I2C Device' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 2:31:08 PM ProcessModelError
+Error Code: -301706, Code Module/User-defined error code.
+Message: 'Property Node (arg 1) in Configure I2C Device.vi
+NI-845x:  The device reference is invalid. Verify that the supplied device reference contains a valid device name.' at step 'Configure I2C Device' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 2:31:10 PM ProcessModelError
+Error Code: -301706, Code Module/User-defined error code.
+Message: 'NI-845x Close Device Reference.vi:5830002
+NI-845x:  The device reference is invalid. Verify that the supplied device reference contains a valid device name.' at step 'Disconnect I2C Device' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 2:57:36 PM ProcessModelError
+Error Code: -301742, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Event Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 2:58:26 PM ProcessModelError
+Error Code: -301742, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Event Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 3:09:22 PM ProcessModelError
+Error Code: -301742, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Event Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 3:10:40 PM ProcessModelError
+Error Code: -301742, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Event Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 3:13:33 PM ProcessModelError
+Error Code: -301742, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Event Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 3:16:11 PM ProcessModelError
+Error Code: -301742, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Event Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 3:17:06 PM ProcessModelError
+Error Code: -301742, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Event Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 3:21:48 PM ProcessModelError
+Error Code: -301742, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Event Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 3:39:30 PM ProcessModelError
+Error Code: -301742, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Event Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 3:41:39 PM ProcessModelError
+Error Code: -301742, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Event Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 3:43:09 PM ProcessModelError
+Error Code: 0, Code Module/User-defined error code.
+Message: 'Error Writing Report' at step 'Error Writing Report' in seq 'Socket'
+
+TST-C-ROS-T2935    25/6/2026 3:43:37 PM ProcessModelError
+Error Code: -301742, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Event Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 4:25:10 PM ProcessModelError
+Error Code: -301742, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Event Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 4:30:33 PM ProcessModelError
+Error Code: -301742, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Event Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 4:48:52 PM ProcessModelError
+Error Code: -301745, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The I2C master lost arbitration and failed to seize the bus during transmission of a data byte.' at step 'Alarm Enable Flags' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 4:49:09 PM ProcessModelError
+Error Code: -301745, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The I2C master lost arbitration and failed to seize the bus during transmission of a data byte.' at step 'Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 4:49:55 PM ProcessModelError
+Error Code: -301742, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'nWriteProtect' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 4:53:01 PM ProcessModelError
+Error Code: -301742, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge an address+direction byte transmitted by the I2C master.  If you are using ACK polling, consider increasing the timeout. Other reasons include the incorrect address set in the I2C configuration or the incorrect use of the 7-bit address. When entering an address to access a 7-bit device, do not include the direction bit. The NI-845x Basic I2C API internally sets the direction bit to the correct value, depending on the function (write or read). If your datasheet specifies the 7-bit device address as a byte, discard the direction bit (bit 0) and right-shift the byte value by one to create the 7-bit address.' at step 'Manufacturer Name' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 4:54:41 PM ProcessModelError
+Error Code: -301745, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The I2C master lost arbitration and failed to seize the bus during transmission of a data byte.' at step 'Battery Runtime Low' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 4:55:00 PM ProcessModelError
+Error Code: -301745, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The I2C master lost arbitration and failed to seize the bus during transmission of a data byte.' at step 'Product Name' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 5:00:25 PM ProcessModelError
+Error Code: -301744, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The I2C master lost arbitration and failed to seize the bus during transmission of an address+direction byte.' at step 'FW Major Rev' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 5:07:43 PM ProcessModelError
+Error Code: -301702, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The supplied clock rate is too low. Refer to your hardware documentation for supported clock rates.' at step 'EEPROM Major Version' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 5:08:32 PM ProcessModelError
+Error Code: -301743, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge a data byte transmitted by the I2C master.' at step 'Product Name' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 5:27:52 PM ProcessModelError
+Error Code: -301745, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The I2C master lost arbitration and failed to seize the bus during transmission of a data byte.' at step 'Product Name' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 5:40:17 PM ProcessModelError
+Error Code: -301708, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  Timeout expired before operation completed. For the NI USB-8451, a power cycle may be required.' at step 'Product Name' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 5:40:32 PM ProcessModelError
+Error Code: -301743, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge a data byte transmitted by the I2C master.' at step 'Serial Number' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 5:46:29 PM ProcessModelError
+Error Code: -301745, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The I2C master lost arbitration and failed to seize the bus during transmission of a data byte.' at step 'Product Name' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 5:49:34 PM ProcessModelError
+Error Code: -301743, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge a data byte transmitted by the I2C master.' at step 'nWriteProtect' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 5:49:46 PM ProcessModelError
+Error Code: -301743, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge a data byte transmitted by the I2C master.' at step 'Product Name' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 5:55:21 PM ProcessModelError
+Error Code: -301745, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The I2C master lost arbitration and failed to seize the bus during transmission of a data byte.' at step 'Product Name' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 5:59:31 PM ProcessModelError
+Error Code: -301745, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The I2C master lost arbitration and failed to seize the bus during transmission of a data byte.' at step 'Product Name' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 6:04:57 PM ProcessModelError
+Error Code: -301745, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The I2C master lost arbitration and failed to seize the bus during transmission of a data byte.' at step 'Manufacturing Info' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 6:11:47 PM ProcessModelError
+Error Code: -301743, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The slave did not acknowledge a data byte transmitted by the I2C master.' at step 'Product Name' in seq 'ProcessModelPostStepRuntimeError'
+
+    25/6/2026 7:27:38 PM ProcessModelError
+Error Code: -301706, Code Module/User-defined error code.
+Message: 'Property Node (arg 1) in Configure I2C Device.vi
+NI-845x:  The device reference is invalid. Verify that the supplied device reference contains a valid device name.' at step 'Configure I2C Device' in seq 'ProcessModelPostStepRuntimeError'
+
+    25/6/2026 7:27:57 PM ProcessModelError
+Error Code: -301706, Code Module/User-defined error code.
+Message: 'Property Node (arg 1) in Configure I2C Device.vi
+NI-845x:  The device reference is invalid. Verify that the supplied device reference contains a valid device name.' at step 'Configure I2C Device' in seq 'ProcessModelPostStepRuntimeError'
+
+    25/6/2026 7:28:02 PM ProcessModelError
+Error Code: -301706, Code Module/User-defined error code.
+Message: 'NI-845x Close Device Reference.vi:5830002
+NI-845x:  The device reference is invalid. Verify that the supplied device reference contains a valid device name.' at step 'Disconnect I2C Device' in seq 'ProcessModelPostStepRuntimeError'
+
+    25/6/2026 7:28:35 PM ProcessModelError
+Error Code: -301706, Code Module/User-defined error code.
+Message: 'Property Node (arg 1) in Configure I2C Device.vi
+NI-845x:  The device reference is invalid. Verify that the supplied device reference contains a valid device name.' at step 'Configure I2C Device' in seq 'ProcessModelPostStepRuntimeError'
+
+    25/6/2026 7:28:48 PM ProcessModelError
+Error Code: -301706, Code Module/User-defined error code.
+Message: 'NI-845x Close Device Reference.vi:5830002
+NI-845x:  The device reference is invalid. Verify that the supplied device reference contains a valid device name.' at step 'Disconnect I2C Device' in seq 'ProcessModelPostStepRuntimeError'
+
+    25/6/2026 7:29:46 PM ProcessModelError
+Error Code: -301706, Code Module/User-defined error code.
+Message: 'Property Node (arg 1) in Configure I2C Device.vi
+NI-845x:  The device reference is invalid. Verify that the supplied device reference contains a valid device name.' at step 'Configure I2C Device' in seq 'ProcessModelPostStepRuntimeError'
+
+    25/6/2026 7:29:55 PM ProcessModelError
+Error Code: -301706, Code Module/User-defined error code.
+Message: 'NI-845x Close Device Reference.vi:5830002
+NI-845x:  The device reference is invalid. Verify that the supplied device reference contains a valid device name.' at step 'Disconnect I2C Device' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 7:31:25 PM ProcessModelError
+Error Code: -301745, Code Module/User-defined error code.
+Message: 'NI-845x I2C Write.vi:4470001
+NI-845x:  The I2C master lost arbitration and failed to seize the bus during transmission of a data byte.' at step 'Product Name' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 7:50:30 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 7:50:37 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 9:02:32 PM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'Parameter 'Path to Project File':
+Unknown variable or property name 'StationGlobals.ApplicationDirectory.JFlash.JFlash_UUT_Bootloader_Project'.' at step 'TRS06.6 - Compare UUT_Bootloader CRC Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 9:19:44 PM ProcessModelError
+Error Code: 999, Code Module/User-defined error code.
+Message: 'ST-LINK.lvlib:Parse Return Codes.vi
+An unknown error has occured.
+
+
+Complete call chain:
+     ST-LINK.lvlib:Parse Return Codes.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi.ProxyCaller' at step 'TRS06.8 - Compare Programmed File' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 9:20:10 PM ProcessModelError
+Error Code: 2, Code Module/User-defined error code.
+Message: 'ST-LINK.lvlib:Parse Return Codes.vi
+Connection problem.
+
+
+Complete call chain:
+     ST-LINK.lvlib:Parse Return Codes.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi.ProxyCaller
+LabVIEW: (Hex 0x2) Memory is full.
+=========================
+LabVIEW: (Hex 0x2) ERROR_FILE_NOT_FOUND.
+=========================
+No Listeners on the GPIB.' at step 'TRS06.8 - Compare Programmed File' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 9:20:31 PM ProcessModelError
+Error Code: 2, Code Module/User-defined error code.
+Message: 'ST-LINK.lvlib:Parse Return Codes.vi
+Connection problem.
+
+
+Complete call chain:
+     ST-LINK.lvlib:Parse Return Codes.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi.ProxyCaller
+LabVIEW: (Hex 0x2) Memory is full.
+=========================
+LabVIEW: (Hex 0x2) ERROR_FILE_NOT_FOUND.
+=========================
+No Listeners on the GPIB.' at step 'TRS06.1 - Erase Flash' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 9:20:48 PM ProcessModelError
+Error Code: 2, Code Module/User-defined error code.
+Message: 'ST-LINK.lvlib:Parse Return Codes.vi
+Connection problem.
+
+
+Complete call chain:
+     ST-LINK.lvlib:Parse Return Codes.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi.ProxyCaller
+LabVIEW: (Hex 0x2) Memory is full.
+=========================
+LabVIEW: (Hex 0x2) ERROR_FILE_NOT_FOUND.
+=========================
+No Listeners on the GPIB.' at step 'TRS06.1 - Erase Flash' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    25/6/2026 9:25:36 PM ProcessModelError
+Error Code: 5, Code Module/User-defined error code.
+Message: 'Delete in Verify_CRC.vi
+C:\Users\pgb-adc-tst\AppData\Roaming\SEGGER\JFlash.log
+LabVIEW: (Hex 0x5) File already open.
+=========================
+Command requires GPIB Controller to be System Controller.' at step 'TRS06.10 - Compare UUT_2024B CRC Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    26/6/2026 7:14:55 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in RIGOL MHO900 Series.lvlib:Fetch Waveform Measurement.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Measure Current using Current Probe' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    26/6/2026 7:15:41 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in RIGOL MHO900 Series.lvlib:Fetch Waveform Measurement.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Measure Current using Current Probe' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    26/6/2026 10:17:01 AM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The precondition for the step 'Power Cycle PPS_1' could not be evaluated.
+Unknown variable or property name 'Locals.PowerCycle_Times'.' at step 'Power Cycle PPS_1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    26/6/2026 10:19:54 AM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The precondition for the step 'Power Cycle PPS_1' could not be evaluated.
+Unknown variable or property name 'Locals.PowerCycle_Times'.' at step 'Power Cycle PPS_1' in seq 'ProcessModelPostStepRuntimeError'
+

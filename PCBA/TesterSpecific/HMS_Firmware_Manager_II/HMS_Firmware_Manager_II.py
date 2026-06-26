@@ -2,6 +2,8 @@ import os
 import logging
 import time 
 import re
+import pyautogui
+import pywinauto.mouse as mouse  # <-- Imported for mouse movement
 
 from tde_utilities.log_util import setup_custom_logger
 from tde_utilities.win_util import WindowApp
@@ -16,10 +18,19 @@ class CustomWorkflow:
         self.ocr =  OcrUtil(script_path=script_path)
         self.params = load_params(rf"{script_path}\configs\params.toml")
 
+    def move_mouse_away(self, coords=(0, 0)):
+        """Moves the mouse cursor to a safe space to avoid hovering artifacts."""
+        try:
+            mouse.move(coords=coords)
+            time.sleep(0.5)  # Brief pause to let the UI register the move
+        except Exception as e:
+            logging.warning(f"Failed to move mouse away: {e}")
+
     def run(self):
         with WindowApp(self.app_path) as ui:
             self.ui = ui
             self.ui.ensure_active_and_front()
+            self.move_mouse_away()
 
             # Step 1: Scan for SDU
             self.navigate_to_change_network_type()
@@ -34,20 +45,41 @@ class CustomWorkflow:
                 self.is_change_network_type_done()
             
             #Step 4: Perform firmware update
-            self.navigate_to_automatic_firmware_update()
-            self.scan_for_devices()
-            # if self.check_update_needed():
-            self.perform_firmware_update()
-            if self.is_firmware_update_done():
-                return
+            if self.check_update_needed():
+                self.navigate_to_automatic_firmware_update()
+                self.scan_for_devices()
+                self.perform_firmware_update()
+                if self.is_firmware_update_done():
+                    return
 
     def scan_for_devices(self):
         self.ui.ensure_active_and_front()
-        # Use OCR because locator name not available
-        rel_coord = self.ocr.locate("Scan", self.ui.get_windows_region())
-        self.ui.find_by_coord(coord=rel_coord).click_input()
+        
+        # Path to your template image
+        scan_img_path = r"C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\Picture\scan.png"
+        
+        print("Looking for 'Scan' button on screen...")
+        try:
+            # Locate the center of the image on the screen
+            # confidence=0.9 requires the 'opencv-python' package installed
+            scan_location = pyautogui.locateCenterOnScreen(scan_img_path, confidence=0.9)
+            
+            if scan_location is None:
+                raise Exception("Could not find the 'Scan' button image on screen.")
+                
+            # Unpack the screen coordinates
+            screen_x, screen_y = scan_location
+            
+            # Click the button using your UI framework's coordinate method
+            self.ui.find_by_coord(coord=(screen_x, screen_y)).click_input()
+            
+        except Exception as e:
+            raise Exception(f"Failed to locate or click the Scan button: {e}")
+
+        # Keep your existing OCR check for "SDU", or replace if you have an image for that too
         if not self.ocr.locate("SDU", self.ui.get_windows_region(), timeout=5):
             raise Exception("Module detection failed")
+            
         print("MODULE DETECTION PASS")
 
     def navigate_to_change_network_type(self):
@@ -96,12 +128,29 @@ class CustomWorkflow:
         self.ui.shortcut("A")
 
     def check_update_needed(self):
-        print(self.params['build_version'])
-        rel_coords = self.ocr.locate_all(re.compile(rf'{self.params["build_version"]}'),preprocess = True)
-        if len(rel_coords) == 2:
-            logging.info('attempt to update firmware')
-            return True
-        logging.info("no need to update firmware")
+        print(f"Target build version from params: {self.params['build_version']}")
+        
+        # Define image paths
+        available_img = r"C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\Picture\available_firmware.png"
+        current_img = r"C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\Picture\current_firmware.png"
+        
+        try:
+            # Locate all instances of both images on the screen
+            # Note: list() is used because locateAllOnScreen returns a generator
+            available_matches = list(pyautogui.locateAllOnScreen(available_img, confidence=0.9))
+            current_matches = list(pyautogui.locateAllOnScreen(current_img, confidence=0.9))
+            
+            logging.info(f"Found {len(available_matches)} available firmware markers and {len(current_matches)} current firmware markers.")
+            
+            # Check condition: Update is needed if both markers are present on screen
+            if len(available_matches) > 0 and len(current_matches) > 0:
+                logging.info('Attempt to update firmware: Version mismatch detected via images.')
+                return True
+                
+        except Exception as e:
+            logging.error(f"Error during PyAutoGUI screen matching: {e}")
+            
+        print ("EIP FW IS LATEST, NO UPDATE REQUIRED. \nPASS")
         return False
     
     def perform_firmware_update(self):

@@ -72,7 +72,7 @@ class WindowApp:
         time.sleep(1)
         self.dlg = self.app.top_window()
         
-        # # Maximize the main window
+        # Maximize the main window
         # try:
         #     self.dlg.maximize()
         # except Exception as e:

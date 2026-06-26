@@ -1,0 +1,192 @@
+    26/6/2026 3:05:05 PM ProcessModelError
+Error Code: 0, Code Module/User-defined error code.
+Message: 'Open Com Error
+LabVIEW: (Hex 0x0) Error connecting to GPIB driver or device. The NI-488.2 driver may not be installed.
+=========================
+Error connecting to driver or device. The NI-488.2 driver may not be installed.
+=========================
+VISA:  (Hex 0x0) Operation completed successfully.' at step 'Initialize Feasa' in seq 'ProcessModelPostStepRuntimeError'
+
+    26/6/2026 3:05:52 PM ProcessModelError
+Error Code: -1074001908, Code Module/User-defined error code.
+Message: 'GENser Initialize.vi -> PPS_TDK_Lambda.vi -> TDK_Set_Volt_Curr.vi  When first addressing the Genesys power supply, did not receive response.
+
+Sent command:           "ADR 06"
+Received response:    none (timeout error)
+
+1. Check Genesys address setting
+2. Check Genesys BAUD rate settings
+3. Check "VISA name" control, COMn or ASRLn
+4. Check Genesys setting for RS-232 or RS-485
+5. Check cable type, either RS-232 or RS-485
+6. Check cable to J3 IN or J3 OUT 
+' at step 'Disable PPS#3' in seq 'ProcessModelPostStepRuntimeError'
+
+    26/6/2026 3:06:05 PM ProcessModelError
+Error Code: -17320, Unknown function or sequence name.
+Message: 'Error calling sequence Disconnect Serial Port.
+Unknown function or sequence name 'Disconnect Serial Port'.' at step 'Disconnect Serial Port' in seq 'ProcessModelPostStepRuntimeError'
+
+    26/6/2026 3:10:38 PM ProcessModelError
+Error Code: 0, Code Module/User-defined error code.
+Message: 'Open Com Error
+LabVIEW: (Hex 0x0) Error connecting to GPIB driver or device. The NI-488.2 driver may not be installed.
+=========================
+Error connecting to driver or device. The NI-488.2 driver may not be installed.
+=========================
+VISA:  (Hex 0x0) Operation completed successfully.' at step 'Initialize Feasa' in seq 'ProcessModelPostStepRuntimeError'
+
+    26/6/2026 3:11:47 PM ProcessModelError
+Error Code: 0, Code Module/User-defined error code.
+Message: 'Open Com Error
+LabVIEW: (Hex 0x0) Error connecting to GPIB driver or device. The NI-488.2 driver may not be installed.
+=========================
+Error connecting to driver or device. The NI-488.2 driver may not be installed.
+=========================
+VISA:  (Hex 0x0) Operation completed successfully.' at step 'Initialize Feasa' in seq 'ProcessModelPostStepRuntimeError'
+
+    26/6/2026 3:11:50 PM ProcessModelError
+Error Code: -1074001908, Code Module/User-defined error code.
+Message: 'GENser Initialize.vi -> PPS_TDK_Lambda.vi -> TDK_Set_Volt_Curr.vi  When first addressing the Genesys power supply, did not receive response.
+
+Sent command:           "ADR 06"
+Received response:    none (timeout error)
+
+1. Check Genesys address setting
+2. Check Genesys BAUD rate settings
+3. Check "VISA name" control, COMn or ASRLn
+4. Check Genesys setting for RS-232 or RS-485
+5. Check cable type, either RS-232 or RS-485
+6. Check cable to J3 IN or J3 OUT 
+' at step 'Disable PPS#3' in seq 'ProcessModelPostStepRuntimeError'
+
+    26/6/2026 3:17:30 PM ProcessModelError
+Error Code: 0, Code Module/User-defined error code.
+Message: 'Open Com Error
+LabVIEW: (Hex 0x0) Error connecting to GPIB driver or device. The NI-488.2 driver may not be installed.
+=========================
+Error connecting to driver or device. The NI-488.2 driver may not be installed.
+=========================
+VISA:  (Hex 0x0) Operation completed successfully.' at step 'Initialize Feasa' in seq 'ProcessModelPostStepRuntimeError'
+
+    26/6/2026 3:20:55 PM ProcessModelError
+Error Code: -1074001908, Code Module/User-defined error code.
+Message: 'GENser Initialize.vi -> PPS_TDK_Lambda.vi -> TDK_Set_Volt_Curr.vi  When first addressing the Genesys power supply, did not receive response.
+
+Sent command:           "ADR 06"
+Received response:    none (timeout error)
+
+1. Check Genesys address setting
+2. Check Genesys BAUD rate settings
+3. Check "VISA name" control, COMn or ASRLn
+4. Check Genesys setting for RS-232 or RS-485
+5. Check cable type, either RS-232 or RS-485
+6. Check cable to J3 IN or J3 OUT 
+' at step 'Disable PPS#3' in seq 'ProcessModelPostStepRuntimeError'
+
+    26/6/2026 3:22:02 PM ProcessModelError
+Error Code: -1074001908, Code Module/User-defined error code.
+Message: 'GENser Initialize.vi -> PPS_TDK_Lambda.vi -> TDK_Set_Volt_Curr.vi  When first addressing the Genesys power supply, did not receive response.
+
+Sent command:           "ADR 06"
+Received response:    none (timeout error)
+
+1. Check Genesys address setting
+2. Check Genesys BAUD rate settings
+3. Check "VISA name" control, COMn or ASRLn
+4. Check Genesys setting for RS-232 or RS-485
+5. Check cable type, either RS-232 or RS-485
+6. Check cable to J3 IN or J3 OUT 
+' at step 'Enable PPS#3' in seq 'ProcessModelPostStepRuntimeError'
+
+    26/6/2026 3:23:36 PM ProcessModelError
+Error Code: -1074001908, Code Module/User-defined error code.
+Message: 'GENser Initialize.vi -> PPS_TDK_Lambda.vi -> TDK_Set_Volt_Curr.vi  When first addressing the Genesys power supply, did not receive response.
+
+Sent command:           "ADR 06"
+Received response:    none (timeout error)
+
+1. Check Genesys address setting
+2. Check Genesys BAUD rate settings
+3. Check "VISA name" control, COMn or ASRLn
+4. Check Genesys setting for RS-232 or RS-485
+5. Check cable type, either RS-232 or RS-485
+6. Check cable to J3 IN or J3 OUT 
+' at step 'Disable PPS#3' in seq 'ProcessModelPostStepRuntimeError'
+
+    26/6/2026 3:27:47 PM ProcessModelError
+Error Code: -17348, Mismatched items or unmatched item.
+Message: 'Error executing 'Select' step.
+Error in step '' at index 6 in step group Main of sequence 'Configure PPS'.
+The End step for a Case step must be followed by another Case step or by the End step for the enclosing Select block.' at step 'Select' in seq 'ProcessModelPostStepRuntimeError'
+
+    26/6/2026 3:28:43 PM ProcessModelError
+Error Code: -1074001908, Code Module/User-defined error code.
+Message: 'GENser Initialize.vi -> PPS_TDK_Lambda.vi -> TDK_Set_Volt_Curr.vi  When first addressing the Genesys power supply, did not receive response.
+
+Sent command:           "ADR 06"
+Received response:    none (timeout error)
+
+1. Check Genesys address setting
+2. Check Genesys BAUD rate settings
+3. Check "VISA name" control, COMn or ASRLn
+4. Check Genesys setting for RS-232 or RS-485
+5. Check cable type, either RS-232 or RS-485
+6. Check cable to J3 IN or J3 OUT 
+' at step 'Disable PPS#3' in seq 'ProcessModelPostStepRuntimeError'
+
+    26/6/2026 3:30:25 PM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'Parameter 'Port':
+Unknown variable or property name 'FileGlobals.Sensor.Port3'.' at step 'Read Fixture Detected' in seq 'ProcessModelPostStepRuntimeError'
+
+    26/6/2026 3:30:47 PM ProcessModelError
+Error Code: -1074001908, Code Module/User-defined error code.
+Message: 'GENser Initialize.vi -> PPS_TDK_Lambda.vi -> TDK_Set_Volt_Curr.vi  When first addressing the Genesys power supply, did not receive response.
+
+Sent command:           "ADR 06"
+Received response:    none (timeout error)
+
+1. Check Genesys address setting
+2. Check Genesys BAUD rate settings
+3. Check "VISA name" control, COMn or ASRLn
+4. Check Genesys setting for RS-232 or RS-485
+5. Check cable type, either RS-232 or RS-485
+6. Check cable to J3 IN or J3 OUT 
+' at step 'Disable PPS#3' in seq 'ProcessModelPostStepRuntimeError'
+
+    26/6/2026 3:32:11 PM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'Parameter 'Port':
+Unknown variable or property name 'FileGlobals.Valve.Port0'.' at step 'Enable Main Valve' in seq 'ProcessModelPostStepRuntimeError'
+
+    26/6/2026 3:33:39 PM ProcessModelError
+Error Code: -1074001908, Code Module/User-defined error code.
+Message: 'GENser Initialize.vi -> PPS_TDK_Lambda.vi -> TDK_Set_Volt_Curr.vi  When first addressing the Genesys power supply, did not receive response.
+
+Sent command:           "ADR 06"
+Received response:    none (timeout error)
+
+1. Check Genesys address setting
+2. Check Genesys BAUD rate settings
+3. Check "VISA name" control, COMn or ASRLn
+4. Check Genesys setting for RS-232 or RS-485
+5. Check cable type, either RS-232 or RS-485
+6. Check cable to J3 IN or J3 OUT 
+' at step 'Disable PPS#3' in seq 'ProcessModelPostStepRuntimeError'
+
+    26/6/2026 3:36:25 PM ProcessModelError
+Error Code: -1074001908, Code Module/User-defined error code.
+Message: 'GENser Initialize.vi -> PPS_TDK_Lambda.vi -> TDK_Set_Volt_Curr.vi  When first addressing the Genesys power supply, did not receive response.
+
+Sent command:           "ADR 06"
+Received response:    none (timeout error)
+
+1. Check Genesys address setting
+2. Check Genesys BAUD rate settings
+3. Check "VISA name" control, COMn or ASRLn
+4. Check Genesys setting for RS-232 or RS-485
+5. Check cable type, either RS-232 or RS-485
+6. Check cable to J3 IN or J3 OUT 
+' at step 'Disable PPS#3' in seq 'ProcessModelPostStepRuntimeError'
+
