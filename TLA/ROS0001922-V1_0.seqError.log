@@ -190,3 +190,205 @@ Received response:    none (timeout error)
 6. Check cable to J3 IN or J3 OUT 
 ' at step 'Disable PPS#3' in seq 'ProcessModelPostStepRuntimeError'
 
+TST-C-ROS-T2935    26/6/2026 6:55:44 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    26/6/2026 6:55:50 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    26/6/2026 6:56:58 PM ProcessModelError
+Error Code: -17300, Value invalid or out of range.
+Message: 'Error executing step post action.
+Cannot find go to target. The step 'ID#:V21KGTUk7BG6gAAwGAiQvD' is not in the current sequence.' at step 'Goto' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    26/6/2026 6:58:01 PM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'Parameter 'Line':
+Unknown variable or property name 'FileGlobals.Relay.Port1.TLA_VLoad_GND'.' at step 'Enable TLA_OUT_GND (K22)' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    26/6/2026 8:23:02 PM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The status expression for the step 'TRS01.1 - VLoad Voltage On ' could not be evaluated.
+Error in call to expression function 'CheckLimits'.
+
+Error in Low Limit Expression:
+Unknown variable or property name 'FileGlobals.TestLimit.Power_Up_Test'.' at step 'TRS01.1 - VLoad Voltage On ' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    26/6/2026 8:41:27 PM ProcessModelError
+Error Code: -200170, Code Module/User-defined error code.
+Message: 'DAQmx Create Channel (DO-Digital Output).vi:6970006
+Device: USB6509
+Physical Channel Name: port/line
+
+Task Name: _unnamedTask<AA5>
+Physical channel specified does not exist on this device.
+
+Refer to the documentation for channels available on this device.' at step 'Trigger Measured Pins' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    26/6/2026 8:43:50 PM ProcessModelError
+Error Code: -17300, Value invalid or out of range.
+Message: 'Error executing step post action.
+Cannot find go to target. The step 'ID#:V21KGTUk7BG6gAAwGAiQvD' is not in the current sequence.' at step 'Goto' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    26/6/2026 8:48:22 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'Agilent 3446X Series.lvlib:Error Query.vi
+Instrument reports:
+-222,"Data out of range"
++0,"No error"
+
+
+
+Complete call chain:
+     Agilent 3446X Series.lvlib:Error Query.vi
+     Agilent 3446X Series.lvlib:Configure Voltage.vi
+     Agilent 3446X Series.lvlib:Configure Voltage.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Configure Voltage' in seq 'ProcessModelPostStepRuntimeError'
+
+    26/6/2026 9:42:33 PM ProcessModelError
+Error Code: 0, Code Module/User-defined error code.
+Message: 'Open Com Error
+LabVIEW: (Hex 0x0) Error connecting to GPIB driver or device. The NI-488.2 driver may not be installed.
+=========================
+Error connecting to driver or device. The NI-488.2 driver may not be installed.
+=========================
+VISA:  (Hex 0x0) Operation completed successfully.' at step 'Initialize Feasa' in seq 'ProcessModelPostStepRuntimeError'
+
+    26/6/2026 9:43:11 PM ProcessModelError
+Error Code: 0, Code Module/User-defined error code.
+Message: 'Open Com Error
+LabVIEW: (Hex 0x0) Error connecting to GPIB driver or device. The NI-488.2 driver may not be installed.
+=========================
+Error connecting to driver or device. The NI-488.2 driver may not be installed.
+=========================
+VISA:  (Hex 0x0) Operation completed successfully.' at step 'Initialize Feasa' in seq 'ProcessModelPostStepRuntimeError'
+
+    29/6/2026 10:46:04 AM ProcessModelError
+Error Code: 0, Code Module/User-defined error code.
+Message: 'Open Com Error
+LabVIEW: (Hex 0x0) Error connecting to GPIB driver or device. The NI-488.2 driver may not be installed.
+=========================
+Error connecting to driver or device. The NI-488.2 driver may not be installed.
+=========================
+VISA:  (Hex 0x0) Operation completed successfully.' at step 'Initialize Feasa' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    29/6/2026 2:00:32 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    29/6/2026 2:00:40 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+    30/6/2026 1:20:11 PM ProcessModelError
+Error Code: -200587, Code Module/User-defined error code.
+Message: 'DAQmx Start Task.vi:7220008
+Device: USB6509
+
+Task Name: _unnamedTask<3B8C>
+Requested operation could not be performed, because the specified digital lines are either reserved or the device is not present in NI-DAQmx.
+
+It is possible that these lines are reserved by another task or the device is being reset. If you are using these lines with another task, wait for the task to complete. If you want to force the other task to relinquish the device, reset the device. If you are resetting the device, wait for the reset to finish.' at step 'Enable Main Valve' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    30/6/2026 1:43:26 PM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS1 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+    30/6/2026 2:42:48 PM ProcessModelError
+Error Code: 0, Code Module/User-defined error code.
+Message: 'Open Com Error
+LabVIEW: (Hex 0x0) Error connecting to GPIB driver or device. The NI-488.2 driver may not be installed.
+=========================
+Error connecting to driver or device. The NI-488.2 driver may not be installed.
+=========================
+VISA:  (Hex 0x0) Operation completed successfully.' at step 'Initialize Feasa' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    30/6/2026 3:30:58 PM ProcessModelError
+Error Code: -17348, Mismatched items or unmatched item.
+Message: 'Error executing 'Select' step.
+Error in step '' at index 5 in step group Main of sequence 'Readback PPS Current'.
+The End step for a Case step must be followed by another Case step or by the End step for the enclosing Select block.' at step 'Select' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    30/6/2026 3:34:39 PM ProcessModelError
+Error Code: -17348, Mismatched items or unmatched item.
+Message: 'Error executing 'Select' step.
+Error in step '' at index 5 in step group Main of sequence 'Readback PPS Current'.
+The End step for a Case step must be followed by another Case step or by the End step for the enclosing Select block.' at step 'Select' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    30/6/2026 3:49:14 PM ProcessModelError
+Error Code: -17348, Mismatched items or unmatched item.
+Message: 'Error executing 'Select' step.
+Error in step '' at index 5 in step group Main of sequence 'Readback PPS Current'.
+The End step for a Case step must be followed by another Case step or by the End step for the enclosing Select block.' at step 'Select' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    30/6/2026 4:23:20 PM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The post-expression for the step 'Calculate Efficiency' could not be evaluated.
+Unknown variable or property name 'FileGlobals.TestResult.Battery_Output_Power'.' at step 'Calculate Efficiency' in seq 'ProcessModelPostStepRuntimeError'
+
+    30/6/2026 4:44:42 PM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Disconnect E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    30/6/2026 5:14:52 PM ProcessModelError
+Error Code: -1074001403, Code Module/User-defined error code.
+Message: 'GENser Write to Instrument.vi -> GENser Config Current Limit.vi  Error sending command to Genesys addr 00:
+"PC 30.000000"
+
+Setting out of range.  Attempt to program a setting outside of the model rating.' at step 'PPS1 Current' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    30/6/2026 5:16:41 PM ProcessModelError
+Error Code: -1074001403, Code Module/User-defined error code.
+Message: 'GENser Write to Instrument.vi -> GENser Config Current Limit.vi  Error sending command to Genesys addr 00:
+"PC 29.000000"
+
+Setting out of range.  Attempt to program a setting outside of the model rating.' at step 'PPS1 Current' in seq 'ProcessModelPostStepRuntimeError'
+
