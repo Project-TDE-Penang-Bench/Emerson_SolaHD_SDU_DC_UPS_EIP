@@ -17,14 +17,14 @@ setup_custom_logger(script_dir,
                                       'selenium.webdriver.remote.remote_connection'])
 
 overlay.start()
-overlay.message = "Status: Reading Settings Page"
+overlay.message = "Status: Reading Security Page"
 
 try:
     # Define target URLs and testing vectors
     TARGET_URL = "http://192.168.1.5"  # Replace with your test hardware IP
 
     # Initialize the automated execution block
-    with Browser(TARGET_URL, headless=False) as browser:
+    with Browser(TARGET_URL, headless=True) as browser:
     
          # Set Security and Reset
         browser.click(browser.loc(element_id='security'))
@@ -37,7 +37,7 @@ try:
 
         # browser.click(browser.loc(element_id='btnResetSecurity'))
 
-    browser = Browser(TARGET_URL)
+    browser = Browser(TARGET_URL, headless=True)
 
     for attempt in range(10):
         

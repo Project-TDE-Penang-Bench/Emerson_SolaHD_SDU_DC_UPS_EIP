@@ -814,3 +814,255 @@ Exception: Failed to locate or click the Scan button: name 'pyautogui' is not de
 2026-06-26 14:09:46,593 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
 2026-06-26 14:09:46,594 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
 2026-06-26 14:09:46,596 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-40.99s
+2026-07-02 15:38:07,540 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-02 15:38:07,541 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-02 15:38:07,543 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-02 15:38:19,097 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-02 15:38:19,704 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-02 15:38:19,917 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-02 15:38:20,193 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-02 15:38:20,206 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-02 15:38:20,301 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-02 15:38:20,304 - ERROR - [root.HMS_Firmware_Manager_II.main:215] - HMS_MANAGER_CONVERT FAIL
+Traceback (most recent call last):
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyautogui\__init__.py", line 204, in locateCenterOnScreen
+    return pyscreeze.locateCenterOnScreen(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyscreeze\__init__.py", line 447, in locateCenterOnScreen
+    coords = locateOnScreen(image, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyscreeze\__init__.py", line 257, in _locateAll_opencv
+    raise ImageNotFoundException('Could not locate the image (highest confidence = %.3f)' % result.max())
+pyscreeze.ImageNotFoundException: Could not locate the image (highest confidence = 0.450)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\HMS_Firmware_Manager_II.py", line 65, in scan_for_devices
+    scan_location = pyautogui.locateCenterOnScreen(scan_img_path, confidence=0.9)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyautogui\__init__.py", line 174, in wrapper
+    raise ImageNotFoundException  # Raise PyAutoGUI's ImageNotFoundException.
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pyautogui.ImageNotFoundException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\HMS_Firmware_Manager_II.py", line 211, in main
+    workflow.run()
+    ~~~~~~~~~~~~^^
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\HMS_Firmware_Manager_II.py", line 37, in run
+    self.scan_for_devices()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\HMS_Firmware_Manager_II.py", line 77, in scan_for_devices
+    raise Exception(f"Failed to locate or click the Scan button: {e}")
+Exception: Failed to locate or click the Scan button: 
+2026-07-02 15:41:33,770 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-02 15:41:33,770 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-02 15:41:33,771 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-02 15:41:45,176 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-02 15:41:45,781 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-02 15:41:45,979 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-02 15:41:46,220 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-02 15:41:46,232 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-02 15:41:46,330 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-02 15:41:46,332 - ERROR - [root.HMS_Firmware_Manager_II.main:215] - HMS_MANAGER_CONVERT FAIL
+Traceback (most recent call last):
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyautogui\__init__.py", line 204, in locateCenterOnScreen
+    return pyscreeze.locateCenterOnScreen(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyscreeze\__init__.py", line 447, in locateCenterOnScreen
+    coords = locateOnScreen(image, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyscreeze\__init__.py", line 257, in _locateAll_opencv
+    raise ImageNotFoundException('Could not locate the image (highest confidence = %.3f)' % result.max())
+pyscreeze.ImageNotFoundException: Could not locate the image (highest confidence = 0.450)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\HMS_Firmware_Manager_II.py", line 65, in scan_for_devices
+    scan_location = pyautogui.locateCenterOnScreen(scan_img_path, confidence=0.9)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyautogui\__init__.py", line 174, in wrapper
+    raise ImageNotFoundException  # Raise PyAutoGUI's ImageNotFoundException.
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pyautogui.ImageNotFoundException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\HMS_Firmware_Manager_II.py", line 211, in main
+    workflow.run()
+    ~~~~~~~~~~~~^^
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\HMS_Firmware_Manager_II.py", line 37, in run
+    self.scan_for_devices()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\HMS_Firmware_Manager_II.py", line 77, in scan_for_devices
+    raise Exception(f"Failed to locate or click the Scan button: {e}")
+Exception: Failed to locate or click the Scan button: 
+2026-07-02 15:43:15,680 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-02 15:43:15,680 - INFO - [root.state_util.load_params:20] - Loading configuration from: c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-02 15:43:15,681 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-02 15:43:17,182 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-02 15:43:17,789 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-02 15:43:17,968 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-02 15:43:18,252 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-02 15:43:18,266 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-02 15:43:18,369 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-02 15:43:18,371 - ERROR - [root.HMS_Firmware_Manager_II.main:215] - HMS_MANAGER_CONVERT FAIL
+Traceback (most recent call last):
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyautogui\__init__.py", line 204, in locateCenterOnScreen
+    return pyscreeze.locateCenterOnScreen(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyscreeze\__init__.py", line 447, in locateCenterOnScreen
+    coords = locateOnScreen(image, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyscreeze\__init__.py", line 257, in _locateAll_opencv
+    raise ImageNotFoundException('Could not locate the image (highest confidence = %.3f)' % result.max())
+pyscreeze.ImageNotFoundException: Could not locate the image (highest confidence = 0.450)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\HMS_Firmware_Manager_II.py", line 65, in scan_for_devices
+    scan_location = pyautogui.locateCenterOnScreen(scan_img_path, confidence=0.9)
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\pyautogui\__init__.py", line 174, in wrapper
+    raise ImageNotFoundException  # Raise PyAutoGUI's ImageNotFoundException.
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pyautogui.ImageNotFoundException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\HMS_Firmware_Manager_II.py", line 211, in main
+    workflow.run()
+    ~~~~~~~~~~~~^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\HMS_Firmware_Manager_II.py", line 37, in run
+    self.scan_for_devices()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\HMS_Firmware_Manager_II.py", line 77, in scan_for_devices
+    raise Exception(f"Failed to locate or click the Scan button: {e}")
+Exception: Failed to locate or click the Scan button: 
+2026-07-02 15:43:43,626 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-02 15:43:43,626 - INFO - [root.state_util.load_params:20] - Loading configuration from: c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-02 15:43:43,627 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-02 15:43:45,248 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-02 15:43:45,859 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-02 15:43:46,270 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-02 15:43:46,861 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-02 15:43:46,875 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-02 15:43:47,979 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:43:47,979 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(163), y=np.int64(887)
+2026-07-02 15:43:49,025 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:43:50,343 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-02 15:43:51,329 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:43:51,395 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1059, 112)
+2026-07-02 15:43:52,348 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:43:52,349 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1059, y=112
+2026-07-02 15:43:53,705 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:43:53,771 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (611, 410)
+2026-07-02 15:43:54,921 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:43:54,921 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=611, y=410
+2026-07-02 15:43:55,746 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:43:55,826 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (609, 462)
+2026-07-02 15:43:56,585 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:43:56,585 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=609, y=462
+2026-07-02 15:43:57,434 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:43:57,506 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (915, 517)
+2026-07-02 15:43:58,269 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:43:58,269 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=915, y=517
+2026-07-02 15:43:59,012 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:43:59,067 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: c:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260702_154358.png
+2026-07-02 15:44:04,275 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (808, 111)
+2026-07-02 15:44:04,275 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1000, 111)
+2026-07-02 15:44:04,304 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-02 15:44:04,391 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-02 15:44:04,392 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-02 15:44:04,395 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-20.77s
+2026-07-02 15:46:14,369 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-02 15:46:14,369 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-02 15:46:14,370 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-02 15:46:25,749 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-02 15:46:26,357 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-02 15:46:26,557 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-02 15:46:26,764 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-02 15:46:26,777 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-02 15:46:27,416 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:46:27,416 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(163), y=np.int64(887)
+2026-07-02 15:46:28,082 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:46:28,570 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-02 15:46:29,134 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:46:29,201 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1059, 112)
+2026-07-02 15:46:29,761 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:46:29,761 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1059, y=112
+2026-07-02 15:46:30,589 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:46:30,655 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (611, 410)
+2026-07-02 15:46:31,398 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:46:31,398 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=611, y=410
+2026-07-02 15:46:32,194 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:46:32,254 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (609, 462)
+2026-07-02 15:46:32,978 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:46:32,978 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=609, y=462
+2026-07-02 15:46:33,791 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:46:33,853 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (915, 517)
+2026-07-02 15:46:34,583 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:46:34,583 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=915, y=517
+2026-07-02 15:46:35,335 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:46:35,385 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260702_154634.png
+2026-07-02 15:46:40,583 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (808, 111)
+2026-07-02 15:46:40,583 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1000, 111)
+2026-07-02 15:46:40,609 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-02 15:46:40,683 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-02 15:46:40,684 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-02 15:46:40,686 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-26.32s
+2026-07-02 15:52:23,294 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-02 15:52:23,295 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-02 15:52:23,295 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-02 15:52:34,699 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-02 15:52:35,306 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-02 15:52:35,523 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-02 15:52:35,753 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-02 15:52:35,766 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-02 15:52:36,425 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:52:36,425 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(163), y=np.int64(887)
+2026-07-02 15:52:37,102 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:52:37,584 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-02 15:52:38,153 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:52:38,220 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1059, 112)
+2026-07-02 15:52:38,782 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:52:38,782 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1059, y=112
+2026-07-02 15:52:39,625 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:52:39,691 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (611, 410)
+2026-07-02 15:52:40,426 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:52:40,426 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=611, y=410
+2026-07-02 15:52:41,212 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:52:41,287 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (609, 462)
+2026-07-02 15:52:42,014 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:52:42,014 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=609, y=462
+2026-07-02 15:52:42,832 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:52:42,904 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (915, 517)
+2026-07-02 15:52:43,666 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:52:43,666 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=915, y=517
+2026-07-02 15:52:44,382 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (0, 0, 1536, 912)
+2026-07-02 15:52:44,436 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260702_155243.png
+2026-07-02 15:52:49,632 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (808, 111)
+2026-07-02 15:52:49,633 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1000, 111)
+2026-07-02 15:52:49,658 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-02 15:52:49,738 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-02 15:52:49,738 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-02 15:52:49,741 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-26.45s

@@ -24,7 +24,7 @@ try:
     TARGET_URL = "http://192.168.1.5"  # Replace with your test hardware IP
 
     # Initialize the automated execution block
-    with Browser(TARGET_URL, headless=False) as browser:
+    with Browser(TARGET_URL, headless=True) as browser:
     
         # Read UPS Parameters (complicated because it didn't have spinner)
         browser.click(browser.loc(element_id='para'))

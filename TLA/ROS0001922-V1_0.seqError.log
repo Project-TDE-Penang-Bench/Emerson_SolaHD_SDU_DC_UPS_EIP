@@ -392,3 +392,158 @@ Message: 'GENser Write to Instrument.vi -> GENser Config Current Limit.vi  Error
 
 Setting out of range.  Attempt to program a setting outside of the model rating.' at step 'PPS1 Current' in seq 'ProcessModelPostStepRuntimeError'
 
+    1/7/2026 9:31:42 AM ProcessModelError
+Error Code: 0, Code Module/User-defined error code.
+Message: 'Open Com Error
+LabVIEW: (Hex 0x0) Error connecting to GPIB driver or device. The NI-488.2 driver may not be installed.
+=========================
+Error connecting to driver or device. The NI-488.2 driver may not be installed.
+=========================
+VISA:  (Hex 0x0) Operation completed successfully.' at step 'Initialize Feasa' in seq 'ProcessModelPostStepRuntimeError'
+
+    1/7/2026 10:42:09 AM ProcessModelError
+Error Code: 0, Code Module/User-defined error code.
+Message: 'Open Com Error
+LabVIEW: (Hex 0x0) Error connecting to GPIB driver or device. The NI-488.2 driver may not be installed.
+=========================
+Error connecting to driver or device. The NI-488.2 driver may not be installed.
+=========================
+VISA:  (Hex 0x0) Operation completed successfully.' at step 'Initialize Feasa' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    1/7/2026 10:48:22 AM ProcessModelError
+Error Code: -17347, The expression cannot be empty.
+Message: 'Error executing 'If' step.
+The expression cannot be empty.' at step 'If' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    1/7/2026 11:00:58 AM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The post-expression for the step 'Initialize Loop' could not be evaluated.
+Unknown variable or property name 'Locals.LoopIndex'.' at step 'Initialize Loop' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    1/7/2026 2:01:24 PM ProcessModelError
+Error Code: 5000, Code Module/User-defined error code.
+Message: 'Parse_pyWebscraper_Data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Parse_pyWebscraper_Data.vi
+     Parse_pyWebscraper_Data.vi.ProxyCaller' at step 'TRS07.7.1 - SDU System Temperature' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    1/7/2026 2:02:51 PM ProcessModelError
+Error Code: 5000, Code Module/User-defined error code.
+Message: 'Parse_pyWebscraper_Data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Parse_pyWebscraper_Data.vi
+     Parse_pyWebscraper_Data.vi.ProxyCaller' at step 'TRS07.7.1 - SDU System Temperature' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    1/7/2026 2:45:55 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Configure Operation Mode.vi
+     BK Precision 8500B Series.lvlib:Configure Operation Mode.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Set E-Load2 Operation Mode' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    1/7/2026 2:46:00 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load2' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    1/7/2026 3:14:48 PM ProcessModelError
+Error Code: 5000, Code Module/User-defined error code.
+Message: 'Parse_pyWebscraper_Data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Parse_pyWebscraper_Data.vi
+     Parse_pyWebscraper_Data.vi.ProxyCaller' at step 'TRS07.7.1 - SDU System Temperature' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    1/7/2026 3:17:29 PM ProcessModelError
+Error Code: 5000, Code Module/User-defined error code.
+Message: 'Parse_pyWebscraper_Data.vi
+Column specified is not found within array
+
+
+Complete call chain:
+     Parse_pyWebscraper_Data.vi
+     Parse_pyWebscraper_Data.vi.ProxyCaller' at step 'TRS07.7.1 - SDU System Temperature' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    1/7/2026 3:18:55 PM ProcessModelError
+Error Code: 5000, Code Module/User-defined error code.
+Message: 'Parse_pyWebscraper_Data.vi
+Column specified is not found within array
+
+
+Complete call chain:
+     Parse_pyWebscraper_Data.vi
+     Parse_pyWebscraper_Data.vi.ProxyCaller' at step 'TRS07.7.2 - SDU User System Name' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    1/7/2026 4:24:33 PM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The status expression for the step 'TRS07.4.1 - 64 Events Displayed Correctly' could not be evaluated.
+Error in call to expression function 'Evaluate'.
+Unknown variable or property name 'Step.Result.PassFail'.' at step 'TRS07.4.1 - 64 Events Displayed Correctly' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    1/7/2026 6:33:07 PM ProcessModelError
+Error Code: 5000, Code Module/User-defined error code.
+Message: 'Parse_pyWebscraper_Data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Parse_pyWebscraper_Data.vi
+     Parse_pyWebscraper_Data.vi.ProxyCaller' at step 'TRS07.7.3 - SDU User Device Name' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    3/7/2026 6:53:43 AM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    3/7/2026 6:53:49 AM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+

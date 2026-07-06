@@ -44,7 +44,7 @@ try:
             df.loc[df[0] == "System Temperature", 1] = "°C"
 
         # Apply the replacement to all text columns at once
-        pattern = r'[^a-zA-Z0-9\s.,!?:%°]'
+        pattern = r'[^a-zA-Z0-9\s.,!?:%°/-]'
         df[text_cols] = df[text_cols].apply(lambda x: x.str.replace(pattern, '', regex=True))
 
         csv_string = df.to_csv(index=False, header=False)

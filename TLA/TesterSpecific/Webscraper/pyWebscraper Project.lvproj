@@ -13,6 +13,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Column Type.ctl" Type="VI" URL="../Control/Column Type.ctl"/>
+		<Item Name="Compare_pyWebscraper_Data.vi" Type="VI" URL="../Compare_pyWebscraper_Data.vi"/>
 		<Item Name="Parse_pyWebscraper_Data.vi" Type="VI" URL="../Parse_pyWebscraper_Data.vi"/>
 		<Item Name="Python Function.ctl" Type="VI" URL="../../Run_Python_Script/Control/Python Function.ctl"/>
 		<Item Name="pyWebscraper.vi" Type="VI" URL="../pyWebscraper.vi"/>

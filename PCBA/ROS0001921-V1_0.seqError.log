@@ -4106,3 +4106,75 @@ LabVIEW: (Hex 0x2) ERROR_FILE_NOT_FOUND.
 =========================
 No Listeners on the GPIB.' at step 'TRS01.1 - Erase Flash' in seq 'ProcessModelPostStepRuntimeError'
 
+TST-C-ROS-T2935    2/7/2026 3:02:33 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    2/7/2026 3:02:41 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    2/7/2026 3:32:59 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    2/7/2026 3:33:05 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    3/7/2026 3:27:23 PM ProcessModelError
+Error Code: 0, Code Module/User-defined error code.
+Message: 'Error Writing Report' at step 'Error Writing Report' in seq 'Socket'
+
+TST-C-ROS-T2935    3/7/2026 4:03:53 PM ProcessModelError
+Error Code: 0, Code Module/User-defined error code.
+Message: 'Error Writing Report' at step 'Error Writing Report' in seq 'Socket'
+
+TST-C-ROS-T2935    3/7/2026 6:00:16 PM ProcessModelError
+Error Code: 0, Code Module/User-defined error code.
+Message: 'Error Writing Report' at step 'Error Writing Report' in seq 'Socket'
+

@@ -63,6 +63,7 @@ actual_sequence = df['Description'].tolist()
 
 if actual_sequence == expected_sequence:
     print("SUCCESSFUL: Description column contains exactly 'Event Code1' to 'Event Code64' in order!")
+    
 else:
     print("FAILURE: Description column sequence is incorrect or missing codes.")
 
