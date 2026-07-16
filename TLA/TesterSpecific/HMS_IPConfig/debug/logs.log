@@ -221,3 +221,15 @@ TimeoutError: RPA Search Failure: Pattern target 'SDU_20-24BC-EIP' was not disco
 2026-07-02 13:09:02,777 - INFO - [root.HMS_IPConfig.<module>:39] - overwritting subnet mask
 2026-07-02 13:09:03,912 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
 2026-07-02 13:09:04,092 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 18.29s
+2026-07-09 11:46:28,139 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:17] - begin: Check for default IP and DHCP
+2026-07-09 11:46:28,140 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-09 11:46:47,846 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:29] - overwritting IP
+2026-07-09 11:46:50,541 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:34] - overwritting subnet mask
+2026-07-09 11:46:55,234 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-09 11:46:56,302 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:40] - end: Static IP Set-up via HMS IPConfig, took 28.16s
+2026-07-09 11:48:11,135 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-09 11:48:11,135 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-09 11:48:29,703 - INFO - [root.HMS_IPConfig.<module>:34] - overwritting IP
+2026-07-09 11:48:32,244 - INFO - [root.HMS_IPConfig.<module>:39] - overwritting subnet mask
+2026-07-09 11:48:34,919 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-09 11:48:35,991 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 24.86s

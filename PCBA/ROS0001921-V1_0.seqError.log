@@ -4178,3 +4178,616 @@ TST-C-ROS-T2935    3/7/2026 6:00:16 PM ProcessModelError
 Error Code: 0, Code Module/User-defined error code.
 Message: 'Error Writing Report' at step 'Error Writing Report' in seq 'Socket'
 
+TST-C-ROS-T2935    8/7/2026 4:15:10 PM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'Error executing 'Select' step.
+Unknown variable or property name 'Parameters.DUT_TYPE'.' at step 'Select' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    8/7/2026 4:26:11 PM ProcessModelError
+Error Code: 2, Code Module/User-defined error code.
+Message: 'ST-LINK.lvlib:Parse Return Codes.vi
+Connection problem.
+
+
+Complete call chain:
+     ST-LINK.lvlib:Parse Return Codes.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi.ProxyCaller
+LabVIEW: (Hex 0x2) Memory is full.
+=========================
+LabVIEW: (Hex 0x2) ERROR_FILE_NOT_FOUND.
+=========================
+No Listeners on the GPIB.' at step 'TRS01.1 - Erase Flash' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    8/7/2026 5:13:18 PM ProcessModelError
+Error Code: 2, Code Module/User-defined error code.
+Message: 'ST-LINK.lvlib:Parse Return Codes.vi
+Connection problem.
+
+
+Complete call chain:
+     ST-LINK.lvlib:Parse Return Codes.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi.ProxyCaller
+LabVIEW: (Hex 0x2) Memory is full.
+=========================
+LabVIEW: (Hex 0x2) ERROR_FILE_NOT_FOUND.
+=========================
+No Listeners on the GPIB.' at step 'TRS01.1 - Erase Flash' in seq 'ProcessModelPostStepRuntimeError'
+
+    9/7/2026 9:41:57 AM ProcessModelError
+Error Code: -1074001912, Code Module/User-defined error code.
+Message: 'GENser Write to Instrument.vi -> GENser Config Output On-Off.vi  Error sending command to Genesys addr 00:
+"OUT OFF"
+
+No response when changing to a new address of a  Genesys power supply.
+
+Sent command:           "ADR 00"
+Received response:    none (timeout error)
+' at step 'PPS3 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+    9/7/2026 9:42:07 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Disconnect E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 11:31:12 AM ProcessModelError
+Error Code: 12, Code Module/User-defined error code.
+Message: 'ST-LINK.lvlib:Parse Return Codes.vi
+Flash memory programming/verification error.
+
+
+Complete call chain:
+     ST-LINK.lvlib:Parse Return Codes.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi.ProxyCaller
+LabVIEW: (Hex 0xC) Some system capacity necessary for operation is not enabled.
+=========================
+File system operation error.' at step 'TRS01.3 - Program PCB FW' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 11:32:15 AM ProcessModelError
+Error Code: 12, Code Module/User-defined error code.
+Message: 'ST-LINK.lvlib:Parse Return Codes.vi
+Flash memory programming/verification error.
+
+
+Complete call chain:
+     ST-LINK.lvlib:Parse Return Codes.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi.ProxyCaller
+LabVIEW: (Hex 0xC) Some system capacity necessary for operation is not enabled.
+=========================
+File system operation error.' at step 'TRS01.3 - Program PCB FW' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 11:43:35 AM ProcessModelError
+Error Code: 5, Code Module/User-defined error code.
+Message: 'Delete in Verify_CRC.vi
+C:\Users\pgb-adc-tst\AppData\Roaming\SEGGER\JFlash.log
+LabVIEW: (Hex 0x5) File already open.
+=========================
+Command requires GPIB Controller to be System Controller.' at step 'TRS01.2 - Check PCB-FW CRC Data' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 1:57:56 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 1:58:04 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:03:11 PM ProcessModelError
+Error Code: -1073807298, Code Module/User-defined error code.
+Message: 'VISA Read in Agilent 3446X Series.lvlib:Read (Single Point).vi
+VISA:  (Hex 0xBFFF003E) Could not perform operation because of I/O error.' at step 'Measure Voltage' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 2:03:32 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'Agilent 3446X Series.lvlib:Error Query.vi
+Instrument reports:
+-410,"Query INTERRUPTED"
++0,"No error"
+
+
+
+Complete call chain:
+     Agilent 3446X Series.lvlib:Error Query.vi
+     Agilent 3446X Series.lvlib:Close.vi
+     Agilent 3446X Series.lvlib:Close.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Disconnect DMM' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:07:51 PM ProcessModelError
+Error Code: -1073807298, Code Module/User-defined error code.
+Message: 'VISA Read in Agilent 3446X Series.lvlib:Read (Single Point).vi
+VISA:  (Hex 0xBFFF003E) Could not perform operation because of I/O error.' at step 'Measure Voltage' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:09:26 PM ProcessModelError
+Error Code: 0, Code Module/User-defined error code.
+Message: 'Error Writing Report' at step 'Error Writing Report' in seq 'Socket'
+
+TST-C-ROS-T2935    13/7/2026 2:11:15 PM ProcessModelError
+Error Code: -1073807298, Code Module/User-defined error code.
+Message: 'VISA Read in RIGOL MHO900 Series.lvlib:Fetch Waveform Measurement.vi
+VISA:  (Hex 0xBFFF003E) Could not perform operation because of I/O error.' at step 'Verify PCBA_Current_Output_GND' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:11:30 PM ProcessModelError
+Error Code: -1073807305, Code Module/User-defined error code.
+Message: 'VISA Read in RIGOL MHO900 Series.lvlib:Fetch Waveform Measurement.vi
+VISA:  (Hex 0xBFFF0037) Device reported an input protocol error during transfer.' at step 'Verify PCBA_Current_Output_GND' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:11:45 PM ProcessModelError
+Error Code: -1073807305, Code Module/User-defined error code.
+Message: 'VISA Read in RIGOL MHO900 Series.lvlib:Fetch Waveform Measurement.vi
+VISA:  (Hex 0xBFFF0037) Device reported an input protocol error during transfer.' at step 'Verify PCBA_Current_Output_GND' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:13:58 PM ProcessModelError
+Error Code: -1073807305, Code Module/User-defined error code.
+Message: 'VISA Read in RIGOL MHO900 Series.lvlib:Fetch Waveform Measurement.vi
+VISA:  (Hex 0xBFFF0037) Device reported an input protocol error during transfer.' at step 'Verify PCBA_Current_Output_GND' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 2:15:03 PM ProcessModelError
+Error Code: -1073807305, Code Module/User-defined error code.
+Message: 'VISA Read in RIGOL MHO900 Series.lvlib:Initialize.vi
+VISA:  (Hex 0xBFFF0037) Device reported an input protocol error during transfer.' at step 'Initialize Scope' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 2:18:32 PM ProcessModelError
+Error Code: -1073807305, Code Module/User-defined error code.
+Message: 'VISA Read in RIGOL MHO900 Series.lvlib:Initialize.vi
+VISA:  (Hex 0xBFFF0037) Device reported an input protocol error during transfer.' at step 'Initialize Scope' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 2:18:49 PM ProcessModelError
+Error Code: -1073807305, Code Module/User-defined error code.
+Message: 'VISA Read in RIGOL MHO900 Series.lvlib:Initialize.vi
+VISA:  (Hex 0xBFFF0037) Device reported an input protocol error during transfer.' at step 'Initialize Scope' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:26:16 PM ProcessModelError
+Error Code: -1073807194, Code Module/User-defined error code.
+Message: 'Property Node (arg 8) in VISA Configure Serial Port (Instr).vi->Serial Write.vi
+VISA:  (Hex 0xBFFF00A6) The connection for the given session has been lost.' at step 'TRS04.3.1 - Calibration (Vout 22V)' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:27:12 PM ProcessModelError
+Error Code: -1073807194, Code Module/User-defined error code.
+Message: 'Property Node (arg 8) in VISA Configure Serial Port (Instr).vi->Serial Write.vi
+VISA:  (Hex 0xBFFF00A6) The connection for the given session has been lost.' at step 'TRS04.3.1 - Calibration (Vout 22V)' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:27:20 PM ProcessModelError
+Error Code: -1073807194, Code Module/User-defined error code.
+Message: 'Property Node (arg 8) in VISA Configure Serial Port (Instr).vi->Serial Write.vi
+VISA:  (Hex 0xBFFF00A6) The connection for the given session has been lost.' at step 'Write Serial Port' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:27:20 PM ProcessModelError
+Error Code: -1073807338, Code Module/User-defined error code.
+Message: 'VISA Close in SerialPort.lvlib:Serial Close.vi
+VISA:  (Hex 0xBFFF0016) The VISA driver failed to properly close the session or object reference. This might be due to an error freeing internal or OS resources, a failed network connection, or a lower level driver or OS error.' at step 'Disconnect Serial Port' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:31:34 PM ProcessModelError
+Error Code: -1073807298, Code Module/User-defined error code.
+Message: 'VISA Read in Agilent 3446X Series.lvlib:Read (Single Point).vi
+VISA:  (Hex 0xBFFF003E) Could not perform operation because of I/O error.' at step 'Measure Voltage' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:35:49 PM ProcessModelError
+Error Code: -1073807298, Code Module/User-defined error code.
+Message: 'VISA Read in Agilent 3446X Series.lvlib:Read (Single Point).vi
+VISA:  (Hex 0xBFFF003E) Could not perform operation because of I/O error.' at step 'Measure Voltage' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:40:47 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'Agilent 3446X Series.lvlib:Error Query.vi
+Instrument reports:
+-410,"Query INTERRUPTED"
++0,"No error"
+
+
+
+Complete call chain:
+     Agilent 3446X Series.lvlib:Error Query.vi
+     Agilent 3446X Series.lvlib:Read (Single Point).vi
+     Agilent 3446X Series.lvlib:Read (Single Point).vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Measure Voltage' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:41:51 PM ProcessModelError
+Error Code: -1073807298, Code Module/User-defined error code.
+Message: 'VISA Read in RIGOL MHO900 Series.lvlib:Fetch Waveform Measurement.vi
+VISA:  (Hex 0xBFFF003E) Could not perform operation because of I/O error.' at step 'Verify PCBA_Current_Output_GND' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:42:16 PM ProcessModelError
+Error Code: -1073807305, Code Module/User-defined error code.
+Message: 'VISA Read in RIGOL MHO900 Series.lvlib:Fetch Waveform Measurement.vi
+VISA:  (Hex 0xBFFF0037) Device reported an input protocol error during transfer.' at step 'Verify PCBA_Current_Output_GND' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:42:45 PM ProcessModelError
+Error Code: -1073807305, Code Module/User-defined error code.
+Message: 'VISA Read in RIGOL MHO900 Series.lvlib:Fetch Waveform Measurement.vi
+VISA:  (Hex 0xBFFF0037) Device reported an input protocol error during transfer.' at step 'Verify PCBA_Current_Output_GND' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:43:14 PM ProcessModelError
+Error Code: -1073807305, Code Module/User-defined error code.
+Message: 'VISA Read in RIGOL MHO900 Series.lvlib:Fetch Waveform Measurement.vi
+VISA:  (Hex 0xBFFF0037) Device reported an input protocol error during transfer.' at step 'Verify PCBA_Current_Output_GND' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:43:53 PM ProcessModelError
+Error Code: -1073807305, Code Module/User-defined error code.
+Message: 'VISA Read in RIGOL MHO900 Series.lvlib:Fetch Waveform Measurement.vi
+VISA:  (Hex 0xBFFF0037) Device reported an input protocol error during transfer.' at step 'Measure Current using Current Probe' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:48:53 PM ProcessModelError
+Error Code: -1073807360, Code Module/User-defined error code.
+Message: 'VISA Write in RIGOL MHO900 Series.lvlib:Fetch Waveform Measurement.vi
+VISA:  (Hex 0xBFFF0000) Unknown system error (miscellaneous error).' at step 'Measure Current using Current Probe' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:48:57 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:48:57 PM ProcessModelError
+Error Code: -1073807360, Code Module/User-defined error code.
+Message: 'VISA Write in RIGOL MHO900 Series.lvlib:Configure Channel.vi
+VISA:  (Hex 0xBFFF0000) Unknown system error (miscellaneous error).' at step 'Disable Oscilloscope Channel 2' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 2:48:57 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 2:49:00 PM ProcessModelError
+Error Code: -1073807360, Code Module/User-defined error code.
+Message: 'VISA Write in Agilent 3446X Series.lvlib:Error Query.vi->Agilent 3446X Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0000) Unknown system error (miscellaneous error).' at step 'Disconnect DMM' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 2:49:05 PM ProcessModelError
+Error Code: -1073807360, Code Module/User-defined error code.
+Message: 'VISA Write in RIGOL MHO900 Series.lvlib:Initialize.vi
+VISA:  (Hex 0xBFFF0000) Unknown system error (miscellaneous error).' at step 'Initialize Scope' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 3:00:25 PM ProcessModelError
+Error Code: -1073807360, Code Module/User-defined error code.
+Message: 'VISA Write in RIGOL MHO900 Series.lvlib:Initialize.vi
+VISA:  (Hex 0xBFFF0000) Unknown system error (miscellaneous error).' at step 'Initialize Scope' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 3:08:06 PM ProcessModelError
+Error Code: -1073807360, Code Module/User-defined error code.
+Message: 'VISA Write in RIGOL MHO900 Series.lvlib:Initialize.vi
+VISA:  (Hex 0xBFFF0000) Unknown system error (miscellaneous error).' at step 'Initialize Scope' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 3:11:25 PM ProcessModelError
+Error Code: -1073807343, Code Module/User-defined error code.
+Message: 'VISA Open in Agilent 3446X Series.lvlib:Initialize.vi
+VISA:  (Hex 0xBFFF0011) Insufficient location information or the device or resource is not present in the system.' at step 'Initialize DMM' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 3:11:41 PM ProcessModelError
+Error Code: -1073807343, Code Module/User-defined error code.
+Message: 'VISA Write in Agilent 3446X Series.lvlib:Error Query.vi->Agilent 3446X Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0011) Insufficient location information or the device or resource is not present in the system.' at step 'Disconnect DMM' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 3:12:50 PM ProcessModelError
+Error Code: -1073807343, Code Module/User-defined error code.
+Message: 'VISA Open in Agilent 3446X Series.lvlib:Initialize.vi
+VISA:  (Hex 0xBFFF0011) Insufficient location information or the device or resource is not present in the system.' at step 'Initialize DMM' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 3:14:04 PM ProcessModelError
+Error Code: -1073807343, Code Module/User-defined error code.
+Message: 'VISA Write in Agilent 3446X Series.lvlib:Error Query.vi->Agilent 3446X Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0011) Insufficient location information or the device or resource is not present in the system.' at step 'Disconnect DMM' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 3:21:24 PM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Current Limit.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS1 Current' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 3:21:37 PM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS1 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 3:22:29 PM ProcessModelError
+Error Code: -1074001908, Code Module/User-defined error code.
+Message: 'GENser Initialize.vi  When first addressing the Genesys power supply, did not receive response.
+
+Sent command:           "ADR 00"
+Received response:    none (timeout error)
+
+1. Check Genesys address setting
+2. Check Genesys BAUD rate settings
+3. Check "VISA name" control, COMn or ASRLn
+4. Check Genesys setting for RS-232 or RS-485
+5. Check cable type, either RS-232 or RS-485
+6. Check cable to J3 IN or J3 OUT 
+' at step 'Initialize PPS1' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 3:22:50 PM ProcessModelError
+Error Code: -1074001908, Code Module/User-defined error code.
+Message: 'GENser Initialize.vi  When first addressing the Genesys power supply, did not receive response.
+
+Sent command:           "ADR 00"
+Received response:    none (timeout error)
+
+1. Check Genesys address setting
+2. Check Genesys BAUD rate settings
+3. Check "VISA name" control, COMn or ASRLn
+4. Check Genesys setting for RS-232 or RS-485
+5. Check cable type, either RS-232 or RS-485
+6. Check cable to J3 IN or J3 OUT 
+' at step 'Initialize PPS1' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 3:22:55 PM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS3 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 3:23:01 PM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Disconnect E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 3:24:40 PM ProcessModelError
+Error Code: -1074001908, Code Module/User-defined error code.
+Message: 'GENser Initialize.vi  When first addressing the Genesys power supply, did not receive response.
+
+Sent command:           "ADR 00"
+Received response:    none (timeout error)
+
+1. Check Genesys address setting
+2. Check Genesys BAUD rate settings
+3. Check "VISA name" control, COMn or ASRLn
+4. Check Genesys setting for RS-232 or RS-485
+5. Check cable type, either RS-232 or RS-485
+6. Check cable to J3 IN or J3 OUT 
+' at step 'Initialize PPS1' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 3:27:42 PM ProcessModelError
+Error Code: -1074001908, Code Module/User-defined error code.
+Message: 'GENser Initialize.vi  When first addressing the Genesys power supply, did not receive response.
+
+Sent command:           "ADR 00"
+Received response:    none (timeout error)
+
+1. Check Genesys address setting
+2. Check Genesys BAUD rate settings
+3. Check "VISA name" control, COMn or ASRLn
+4. Check Genesys setting for RS-232 or RS-485
+5. Check cable type, either RS-232 or RS-485
+6. Check cable to J3 IN or J3 OUT 
+' at step 'Initialize PPS1' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 3:27:48 PM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Disconnect E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 3:37:57 PM ProcessModelError
+Error Code: -1073807360, Code Module/User-defined error code.
+Message: 'VISA Write in RIGOL MHO900 Series.lvlib:Configure Channel.vi
+VISA:  (Hex 0xBFFF0000) Unknown system error (miscellaneous error).' at step 'Disable Oscilloscope Channel 2' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 3:38:03 PM ProcessModelError
+Error Code: -1073807253, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Enable Input.vi
+VISA:  (Hex 0xBFFF006B) A framing error occurred during transfer.' at step 'Enable/Disable E-Load2' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 3:38:06 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Close.vi
+     BK Precision 8500B Series.lvlib:Close.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Disconnect E-Load2' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 3:38:09 PM ProcessModelError
+Error Code: -1073807360, Code Module/User-defined error code.
+Message: 'VISA Write in Agilent 3446X Series.lvlib:Error Query.vi->Agilent 3446X Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0000) Unknown system error (miscellaneous error).' at step 'Disconnect DMM' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 3:38:10 PM ProcessModelError
+Error Code: -1073807360, Code Module/User-defined error code.
+Message: 'VISA Write in RIGOL MHO900 Series.lvlib:Initialize.vi
+VISA:  (Hex 0xBFFF0000) Unknown system error (miscellaneous error).' at step 'Initialize Scope' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 3:50:20 PM ProcessModelError
+Error Code: -1074001908, Code Module/User-defined error code.
+Message: 'GENser Initialize.vi  When first addressing the Genesys power supply, did not receive response.
+
+Sent command:           "ADR 00"
+Received response:    none (timeout error)
+
+1. Check Genesys address setting
+2. Check Genesys BAUD rate settings
+3. Check "VISA name" control, COMn or ASRLn
+4. Check Genesys setting for RS-232 or RS-485
+5. Check cable type, either RS-232 or RS-485
+6. Check cable to J3 IN or J3 OUT 
+' at step 'Initialize PPS3' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 3:53:59 PM ProcessModelError
+Error Code: -1073807298, Code Module/User-defined error code.
+Message: 'VISA Read in Agilent 3446X Series.lvlib:Read (Single Point).vi
+VISA:  (Hex 0xBFFF003E) Could not perform operation because of I/O error.' at step 'Measure Voltage' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 3:58:03 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'Agilent 3446X Series.lvlib:Error Query.vi
+Instrument reports:
+-410,"Query INTERRUPTED"
++0,"No error"
+
+
+
+Complete call chain:
+     Agilent 3446X Series.lvlib:Error Query.vi
+     Agilent 3446X Series.lvlib:Close.vi
+     Agilent 3446X Series.lvlib:Close.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Disconnect DMM' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 4:44:36 PM ProcessModelError
+Error Code: -1073807298, Code Module/User-defined error code.
+Message: 'VISA Read in Agilent 3446X Series.lvlib:Read (Single Point).vi
+VISA:  (Hex 0xBFFF003E) Could not perform operation because of I/O error.' at step 'Measure Voltage' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 4:50:25 PM ProcessModelError
+Error Code: -1073807360, Code Module/User-defined error code.
+Message: 'VISA Write in Agilent 3446X Series.lvlib:Error Query.vi->Agilent 3446X Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0000) Unknown system error (miscellaneous error).' at step 'Disconnect DMM' in seq 'ProcessModelPostStepRuntimeError'
+
+    13/7/2026 4:50:29 PM ProcessModelError
+Error Code: -1073807360, Code Module/User-defined error code.
+Message: 'VISA Write in RIGOL MHO900 Series.lvlib:Initialize.vi
+VISA:  (Hex 0xBFFF0000) Unknown system error (miscellaneous error).' at step 'Initialize Scope' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 5:10:10 PM ProcessModelError
+Error Code: -1073807194, Code Module/User-defined error code.
+Message: 'Property Node (arg 8) in VISA Configure Serial Port (Instr).vi->Serial Write.vi
+VISA:  (Hex 0xBFFF00A6) The connection for the given session has been lost.' at step 'Write Serial Port' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    13/7/2026 5:10:14 PM ProcessModelError
+Error Code: -1073807338, Code Module/User-defined error code.
+Message: 'VISA Close in SerialPort.lvlib:Serial Close.vi
+VISA:  (Hex 0xBFFF0016) The VISA driver failed to properly close the session or object reference. This might be due to an error freeing internal or OS resources, a failed network connection, or a lower level driver or OS error.' at step 'Disconnect Serial Port' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    14/7/2026 9:17:01 AM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    14/7/2026 9:17:22 AM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    14/7/2026 10:11:22 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS1 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    14/7/2026 10:11:40 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS1 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    14/7/2026 10:11:50 AM ProcessModelError
+Error Code: -1073807298, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF003E) Could not perform operation because of I/O error.' at step 'PPS2 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    14/7/2026 10:12:00 AM ProcessModelError
+Error Code: -1073807298, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Enable Input.vi
+VISA:  (Hex 0xBFFF003E) Could not perform operation because of I/O error.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    14/7/2026 10:12:10 AM ProcessModelError
+Error Code: -1073807253, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Enable Input.vi
+VISA:  (Hex 0xBFFF006B) A framing error occurred during transfer.' at step 'Enable/Disable E-Load2' in seq 'ProcessModelPostStepRuntimeError'
+
+    14/7/2026 10:15:13 AM ProcessModelError
+Error Code: -1073807298, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF003E) Could not perform operation because of I/O error.' at step 'PPS3 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+    14/7/2026 10:15:30 AM ProcessModelError
+Error Code: -1073807253, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF006B) A framing error occurred during transfer.' at step 'Disconnect E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+    14/7/2026 10:15:30 AM ProcessModelError
+Error Code: -1073807360, Code Module/User-defined error code.
+Message: 'VISA Write in Agilent 3446X Series.lvlib:Error Query.vi->Agilent 3446X Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0000) Unknown system error (miscellaneous error).' at step 'Disconnect DMM' in seq 'ProcessModelPostStepRuntimeError'
+
+    14/7/2026 10:15:31 AM ProcessModelError
+Error Code: -1073807360, Code Module/User-defined error code.
+Message: 'VISA Write in RIGOL MHO900 Series.lvlib:Initialize.vi
+VISA:  (Hex 0xBFFF0000) Unknown system error (miscellaneous error).' at step 'Initialize Scope' in seq 'ProcessModelPostStepRuntimeError'
+
+    14/7/2026 10:16:06 AM ProcessModelError
+Error Code: -1073807343, Code Module/User-defined error code.
+Message: 'VISA Open in RIGOL MHO900 Series.lvlib:Initialize.vi
+VISA:  (Hex 0xBFFF0011) Insufficient location information or the device or resource is not present in the system.' at step 'Initialize Scope' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    14/7/2026 10:55:19 AM ProcessModelError
+Error Code: 0, Code Module/User-defined error code.
+Message: 'Error Writing Report' at step 'Error Writing Report' in seq 'Socket'
+
+TST-C-ROS-T2935    14/7/2026 2:27:28 PM ProcessModelError
+Error Code: 2, Code Module/User-defined error code.
+Message: 'ST-LINK.lvlib:Parse Return Codes.vi
+Connection problem.
+
+
+Complete call chain:
+     ST-LINK.lvlib:Parse Return Codes.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi.ProxyCaller
+LabVIEW: (Hex 0x2) Memory is full.
+=========================
+LabVIEW: (Hex 0x2) ERROR_FILE_NOT_FOUND.
+=========================
+No Listeners on the GPIB.' at step 'TRS01.1 - Erase Flash' in seq 'ProcessModelPostStepRuntimeError'
+

@@ -3,7 +3,7 @@
 [GENERAL]
   aATEModuleSel[24] = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
   ConnectMode = 0
-  CurrentFile = "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\EIP_Firmware\2.01\SDU-PCB-FCT.bin"
+  CurrentFile = "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\EIP_Firmware\FIRMWARE_GUI_FILES\SDU-PCB-FCT.bin"
   DataFileSAddr = 0x08000000
   GUIMode = 0
   HostName = ""

@@ -1,0 +1,9 @@
+echo %1% %2% %3% %4%
+open ftp://%2%:%3%@%1%/
+
+option batch continue
+option confirm off
+
+get * "%4%\"
+
+exit
