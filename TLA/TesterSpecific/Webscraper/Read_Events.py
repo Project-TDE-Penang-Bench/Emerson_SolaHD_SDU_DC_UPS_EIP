@@ -25,9 +25,10 @@ try:
     TARGET_URL = "http://192.168.1.5"  # Replace with your test hardware IP
 
     # Initialize the automated execution block
-    with Browser(TARGET_URL, headless=True) as browser:
-    
+    with Browser(TARGET_URL, headless=False) as browser:
+        browser.handle_basic_auth()
         #Read Event (needs at least 64 lines)
+        time.sleep(1)
         browser.click(browser.loc(element_id='event'))
         browser.wait_for_javascript_ready()
         browser.wait_until_hidden(browser.loc(element_id='spnLoadding'))

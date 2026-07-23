@@ -7279,3 +7279,540 @@ Complete call chain:
      BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
 LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
 
+    17/7/2026 8:57:04 AM ProcessModelError
+Error Code: -1073807343, Code Module/User-defined error code.
+Message: 'VISA Open in Agilent 3446X Series.lvlib:Initialize.vi
+VISA:  (Hex 0xBFFF0011) Insufficient location information or the device or resource is not present in the system.' at step 'Initialize DMM' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    17/7/2026 9:00:54 AM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    17/7/2026 9:01:02 AM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    17/7/2026 9:01:02 AM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load2' in seq 'ProcessModelPostStepRuntimeError'
+
+    17/7/2026 9:01:13 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS3 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+    17/7/2026 9:01:17 AM ProcessModelError
+Error Code: -1073807343, Code Module/User-defined error code.
+Message: 'VISA Write in Agilent 3446X Series.lvlib:Error Query.vi->Agilent 3446X Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0011) Insufficient location information or the device or resource is not present in the system.' at step 'Disconnect DMM' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    17/7/2026 9:07:20 AM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    17/7/2026 9:07:26 AM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+    17/7/2026 9:07:31 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS3 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+    17/7/2026 9:10:36 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS3 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    17/7/2026 10:30:50 AM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    17/7/2026 10:30:55 AM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+    17/7/2026 10:30:59 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS3 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+    17/7/2026 10:32:00 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS3 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+    17/7/2026 10:37:08 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS3 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    17/7/2026 11:47:29 AM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    17/7/2026 11:47:36 AM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    17/7/2026 11:47:36 AM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load2' in seq 'ProcessModelPostStepRuntimeError'
+
+    17/7/2026 3:48:50 PM ProcessModelError
+Error Code: 0, Code Module/User-defined error code.
+Message: 'Open Com Error
+LabVIEW: (Hex 0x0) Error connecting to GPIB driver or device. The NI-488.2 driver may not be installed.
+=========================
+Error connecting to driver or device. The NI-488.2 driver may not be installed.
+=========================
+VISA:  (Hex 0x0) Operation completed successfully.' at step 'Initialize Feasa' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    17/7/2026 4:04:36 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    17/7/2026 4:04:42 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    17/7/2026 4:26:16 PM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in RIGOL MHO900 Series.lvlib:Fetch Waveform Measurement.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'TRS04.2 - Measure UUT Hiccup Mode ' in seq 'ProcessModelPostStepRuntimeError'
+
+    17/7/2026 4:36:54 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'Agilent 3446X Series.lvlib:Error Query.vi
+Instrument reports:
+-113,"Undefined header"
+-420,"Query UNTERMINATED"
+-113,"Undefined header"
+-420,"Query UNTERMINATED"
+-113,"Undefined header"
+-420,"Query UNTERMINATED"
+-113,"Undefined header"
+-420,"Query UNTERMINATED"
+-113,"Undefined header"
+-420,"Query UNTERMINATED"
+-113,"Undefined header"
+-420,"Query UNTERMINATED"
+-113,"Undefined header"
+-420,"Query UNTERMINATED"
+-113,"Undefined header"
+-420,"Query UNTERMINATED"
+-113,"Undefined header"
+-420,"Query UNTERMINATED"
++0,"No error"
+
+
+
+Complete call chain:
+     Agilent 3446X Series.lvlib:Error Query.vi
+     Agilent 3446X Series.lvlib:Close.vi
+     Agilent 3446X Series.lvlib:Close.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Disconnect DMM' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    17/7/2026 4:39:08 PM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in RIGOL MHO900 Series.lvlib:Fetch Waveform Measurement.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'TRS04.2 - Measure UUT Hiccup Mode ' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    17/7/2026 4:41:38 PM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in RIGOL MHO900 Series.lvlib:Fetch Waveform Measurement.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'TRS04.2 - Measure UUT Hiccup Mode ' in seq 'ProcessModelPostStepRuntimeError'
+
+    17/7/2026 4:41:43 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'Agilent 3446X Series.lvlib:Error Query.vi
+Instrument reports:
+-113,"Undefined header"
+-420,"Query UNTERMINATED"
+-113,"Undefined header"
+-420,"Query UNTERMINATED"
+-113,"Undefined header"
+-420,"Query UNTERMINATED"
+-113,"Undefined header"
+-420,"Query UNTERMINATED"
+-113,"Undefined header"
+-420,"Query UNTERMINATED"
++0,"No error"
+
+
+
+Complete call chain:
+     Agilent 3446X Series.lvlib:Error Query.vi
+     Agilent 3446X Series.lvlib:Close.vi
+     Agilent 3446X Series.lvlib:Close.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Disconnect DMM' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    17/7/2026 4:48:32 PM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in RIGOL MHO900 Series.lvlib:Fetch Waveform Measurement.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'TRS04.2 - Measure UUT Hiccup Mode ' in seq 'ProcessModelPostStepRuntimeError'
+
+    17/7/2026 4:48:40 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'Agilent 3446X Series.lvlib:Error Query.vi
+Instrument reports:
+-113,"Undefined header"
+-420,"Query UNTERMINATED"
+-113,"Undefined header"
+-420,"Query UNTERMINATED"
+-113,"Undefined header"
+-420,"Query UNTERMINATED"
++0,"No error"
+
+
+
+Complete call chain:
+     Agilent 3446X Series.lvlib:Error Query.vi
+     Agilent 3446X Series.lvlib:Close.vi
+     Agilent 3446X Series.lvlib:Close.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Disconnect DMM' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    17/7/2026 7:03:45 PM ProcessModelError
+Error Code: -1074001403, Code Module/User-defined error code.
+Message: 'GENser Write to Instrument.vi -> GENser Config Voltage Limit.vi  Error sending command to Genesys addr 00:
+"PV 33.000000"
+
+Setting out of range.  Attempt to program a setting outside of the model rating.' at step 'PPS1 Voltage' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    17/7/2026 7:12:08 PM ProcessModelError
+Error Code: -1074001403, Code Module/User-defined error code.
+Message: 'GENser Write to Instrument.vi -> GENser Config Voltage Limit.vi  Error sending command to Genesys addr 00:
+"PV 33.000000"
+
+Setting out of range.  Attempt to program a setting outside of the model rating.' at step 'PPS1 Voltage' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    20/7/2026 10:29:56 AM ProcessModelError
+Error Code: 5000, Code Module/User-defined error code.
+Message: 'Parse_pyWebscraper_Data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Parse_pyWebscraper_Data.vi
+     Parse_pyWebscraper_Data.vi.ProxyCaller' at step 'TRS07.3.5 - SDU Internal Temperature' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    20/7/2026 10:40:28 AM ProcessModelError
+Error Code: 5000, Code Module/User-defined error code.
+Message: 'Parse_pyWebscraper_Data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Parse_pyWebscraper_Data.vi
+     Parse_pyWebscraper_Data.vi.ProxyCaller' at step 'TRS07.3.6 - SDU Lifetime Turn-On Time' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    20/7/2026 10:41:42 AM ProcessModelError
+Error Code: 5000, Code Module/User-defined error code.
+Message: 'Parse_pyWebscraper_Data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Parse_pyWebscraper_Data.vi
+     Parse_pyWebscraper_Data.vi.ProxyCaller' at step 'TRS07.3.5 - SDU Internal Temperature' in seq 'ProcessModelPostStepRuntimeError'
+
+    20/7/2026 11:02:44 AM ProcessModelError
+Error Code: -1073807343, Code Module/User-defined error code.
+Message: 'VISA Open in Agilent 3446X Series.lvlib:Initialize.vi
+VISA:  (Hex 0xBFFF0011) Insufficient location information or the device or resource is not present in the system.' at step 'Initialize DMM' in seq 'ProcessModelPostStepRuntimeError'
+
+    20/7/2026 11:03:00 AM ProcessModelError
+Error Code: -1073807343, Code Module/User-defined error code.
+Message: 'VISA Write in Agilent 3446X Series.lvlib:Error Query.vi->Agilent 3446X Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0011) Insufficient location information or the device or resource is not present in the system.' at step 'Disconnect DMM' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    20/7/2026 11:11:43 AM ProcessModelError
+Error Code: 5000, Code Module/User-defined error code.
+Message: 'Parse_pyWebscraper_Data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Parse_pyWebscraper_Data.vi
+     Parse_pyWebscraper_Data.vi.ProxyCaller' at step 'TRS07.3.7 - SDU Turn-On Time' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    20/7/2026 11:32:06 AM ProcessModelError
+Error Code: 5000, Code Module/User-defined error code.
+Message: 'Parse_pyWebscraper_Data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Parse_pyWebscraper_Data.vi
+     Parse_pyWebscraper_Data.vi.ProxyCaller' at step 'TRS07.3.7 - SDU Turn-On Time' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    20/7/2026 11:40:05 AM ProcessModelError
+Error Code: 5000, Code Module/User-defined error code.
+Message: 'Parse_pyWebscraper_Data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Parse_pyWebscraper_Data.vi
+     Parse_pyWebscraper_Data.vi.ProxyCaller' at step 'TRS07.5.1 - SDU High Internal Temperature' in seq 'ProcessModelPostStepRuntimeError'
+
+    20/7/2026 3:58:49 PM ProcessModelError
+Error Code: 0, Code Module/User-defined error code.
+Message: 'Open Com Error
+LabVIEW: (Hex 0x0) Error connecting to GPIB driver or device. The NI-488.2 driver may not be installed.
+=========================
+Error connecting to driver or device. The NI-488.2 driver may not be installed.
+=========================
+VISA:  (Hex 0x0) Operation completed successfully.' at step 'Initialize Feasa' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    20/7/2026 4:38:52 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load2' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    20/7/2026 4:40:25 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load2' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    20/7/2026 6:36:15 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    20/7/2026 6:36:19 PM ProcessModelError
+Error Code: -1074000000, Code Module/User-defined error code.
+Message: 'BK Precision 8500B Series.lvlib:Error Query.vi
+Instrument reports:
+-200,"Execution error"
+0,"No error"
+
+
+
+Complete call chain:
+     BK Precision 8500B Series.lvlib:Error Query.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi
+     BK Precision 8500B Series.lvlib:Enable Input.vi.ProxyCaller
+LabVIEW: (Hex 0xBFFC0F80) Instrument error query failure.' at step 'Enable/Disable E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    21/7/2026 9:29:25 AM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The precondition for the step 'Webserver HTML Set-up' could not be evaluated.
+Unknown variable or property name 'Locals.Ratio'.' at step 'Webserver HTML Set-up' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    21/7/2026 9:30:17 AM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The precondition for the step 'Webserver HTML Set-up' could not be evaluated.
+Unknown variable or property name 'Locals.Ratio'.' at step 'Webserver HTML Set-up' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    21/7/2026 9:45:09 AM ProcessModelError
+Error Code: 5000, Code Module/User-defined error code.
+Message: 'Parse_pyWebscraper_Data.vi
+Row specified is not found within array
+
+
+Complete call chain:
+     Parse_pyWebscraper_Data.vi
+     Parse_pyWebscraper_Data.vi.ProxyCaller' at step 'TRS07.7.1 - SDU System Temperature' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    21/7/2026 4:04:53 PM ProcessModelError
+Error Code: 0, Code Module/User-defined error code.
+Message: 'Error making unique filepath' at step 'Error Making FilePath' in seq 'Socket'
+
+TST-C-ROS-T2935    22/7/2026 8:56:28 AM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The post-expression for the step 'Statement' could not be evaluated.
+Unknown variable or property name 'Parameters.UUTcorrect'.' at step 'Statement' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    22/7/2026 8:59:54 AM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The post-expression for the step 'Statement' could not be evaluated.
+Unknown variable or property name 'Parameters.UUTcorrect'.' at step 'Statement' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    22/7/2026 9:00:05 AM ProcessModelError
+Error Code: -17306, Unknown variable or property name.
+Message: 'The post-expression for the step 'Statement' could not be evaluated.
+Unknown variable or property name 'Parameters.UUTcorrect'.' at step 'Statement' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    22/7/2026 10:13:35 AM ProcessModelError
+Error Code: -17208, File or directory not found.
+Message: 'The step specifies to display an image or web page, but the following file could not be found:
+  'TesterCommon\Pictures\Connect TLA LAN Cable #1.jpg'' at step 'Connect LAN Cable #1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    22/7/2026 10:14:24 AM ProcessModelError
+Error Code: -17208, File or directory not found.
+Message: 'The step specifies to display an image or web page, but the following file could not be found:
+  'TesterCommon\Pictures\Connect LAN TLA Cable #2.jpg'' at step 'Connect LAN Cable #2' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    22/7/2026 10:14:26 AM ProcessModelError
+Error Code: -17208, File or directory not found.
+Message: 'The step specifies to display an image or web page, but the following file could not be found:
+  'TesterCommon\Pictures\Connect TLA Switch.jpg'' at step 'Connect Switch' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    22/7/2026 10:14:30 AM ProcessModelError
+Error Code: -17208, File or directory not found.
+Message: 'The step specifies to display an image or web page, but the following file could not be found:
+  'TesterCommon\Pictures\Engage TLA Power Probe.jpg'' at step 'Engage Power Probe' in seq 'ProcessModelPostStepRuntimeError'
+

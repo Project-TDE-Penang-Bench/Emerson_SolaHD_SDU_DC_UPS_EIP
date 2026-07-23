@@ -1938,3 +1938,1119 @@ RuntimeError: SendInput() inserted only 0 out of 2 keyboard events
 2026-07-14 14:43:54,828 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
 2026-07-14 14:43:54,829 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
 2026-07-14 14:43:54,830 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-38.93s
+2026-07-22 11:04:10,005 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 11:04:10,005 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 11:04:10,007 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 11:04:22,591 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 11:04:23,200 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 11:04:24,095 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 11:04:25,267 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 11:04:25,281 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 11:04:26,032 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:04:26,033 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 11:04:27,699 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:04:28,121 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 11:04:29,388 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:04:29,489 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 11:04:31,076 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:04:31,076 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 11:04:32,292 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:04:32,412 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 11:04:33,786 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:04:33,787 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 11:04:34,786 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:04:34,902 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (857, 370)
+2026-07-22 11:04:36,453 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:04:36,453 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=858, y=371
+2026-07-22 11:04:38,124 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:04:38,223 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1163, 425)
+2026-07-22 11:04:39,369 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:04:39,370 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1164, y=426
+2026-07-22 11:04:41,161 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:04:41,230 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_110439.png
+2026-07-22 11:04:46,450 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 11:04:46,450 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 11:04:46,477 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 11:04:46,570 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 11:04:46,571 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 11:04:46,573 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-36.57s
+2026-07-22 11:13:41,767 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 11:13:41,767 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 11:13:41,767 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 11:13:54,090 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 11:13:54,697 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 11:13:55,454 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 11:13:56,313 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 11:13:56,329 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 11:13:58,040 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:13:58,040 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 11:13:59,737 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:13:59,900 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 11:14:01,240 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:14:01,331 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 11:14:02,916 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:14:02,916 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 11:14:04,762 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:14:04,878 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 11:14:06,616 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:14:06,616 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 11:14:08,298 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:14:08,414 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (857, 370)
+2026-07-22 11:14:10,161 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:14:10,161 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=858, y=371
+2026-07-22 11:14:12,010 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:14:12,115 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1163, 425)
+2026-07-22 11:14:13,684 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:14:13,684 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1164, y=426
+2026-07-22 11:14:14,538 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:14:14,620 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_111413.png
+2026-07-22 11:14:19,817 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 11:14:19,817 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 11:14:19,855 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 11:14:19,962 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 11:14:19,964 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 11:14:19,966 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-38.20s
+2026-07-22 11:21:38,861 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 11:21:38,861 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 11:21:38,862 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 11:21:50,999 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 11:21:51,608 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 11:21:52,718 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 11:21:53,729 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 11:21:53,743 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 11:21:55,171 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:21:55,171 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 11:21:56,124 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:21:56,367 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 11:21:57,957 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:21:58,044 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 11:21:59,665 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:21:59,665 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 11:22:01,521 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:22:01,607 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 11:22:03,179 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:22:03,179 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 11:22:05,045 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:22:05,139 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (857, 370)
+2026-07-22 11:22:06,905 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:22:06,905 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=858, y=371
+2026-07-22 11:22:08,567 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:22:08,659 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1163, 425)
+2026-07-22 11:22:10,430 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:22:10,431 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1164, y=426
+2026-07-22 11:22:12,108 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:22:12,180 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_112210.png
+2026-07-22 11:22:17,388 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 11:22:17,388 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 11:22:17,416 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 11:22:17,520 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 11:22:17,520 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 11:22:17,523 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-38.66s
+2026-07-22 11:31:38,958 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 11:31:38,958 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 11:31:38,959 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 11:31:51,205 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 11:31:51,811 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 11:31:53,034 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 11:31:53,884 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 11:31:53,901 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 11:31:55,281 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:31:55,281 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 11:31:56,961 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:31:57,106 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 11:31:58,662 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:31:58,767 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 11:32:00,341 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:32:00,341 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 11:32:02,184 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:32:02,281 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 11:32:03,893 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:32:03,893 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 11:32:05,570 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:32:05,675 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (857, 370)
+2026-07-22 11:32:07,416 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:32:07,416 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=858, y=371
+2026-07-22 11:32:08,933 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:32:09,032 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1163, 425)
+2026-07-22 11:32:10,436 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:32:10,436 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1164, y=426
+2026-07-22 11:32:11,968 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:32:12,024 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_113210.png
+2026-07-22 11:32:17,236 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 11:32:17,236 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 11:32:17,265 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 11:32:17,357 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 11:32:17,357 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 11:32:17,360 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-38.40s
+2026-07-22 11:40:52,810 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 11:40:52,810 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 11:40:52,810 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 11:41:05,103 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 11:41:05,711 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 11:41:06,454 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 11:41:07,622 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 11:41:07,636 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 11:41:09,202 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:41:09,202 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 11:41:10,883 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:41:11,012 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 11:41:12,575 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:41:12,643 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 11:41:14,210 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:41:14,210 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 11:41:15,917 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:41:15,998 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 11:41:17,624 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:41:17,624 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 11:41:19,444 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:41:19,533 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (857, 370)
+2026-07-22 11:41:21,163 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:41:21,163 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=858, y=371
+2026-07-22 11:41:22,993 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:41:23,082 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1163, 425)
+2026-07-22 11:41:24,136 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:41:24,136 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1164, y=426
+2026-07-22 11:41:25,824 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 11:41:25,880 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_114124.png
+2026-07-22 11:41:31,066 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 11:41:31,066 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 11:41:31,090 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 11:41:31,168 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 11:41:31,169 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 11:41:31,171 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-38.36s
+2026-07-22 13:06:21,920 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 13:06:21,920 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 13:06:21,922 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 13:06:34,285 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 13:06:34,890 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 13:06:35,816 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 13:06:36,810 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 13:06:36,827 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 13:06:38,447 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:06:38,448 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 13:06:39,948 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:06:40,268 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 13:06:41,752 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:06:41,839 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 13:06:42,452 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:06:42,452 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 13:06:44,169 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:06:44,251 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 13:06:45,815 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:06:45,816 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 13:06:47,679 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:06:47,777 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (864, 366)
+2026-07-22 13:06:49,335 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:06:49,335 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=865, y=367
+2026-07-22 13:06:51,198 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:06:51,296 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1167, 435)
+2026-07-22 13:06:53,026 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:06:53,026 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1168, y=436
+2026-07-22 13:06:54,729 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:06:54,779 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_130653.png
+2026-07-22 13:06:59,973 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 13:06:59,974 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 13:06:59,996 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 13:07:00,081 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 13:07:00,082 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 13:07:00,084 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-38.16s
+2026-07-22 13:48:15,554 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 13:48:15,554 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 13:48:15,555 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 13:48:27,877 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 13:48:28,485 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 13:48:29,542 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 13:48:30,749 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 13:48:30,767 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 13:48:32,151 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:48:32,151 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 13:48:33,677 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:48:33,796 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 13:48:35,335 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:48:35,417 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 13:48:37,008 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:48:37,008 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 13:48:38,897 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:48:38,970 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 13:48:40,698 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:48:40,698 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 13:48:42,224 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:48:42,327 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (864, 366)
+2026-07-22 13:48:44,090 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:48:44,090 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=865, y=367
+2026-07-22 13:48:45,947 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:48:46,038 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1167, 435)
+2026-07-22 13:48:47,610 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:48:47,610 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1168, y=436
+2026-07-22 13:48:49,122 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:48:49,177 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_134847.png
+2026-07-22 13:48:54,371 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 13:48:54,371 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 13:48:54,393 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 13:48:54,489 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 13:48:54,490 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 13:48:54,491 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-38.94s
+2026-07-22 13:55:27,793 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 13:55:27,794 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 13:55:27,794 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 13:55:40,217 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 13:55:40,827 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 13:55:42,043 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 13:55:43,255 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 13:55:43,270 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 13:55:44,684 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:55:44,685 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 13:55:46,175 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:55:46,297 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 13:55:47,681 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:55:47,753 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 13:55:48,721 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:55:48,721 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 13:55:50,525 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:55:50,611 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 13:55:51,386 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:55:51,386 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 13:55:52,908 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:55:53,007 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (864, 366)
+2026-07-22 13:55:54,427 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:55:54,427 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=865, y=367
+2026-07-22 13:55:56,087 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:55:56,195 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1167, 435)
+2026-07-22 13:55:57,948 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:55:57,948 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1168, y=436
+2026-07-22 13:55:59,621 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 13:55:59,681 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_135557.png
+2026-07-22 13:56:04,875 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 13:56:04,875 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 13:56:04,896 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 13:56:04,978 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 13:56:04,979 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 13:56:04,981 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-37.19s
+2026-07-22 14:02:34,423 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 14:02:34,424 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 14:02:34,425 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 14:02:46,947 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:02:47,558 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:02:48,612 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 14:02:49,818 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 14:02:49,833 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:02:50,698 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:02:50,698 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 14:02:52,353 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:02:52,689 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 14:02:54,233 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:02:54,303 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 14:02:55,898 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:02:55,898 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 14:02:57,583 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:02:57,659 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 14:02:59,085 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:02:59,085 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 14:03:00,748 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:03:00,846 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (864, 366)
+2026-07-22 14:03:02,461 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:03:02,461 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=865, y=367
+2026-07-22 14:03:03,997 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:03:04,099 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1167, 435)
+2026-07-22 14:03:05,634 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:03:05,634 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1168, y=436
+2026-07-22 14:03:07,309 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:03:07,368 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_140305.png
+2026-07-22 14:03:12,560 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 14:03:12,561 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 14:03:12,581 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 14:03:12,682 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 14:03:12,683 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 14:03:12,686 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-38.26s
+2026-07-22 14:10:46,446 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 14:10:46,446 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 14:10:46,447 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 14:10:58,739 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:10:59,345 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:11:00,271 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 14:11:01,457 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 14:11:01,473 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:11:03,023 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:11:03,023 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 14:11:03,840 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:11:04,223 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 14:11:05,662 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:11:05,740 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 14:11:06,393 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:11:06,393 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 14:11:08,217 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:11:08,292 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 14:11:09,590 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:11:09,590 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 14:11:11,431 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:11:11,537 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (864, 366)
+2026-07-22 14:11:12,594 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:11:12,594 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=865, y=367
+2026-07-22 14:11:13,607 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:11:13,697 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1167, 435)
+2026-07-22 14:11:15,443 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:11:15,443 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1168, y=436
+2026-07-22 14:11:17,143 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:11:17,188 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_141115.png
+2026-07-22 14:11:22,380 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 14:11:22,380 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 14:11:22,401 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 14:11:22,480 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 14:11:22,481 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 14:11:22,483 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-36.04s
+2026-07-22 14:19:03,874 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 14:19:03,874 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 14:19:03,875 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 14:19:16,167 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:19:16,774 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:19:17,838 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 14:19:18,850 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 14:19:18,866 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:19:20,438 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:19:20,438 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 14:19:21,937 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:19:22,056 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 14:19:23,603 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:19:23,683 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 14:19:25,250 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:19:25,250 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 14:19:26,929 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:19:27,012 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 14:19:28,641 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:19:28,642 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 14:19:30,327 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:19:30,419 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (864, 366)
+2026-07-22 14:19:31,809 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:19:31,809 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=865, y=367
+2026-07-22 14:19:33,477 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:19:33,570 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1167, 435)
+2026-07-22 14:19:35,190 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:19:35,190 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1168, y=436
+2026-07-22 14:19:36,860 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:19:36,906 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_141935.png
+2026-07-22 14:19:42,096 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 14:19:42,096 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 14:19:42,118 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 14:19:42,205 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 14:19:42,206 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 14:19:42,207 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-38.33s
+2026-07-22 14:24:56,998 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 14:24:56,998 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 14:24:56,999 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 14:25:08,705 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:25:09,315 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:25:10,533 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 14:25:11,741 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 14:25:11,757 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:25:13,123 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:25:13,123 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 14:25:14,638 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:25:14,764 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 14:25:15,649 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:25:15,731 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 14:25:16,638 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:25:16,638 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 14:25:17,972 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:25:18,053 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 14:25:19,131 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:25:19,131 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 14:25:20,846 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:25:20,938 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (864, 366)
+2026-07-22 14:25:22,655 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:25:22,655 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=865, y=367
+2026-07-22 14:25:24,376 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:25:24,473 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1167, 435)
+2026-07-22 14:25:26,178 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:25:26,178 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1168, y=436
+2026-07-22 14:25:27,883 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:25:27,942 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_142526.png
+2026-07-22 14:25:33,129 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 14:25:33,129 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 14:25:33,150 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 14:25:33,239 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 14:25:33,240 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 14:25:33,242 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-36.24s
+2026-07-22 14:32:21,508 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 14:32:21,508 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 14:32:21,508 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 14:32:33,293 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:32:33,901 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:32:35,102 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 14:32:36,312 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 14:32:36,327 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:32:37,857 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:32:37,857 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 14:32:39,506 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:32:39,629 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 14:32:41,021 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:32:41,098 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 14:32:41,718 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:32:41,718 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 14:32:43,389 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:32:43,469 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 14:32:44,895 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:32:44,895 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 14:32:46,424 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:32:46,542 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (864, 366)
+2026-07-22 14:32:48,230 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:32:48,230 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=865, y=367
+2026-07-22 14:32:49,447 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:32:49,544 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1167, 435)
+2026-07-22 14:32:51,279 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:32:51,280 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1168, y=436
+2026-07-22 14:32:52,961 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:32:53,015 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_143251.png
+2026-07-22 14:32:58,204 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 14:32:58,204 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 14:32:58,228 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 14:32:58,311 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 14:32:58,311 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 14:32:58,313 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-36.81s
+2026-07-22 14:39:26,633 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 14:39:26,633 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 14:39:26,633 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 14:39:38,574 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:39:39,180 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:39:40,283 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 14:39:41,453 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 14:39:41,467 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:39:42,694 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:39:42,695 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 14:39:44,235 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:39:44,348 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 14:39:45,203 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:39:45,281 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 14:39:46,866 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:39:46,866 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 14:39:47,894 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:39:47,971 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 14:39:49,703 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:39:49,703 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 14:39:51,436 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:39:51,544 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (864, 366)
+2026-07-22 14:39:52,936 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:39:52,936 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=865, y=367
+2026-07-22 14:39:54,637 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:39:54,743 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1167, 435)
+2026-07-22 14:39:56,460 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:39:56,461 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1168, y=436
+2026-07-22 14:39:57,969 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:39:58,013 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_143956.png
+2026-07-22 14:40:03,210 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 14:40:03,210 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 14:40:03,232 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 14:40:03,329 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 14:40:03,329 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 14:40:03,331 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-36.70s
+2026-07-22 14:56:49,880 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 14:56:49,880 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 14:56:49,881 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 14:57:01,523 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:57:02,133 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:57:03,355 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 14:57:04,551 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 14:57:04,564 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 14:57:05,965 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:57:05,965 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 14:57:07,629 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:57:07,752 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 14:57:08,791 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:57:08,854 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 14:57:09,500 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:57:09,500 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 14:57:11,337 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:57:11,410 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 14:57:13,186 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:57:13,186 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 14:57:14,882 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:57:14,983 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (864, 366)
+2026-07-22 14:57:16,723 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:57:16,723 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=865, y=367
+2026-07-22 14:57:18,399 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:57:18,497 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1167, 435)
+2026-07-22 14:57:20,297 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:57:20,297 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1168, y=436
+2026-07-22 14:57:22,068 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 14:57:22,119 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_145720.png
+2026-07-22 14:57:27,312 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 14:57:27,312 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 14:57:27,335 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 14:57:27,416 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 14:57:27,417 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 14:57:27,418 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-37.54s
+2026-07-22 15:08:36,200 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 15:08:36,200 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 15:08:36,200 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 15:08:48,462 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:08:49,068 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:08:49,670 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 15:08:50,839 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 15:08:50,856 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:08:51,556 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:08:51,556 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 15:08:53,220 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:08:53,339 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 15:08:54,578 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:08:54,642 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 15:08:55,742 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:08:55,742 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 15:08:57,596 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:08:57,684 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 15:08:58,770 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:08:58,770 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 15:09:00,461 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:09:00,549 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (864, 366)
+2026-07-22 15:09:02,307 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:09:02,307 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=865, y=367
+2026-07-22 15:09:04,132 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:09:04,235 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1167, 435)
+2026-07-22 15:09:05,837 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:09:05,838 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1168, y=436
+2026-07-22 15:09:06,841 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:09:06,888 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_150905.png
+2026-07-22 15:09:12,082 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 15:09:12,082 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 15:09:12,104 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 15:09:12,184 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 15:09:12,185 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 15:09:12,187 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-35.99s
+2026-07-22 15:15:22,465 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 15:15:22,465 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 15:15:22,467 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 15:15:34,866 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:15:35,475 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:15:36,687 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 15:15:37,901 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 15:15:37,917 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:15:39,446 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:15:39,446 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 15:15:40,783 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:15:41,130 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 15:15:42,617 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:15:42,695 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 15:15:43,614 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:15:43,614 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 15:15:44,500 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:15:44,580 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 15:15:45,998 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:15:45,998 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 15:15:47,158 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:15:47,258 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (864, 366)
+2026-07-22 15:15:48,875 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:15:48,875 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=865, y=367
+2026-07-22 15:15:50,690 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:15:50,788 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1167, 435)
+2026-07-22 15:15:52,359 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:15:52,360 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1168, y=436
+2026-07-22 15:15:54,089 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:15:54,139 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_151552.png
+2026-07-22 15:15:59,335 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 15:15:59,335 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 15:15:59,357 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 15:15:59,454 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 15:15:59,455 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 15:15:59,457 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-36.99s
+2026-07-22 15:24:57,800 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 15:24:57,800 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 15:24:57,801 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 15:25:10,202 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:25:10,809 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:25:11,728 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 15:25:12,890 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 15:25:12,904 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:25:13,600 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:25:13,600 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 15:25:15,110 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:25:15,248 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 15:25:16,121 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:25:16,193 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 15:25:17,627 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:25:17,627 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 15:25:19,478 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:25:19,551 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 15:25:21,146 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:25:21,146 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 15:25:22,341 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:25:22,443 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (864, 366)
+2026-07-22 15:25:23,528 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:25:23,528 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=865, y=367
+2026-07-22 15:25:25,172 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:25:25,275 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1167, 435)
+2026-07-22 15:25:26,884 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:25:26,884 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1168, y=436
+2026-07-22 15:25:28,243 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:25:28,297 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_152526.png
+2026-07-22 15:25:33,488 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 15:25:33,489 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 15:25:33,511 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 15:25:33,591 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 15:25:33,592 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 15:25:33,594 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-35.79s
+2026-07-22 15:32:51,089 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 15:32:51,089 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 15:32:51,090 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 15:33:03,547 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:33:04,154 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:33:05,217 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 15:33:06,068 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 15:33:06,083 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:33:07,601 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:33:07,601 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 15:33:09,265 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:33:09,380 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 15:33:09,947 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:33:10,014 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 15:33:11,460 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:33:11,460 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 15:33:13,308 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:33:13,388 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 15:33:14,674 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:33:14,674 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 15:33:16,192 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:33:16,293 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (864, 366)
+2026-07-22 15:33:17,188 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:33:17,188 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=865, y=367
+2026-07-22 15:33:18,350 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:33:18,441 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1167, 435)
+2026-07-22 15:33:19,191 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:33:19,191 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1168, y=436
+2026-07-22 15:33:20,714 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:33:20,762 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_153319.png
+2026-07-22 15:33:25,953 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 15:33:25,953 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 15:33:25,976 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 15:33:26,060 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 15:33:26,061 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 15:33:26,063 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-34.97s
+2026-07-22 15:41:19,881 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 15:41:19,881 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 15:41:19,882 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 15:41:31,318 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:41:31,925 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:41:32,839 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 15:41:33,342 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 15:41:33,358 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:41:34,230 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:41:34,230 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 15:41:35,207 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:41:35,335 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 15:41:36,874 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:41:36,951 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 15:41:37,876 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:41:37,876 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 15:41:39,723 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:41:39,804 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 15:41:41,415 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:41:41,416 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 15:41:43,114 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:41:43,210 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (864, 366)
+2026-07-22 15:41:44,456 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:41:44,456 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=865, y=367
+2026-07-22 15:41:46,261 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:41:46,361 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1167, 435)
+2026-07-22 15:41:47,475 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:41:47,476 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1168, y=436
+2026-07-22 15:41:49,138 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:41:49,196 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_154147.png
+2026-07-22 15:41:54,388 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 15:41:54,388 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 15:41:54,411 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 15:41:54,510 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 15:41:54,511 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 15:41:54,512 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-34.63s
+2026-07-22 15:49:56,101 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 15:49:56,101 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 15:49:56,101 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 15:50:08,292 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:50:08,897 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:50:10,108 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 15:50:11,314 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 15:50:11,329 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:50:12,734 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:50:12,735 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 15:50:14,249 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:50:14,586 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 15:50:15,265 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:50:15,335 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 15:50:16,290 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:50:16,290 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 15:50:18,109 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:50:18,191 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 15:50:19,952 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:50:19,952 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 15:50:21,784 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:50:21,899 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (864, 366)
+2026-07-22 15:50:23,005 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:50:23,005 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=865, y=367
+2026-07-22 15:50:24,819 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:50:24,918 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1167, 435)
+2026-07-22 15:50:26,704 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:50:26,704 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1168, y=436
+2026-07-22 15:50:27,833 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:50:27,888 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_155026.png
+2026-07-22 15:50:33,073 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 15:50:33,073 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 15:50:33,097 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 15:50:33,200 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 15:50:33,201 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 15:50:33,203 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-37.10s
+2026-07-22 15:56:40,477 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 15:56:40,478 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 15:56:40,478 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 15:56:52,821 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:56:53,427 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:56:54,532 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 15:56:55,703 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 15:56:55,719 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 15:56:57,244 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:56:57,244 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 15:56:58,427 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:56:58,556 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 15:57:00,106 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:57:00,175 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 15:57:01,462 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:57:01,462 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 15:57:03,145 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:57:03,233 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 15:57:04,958 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:57:04,959 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 15:57:06,487 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:57:06,562 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (857, 370)
+2026-07-22 15:57:08,184 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:57:08,185 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=858, y=371
+2026-07-22 15:57:09,851 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:57:09,929 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1163, 425)
+2026-07-22 15:57:10,699 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:57:10,699 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1164, y=426
+2026-07-22 15:57:12,228 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 15:57:12,286 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_155710.png
+2026-07-22 15:57:17,479 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 15:57:17,479 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 15:57:17,504 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 15:57:17,580 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 15:57:17,581 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 15:57:17,583 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-37.11s
+2026-07-22 16:45:32,886 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 16:45:32,886 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 16:45:32,888 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 16:45:44,507 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 16:45:45,115 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 16:45:45,515 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 16:45:46,683 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 16:45:46,699 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 16:45:48,239 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:45:48,239 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 16:45:49,214 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:45:49,537 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 16:45:51,096 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:45:51,172 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 16:45:52,756 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:45:52,756 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 16:45:54,476 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:45:54,565 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 16:45:56,299 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:45:56,299 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 16:45:57,157 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:45:57,239 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (857, 370)
+2026-07-22 16:45:58,168 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:45:58,168 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=858, y=371
+2026-07-22 16:46:00,000 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:46:00,076 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1163, 425)
+2026-07-22 16:46:01,712 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:46:01,712 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1164, y=426
+2026-07-22 16:46:02,703 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:46:02,749 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_164601.png
+2026-07-22 16:46:07,943 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 16:46:07,943 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 16:46:07,966 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 16:46:08,056 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 16:46:08,057 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 16:46:08,060 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-35.17s
+2026-07-22 16:57:52,815 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 16:57:52,815 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 16:57:52,815 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 16:58:04,314 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 16:58:04,921 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 16:58:05,836 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 16:58:06,841 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 16:58:06,856 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 16:58:08,247 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:58:08,247 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 16:58:09,917 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:58:10,034 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 16:58:11,263 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:58:11,336 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 16:58:12,776 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:58:12,776 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 16:58:14,606 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:58:14,694 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 16:58:15,445 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:58:15,445 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 16:58:16,462 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:58:16,540 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (857, 370)
+2026-07-22 16:58:17,761 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:58:17,761 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=858, y=371
+2026-07-22 16:58:18,985 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:58:19,057 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1163, 425)
+2026-07-22 16:58:20,669 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:58:20,669 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1164, y=426
+2026-07-22 16:58:22,008 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 16:58:22,066 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_165820.png
+2026-07-22 16:58:27,263 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 16:58:27,263 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 16:58:27,287 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 16:58:27,376 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 16:58:27,376 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 16:58:27,379 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-34.56s
+2026-07-22 17:12:58,903 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 17:12:58,903 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 17:12:58,904 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 17:13:11,362 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 17:13:11,970 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 17:13:12,878 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 17:13:14,034 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 17:13:14,050 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 17:13:15,641 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:13:15,642 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 17:13:17,294 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:13:17,651 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 17:13:18,658 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:13:18,728 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 17:13:19,669 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:13:19,669 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 17:13:20,871 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:13:20,949 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 17:13:22,356 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:13:22,356 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 17:13:24,238 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:13:24,313 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (857, 370)
+2026-07-22 17:13:26,070 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:13:26,070 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=858, y=371
+2026-07-22 17:13:27,925 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:13:27,996 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1163, 425)
+2026-07-22 17:13:29,741 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:13:29,741 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1164, y=426
+2026-07-22 17:13:31,439 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:13:31,487 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_171329.png
+2026-07-22 17:13:36,677 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 17:13:36,677 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 17:13:36,700 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 17:13:36,801 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 17:13:36,802 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 17:13:36,804 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-37.90s
+2026-07-22 17:20:08,834 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 17:20:08,834 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 17:20:08,835 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 17:20:21,250 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 17:20:21,858 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 17:20:23,078 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 17:20:23,775 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 17:20:23,790 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 17:20:25,354 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:20:25,354 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 17:20:26,479 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:20:26,609 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 17:20:27,693 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:20:27,764 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 17:20:29,355 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:20:29,355 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 17:20:31,203 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:20:31,281 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 17:20:32,904 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:20:32,904 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 17:20:34,716 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:20:34,800 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (857, 370)
+2026-07-22 17:20:36,248 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:20:36,248 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=858, y=371
+2026-07-22 17:20:37,732 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:20:37,817 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1163, 425)
+2026-07-22 17:20:39,451 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:20:39,451 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1164, y=426
+2026-07-22 17:20:40,983 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:20:41,040 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_172039.png
+2026-07-22 17:20:46,232 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 17:20:46,232 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 17:20:46,256 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 17:20:46,351 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 17:20:46,351 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 17:20:46,354 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-37.52s
+2026-07-22 17:28:23,272 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 17:28:23,272 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 17:28:23,272 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 17:28:35,066 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 17:28:35,676 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 17:28:36,575 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 17:28:37,433 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 17:28:37,450 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 17:28:38,980 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:28:38,980 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 17:28:40,488 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:28:40,611 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 17:28:41,841 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:28:41,913 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 17:28:43,348 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:28:43,348 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 17:28:44,527 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:28:44,600 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 17:28:45,526 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:28:45,526 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 17:28:47,213 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:28:47,301 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (857, 370)
+2026-07-22 17:28:48,859 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:28:48,859 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=858, y=371
+2026-07-22 17:28:50,570 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:28:50,651 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1163, 425)
+2026-07-22 17:28:52,390 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:28:52,390 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1164, y=426
+2026-07-22 17:28:54,105 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:28:54,173 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_172852.png
+2026-07-22 17:28:59,365 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 17:28:59,365 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 17:28:59,390 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 17:28:59,485 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 17:28:59,486 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 17:28:59,488 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-36.22s
+2026-07-22 17:47:50,612 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 17:47:50,612 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 17:47:50,613 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 17:48:02,998 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 17:48:03,606 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 17:48:04,667 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 17:48:05,893 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 17:48:05,908 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 17:48:07,583 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:48:07,583 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 17:48:08,288 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:48:08,838 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 17:48:10,291 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:48:10,370 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 17:48:11,951 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:48:11,952 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 17:48:13,774 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:48:13,857 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 17:48:14,989 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:48:14,990 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 17:48:16,511 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:48:16,591 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (857, 370)
+2026-07-22 17:48:18,329 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:48:18,329 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=858, y=371
+2026-07-22 17:48:19,559 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:48:19,643 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1163, 425)
+2026-07-22 17:48:21,214 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:48:21,214 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1164, y=426
+2026-07-22 17:48:22,893 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:48:22,951 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_174821.png
+2026-07-22 17:48:28,139 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 17:48:28,140 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 17:48:28,165 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 17:48:28,264 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 17:48:28,266 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 17:48:28,267 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-37.65s
+2026-07-22 17:55:25,761 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 17:55:25,761 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 17:55:25,761 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 17:55:38,089 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 17:55:38,694 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 17:55:39,907 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 17:55:40,919 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 17:55:40,935 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 17:55:42,530 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:55:42,531 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 17:55:54,221 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:55:54,351 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 17:55:55,666 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:55:55,736 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 17:55:56,974 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:55:56,974 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 17:55:58,690 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:55:58,773 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 17:56:00,557 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:56:00,557 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 17:56:02,213 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:56:02,289 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (857, 370)
+2026-07-22 17:56:03,912 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:56:03,912 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=858, y=371
+2026-07-22 17:56:05,749 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:56:05,820 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1163, 425)
+2026-07-22 17:56:07,436 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:56:07,436 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1164, y=426
+2026-07-22 17:56:09,123 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 17:56:09,180 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_175607.png
+2026-07-22 17:56:14,372 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 17:56:14,372 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 17:56:14,396 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 17:56:14,492 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 17:56:14,493 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 17:56:14,495 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-48.73s
+2026-07-22 18:04:14,956 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 18:04:14,956 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 18:04:14,958 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 18:04:27,330 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 18:04:27,936 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 18:04:29,049 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 18:04:29,554 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 18:04:29,568 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 18:04:31,107 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:04:31,107 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 18:04:32,740 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:04:33,109 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 18:04:34,261 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:04:34,358 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 18:04:35,762 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:04:35,762 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 18:04:36,650 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:04:36,729 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 18:04:38,448 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:04:38,448 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 18:04:39,665 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:04:39,744 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (857, 370)
+2026-07-22 18:04:40,704 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:04:40,704 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=858, y=371
+2026-07-22 18:04:41,685 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:04:41,762 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1163, 425)
+2026-07-22 18:04:43,219 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:04:43,219 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1164, y=426
+2026-07-22 18:04:44,880 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:04:44,933 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_180443.png
+2026-07-22 18:04:50,125 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 18:04:50,125 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 18:04:50,148 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 18:04:50,239 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 18:04:50,240 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 18:04:50,242 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-35.29s
+2026-07-22 18:24:46,333 - INFO - [root.HMS_Firmware_Manager_II.main:209] - begin HMS FIRMWARE MANAGER CONVERT
+2026-07-22 18:24:46,333 - INFO - [root.state_util.load_params:20] - Loading configuration from: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\configs\params.toml
+2026-07-22 18:24:46,333 - INFO - [root.win_util.start:63] - Starting application: C:\PROGRA~2\HMS\Firmware Manager II\Firmware Manager II.exe
+2026-07-22 18:24:58,503 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 18:24:59,110 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 18:25:00,017 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: %F
+2026-07-22 18:25:01,338 - INFO - [root.win_util.shortcut:176] - Sending global application shortcut: C
+2026-07-22 18:25:01,354 - INFO - [root.win_util.ensure_active_and_front:109] - Bringing target application window to the absolute front.
+2026-07-22 18:25:02,464 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 24 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:25:02,464 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=np.int64(165), y=np.int64(1007)
+2026-07-22 18:25:04,095 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:25:04,229 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'SDU' at (48, 110)
+2026-07-22 18:25:05,756 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:25:05,838 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Login...' at (1441, 112)
+2026-07-22 18:25:07,281 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 27 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:25:07,281 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1442, y=113
+2026-07-22 18:25:09,174 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:25:09,258 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Username' at (859, 318)
+2026-07-22 18:25:10,188 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:25:10,188 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=860, y=319
+2026-07-22 18:25:11,706 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:25:11,783 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Password' at (857, 370)
+2026-07-22 18:25:13,200 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:25:13,200 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=858, y=371
+2026-07-22 18:25:14,716 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:25:14,803 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'Cancel' at (1163, 425)
+2026-07-22 18:25:16,546 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:25:16,546 - INFO - [root.win_util.find_by_coord:273] - find element using global coord x=1164, y=426
+2026-07-22 18:25:18,286 - INFO - [root.win_util.get_windows_region:156] - Calculated encompassing region for 39 visible windows: (1, 1, 1919, 1031)
+2026-07-22 18:25:18,343 - INFO - [root.win_util._save_annotated_screenshot:377] - Debug layout screenshot successfully saved to: C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\debug\find_by_coord_20260722_182516.png
+2026-07-22 18:25:23,537 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1191, 112)
+2026-07-22 18:25:23,537 - INFO - [root.ocr_util._execute_scan:148] - Target word localized precisely: 'EtherNet/IP' at (1383, 112)
+2026-07-22 18:25:23,561 - INFO - [root.HMS_Firmware_Manager_II.check_change_network_needed:108] - Network change not needed
+2026-07-22 18:25:23,641 - ERROR - [root.HMS_Firmware_Manager_II.check_update_needed:151] - Error during PyAutoGUI screen matching: Could not locate the image (highest confidence = 0.461)
+2026-07-22 18:25:23,642 - INFO - [root.win_util.close:88] - Terminating application process tree instantly via kill()
+2026-07-22 18:25:23,644 - INFO - [root.HMS_Firmware_Manager_II.main:212] - end HMS FIRMWARE MANAGER CONVERT, took-37.31s

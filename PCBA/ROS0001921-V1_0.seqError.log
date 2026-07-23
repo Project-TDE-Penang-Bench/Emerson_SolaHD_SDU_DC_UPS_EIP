@@ -4791,3 +4791,48 @@ LabVIEW: (Hex 0x2) ERROR_FILE_NOT_FOUND.
 =========================
 No Listeners on the GPIB.' at step 'TRS01.1 - Erase Flash' in seq 'ProcessModelPostStepRuntimeError'
 
+    22/7/2026 10:22:29 AM ProcessModelError
+Error Code: -1074001908, Code Module/User-defined error code.
+Message: 'GENser Initialize.vi  When first addressing the Genesys power supply, did not receive response.
+
+Sent command:           "ADR 00"
+Received response:    none (timeout error)
+
+1. Check Genesys address setting
+2. Check Genesys BAUD rate settings
+3. Check "VISA name" control, COMn or ASRLn
+4. Check Genesys setting for RS-232 or RS-485
+5. Check cable type, either RS-232 or RS-485
+6. Check cable to J3 IN or J3 OUT 
+' at step 'Initialize PPS3' in seq 'ProcessModelPostStepRuntimeError'
+
+    22/7/2026 10:22:46 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS3 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+    22/7/2026 10:22:52 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Disconnect E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+    22/7/2026 10:24:23 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Current Limit.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS3 Current' in seq 'ProcessModelPostStepRuntimeError'
+
+    22/7/2026 10:26:50 AM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in GENser Write to Instrument.vi->GENser Config Output On-Off.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'PPS3 Output' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    22/7/2026 10:31:32 AM ProcessModelError
+Error Code: -17300, Value invalid or out of range.
+Message: 'Error executing step post action.
+Cannot find go to target. The step 'ID#:V21KGTUk7BG6gAAwGAiQvD' is not in the current sequence.' at step 'Goto' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    22/7/2026 10:31:59 AM ProcessModelError
+Error Code: -17300, Value invalid or out of range.
+Message: 'Error executing step post action.
+Cannot find go to target. The step 'ID#:V21KGTUk7BG6gAAwGAiQvD' is not in the current sequence.' at step 'Goto' in seq 'ProcessModelPostStepRuntimeError'
+

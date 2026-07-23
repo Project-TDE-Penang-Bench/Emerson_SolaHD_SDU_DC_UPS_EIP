@@ -607,3 +607,138 @@ RuntimeError: There is no active desktop required for moving mouse cursor!
 2026-07-14 14:42:00,636 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
 2026-07-14 14:42:18,415 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
 2026-07-14 14:42:19,421 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 18.79s
+2026-07-22 11:00:36,632 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 11:00:36,632 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 11:00:57,445 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 11:00:58,456 - ERROR - [root.HMS_IPConfig.<module>:48] - Static IP Set-up via HMS IPConfig failed
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_IPConfig\HMS_IPConfig.py", line 22, in <module>
+    ui.find("SDU_20-24BC-EIP").click_input()
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_IPConfig\tde_utilities\win_util.py", line 265, in find
+    raise TimeoutError(error_message)
+TimeoutError: RPA Search Failure: Pattern target 'SDU_20-24BC-EIP' was not discovered within 5s.
+2026-07-22 11:02:47,798 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 11:02:47,798 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 11:03:08,701 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 11:03:09,890 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 22.09s
+2026-07-22 11:12:24,080 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 11:12:24,080 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 11:12:43,816 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 11:12:44,665 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 20.59s
+2026-07-22 11:20:21,431 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 11:20:21,431 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 11:20:40,326 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 11:20:41,528 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 20.10s
+2026-07-22 11:30:21,656 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 11:30:21,656 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 11:30:40,522 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 11:30:41,523 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 19.87s
+2026-07-22 11:39:36,854 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 11:39:36,855 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 11:39:54,794 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 11:39:55,953 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 19.10s
+2026-07-22 13:04:52,775 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 13:04:52,776 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 13:05:23,512 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 13:05:23,859 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 31.08s
+2026-07-22 13:46:58,105 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 13:46:58,105 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 13:47:17,561 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 13:47:18,364 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 20.26s
+2026-07-22 13:54:10,913 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 13:54:10,913 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 13:54:29,856 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 13:54:30,854 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 19.94s
+2026-07-22 14:01:15,005 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 14:01:15,005 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 14:01:35,085 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 14:01:36,087 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 21.08s
+2026-07-22 14:09:30,060 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 14:09:30,060 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 14:09:48,290 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 14:09:49,439 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 19.38s
+2026-07-22 14:17:47,903 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 14:17:47,903 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 14:18:06,342 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 14:18:07,160 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 19.26s
+2026-07-22 14:23:39,638 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 14:23:39,638 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 14:23:59,048 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 14:24:00,055 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 20.42s
+2026-07-22 14:31:05,463 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 14:31:05,463 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 14:31:23,576 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 14:31:24,580 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 19.12s
+2026-07-22 14:38:09,341 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 14:38:09,342 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 14:38:28,754 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 14:38:29,606 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 20.26s
+2026-07-22 14:55:33,916 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 14:55:33,916 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 14:55:52,686 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 14:55:52,877 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 18.96s
+2026-07-22 15:07:19,287 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 15:07:19,287 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 15:07:37,972 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 15:07:39,137 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 19.85s
+2026-07-22 15:14:02,854 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 15:14:02,854 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 15:14:23,185 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 15:14:24,349 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 21.50s
+2026-07-22 15:23:40,404 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 15:23:40,404 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 15:23:59,719 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 15:24:00,856 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 20.45s
+2026-07-22 15:31:34,139 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 15:31:34,139 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 15:31:53,366 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 15:31:54,381 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 20.24s
+2026-07-22 15:40:02,584 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 15:40:02,584 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 15:40:21,655 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 15:40:22,840 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 20.26s
+2026-07-22 15:48:37,242 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 15:48:37,242 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 15:48:57,630 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 15:48:58,632 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 21.39s
+2026-07-22 15:55:24,845 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 15:55:24,845 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 15:55:42,653 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 15:55:43,660 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 18.82s
+2026-07-22 16:44:14,295 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 16:44:14,295 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 16:44:33,862 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 16:44:35,022 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 20.73s
+2026-07-22 16:56:36,668 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 16:56:36,668 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 16:56:54,701 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 16:56:55,702 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 19.03s
+2026-07-22 17:11:39,892 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 17:11:39,892 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 17:12:00,030 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 17:12:00,839 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 20.95s
+2026-07-22 17:18:51,562 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 17:18:51,562 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 17:19:10,879 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 17:19:11,735 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 20.17s
+2026-07-22 17:27:07,356 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 17:27:07,356 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 17:27:25,248 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 17:27:26,413 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 19.06s
+2026-07-22 17:46:33,402 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 17:46:33,402 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 17:46:52,495 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 17:46:53,185 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 19.78s
+2026-07-22 17:54:09,780 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 17:54:09,780 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 17:54:27,389 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 17:54:28,547 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 18.77s
+2026-07-22 18:03:05,722 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 18:03:05,722 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 18:03:15,851 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 18:03:16,862 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 11.14s
+2026-07-22 18:23:29,233 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-07-22 18:23:29,234 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-07-22 18:23:47,817 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-07-22 18:23:48,982 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 19.75s

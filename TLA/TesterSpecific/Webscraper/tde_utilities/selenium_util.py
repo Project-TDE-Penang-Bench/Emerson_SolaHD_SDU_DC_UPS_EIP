@@ -1,5 +1,8 @@
 import os
 import logging
+import json
+import pyautogui
+import time
 from typing import Tuple, Optional, Dict, List
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -177,3 +180,48 @@ class Browser:
             if any(row_data):
                 parsed_table = parsed_table + [row_data]
         return parsed_table
+    
+    def handle_basic_auth(self, username: str = "admin", password: str = "admin", delay: float = 1.5) -> None:
+        """
+        Simulates keyboard input to clear Chrome's native HTTP Basic Auth popup.
+        
+        :param username: Username to type.
+        :param password: Password to type.
+        :param delay: Seconds to wait for the browser prompt to gain focus before typing.
+        """
+        # Wait for Chrome to render the popup and focus on the Username field
+        time.sleep(delay)
+        
+        # Type Username -> Switch field -> Type Password -> Submit
+        pyautogui.typewrite(username)
+        pyautogui.press("tab")
+        pyautogui.typewrite(password)
+        pyautogui.press("enter")
+        
+        # Short pause to allow login to complete
+        time.sleep(1.0)
+
+    def handle_basic_auth_ignore_error(self, username: str = "admin", password: str = "admin", delay: float = 2) -> None:
+        """
+        Simulates keyboard input ONCE to clear Chrome's native HTTP Basic Auth popup.
+        Silently suppresses any errors if the popup is absent or focus is lost.
+        
+        :param username: Username to type.
+        :param password: Password to type.
+        :param delay: Seconds to wait for the browser prompt to gain focus before typing.
+        """
+        try:
+            # Wait for Chrome to render the popup and focus on the Username field
+            time.sleep(delay)
+            
+            # Type Username -> Switch field -> Type Password -> Submit
+            pyautogui.typewrite(username)
+            pyautogui.press("tab")
+            pyautogui.typewrite(password)
+            pyautogui.press("enter")
+            
+            # Short pause to allow login to complete
+            time.sleep(1.0)
+        except Exception as e:
+            # Silently swallow any execution errors
+            logging.debug(f"Basic auth error suppressed: {e}")

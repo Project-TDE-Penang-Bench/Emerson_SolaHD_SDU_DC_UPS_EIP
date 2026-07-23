@@ -23,7 +23,9 @@ try:
     TARGET_URL = "http://192.168.1.5"  # Replace with your test hardware IP
 
     # Initialize the automated execution block
-    with Browser(TARGET_URL, headless=True) as browser:
+    with Browser(TARGET_URL, headless=False) as browser:
+        browser.handle_basic_auth()
+
         # Proportional Ratio Validation
         browser.wait_for_visibility(browser.loc(element_id="main-content"))
         w, h = browser.get_element_size(browser.loc(element_id="header"))

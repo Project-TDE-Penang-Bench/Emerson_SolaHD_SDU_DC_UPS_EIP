@@ -19,6 +19,8 @@ try:
 
     # Initialize the automated execution block
     with Browser(TARGET_URL) as browser:
+        browser.handle_basic_auth()
+
         # Step 1: Initial Load Validation
         browser.wait_for_visibility(browser.loc(element_id="main-content"))
         # add elements to check as you see fit

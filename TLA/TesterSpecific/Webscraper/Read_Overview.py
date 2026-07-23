@@ -24,11 +24,13 @@ try:
     TARGET_URL = "http://192.168.1.5"  # Replace with your test hardware IP
 
     # Initialize the automated execution block
-    with Browser(TARGET_URL, headless=True) as browser:
+    with Browser(TARGET_URL, headless=False) as browser:
     
+        browser.handle_basic_auth()
+
         # Read overview-table
         browser.wait_for_visibility(browser.loc(element_id="main-content"))
-        for _ in range(10):
+        for _ in range(200):
             content = browser.scrape_table(browser.loc(element_id='overview-table'))
             if not any("??" in cell for row in content for cell in row):
                 break
