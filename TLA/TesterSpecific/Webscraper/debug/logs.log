@@ -6914,3 +6914,697 @@ Stacktrace:
 2026-07-21 16:16:19,594 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
 2026-07-21 16:16:23,553 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
 2026-07-21 16:16:35,202 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 09:25:49,125 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 09:26:05,686 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 09:26:09,801 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 09:26:22,424 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 09:26:37,387 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 09:26:40,977 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 09:26:44,773 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 09:26:53,547 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 09:26:57,170 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 09:27:06,347 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 09:27:06,347 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 09:27:09,963 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 09:27:23,123 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 09:27:26,280 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 09:57:11,824 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 09:57:23,801 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 09:57:27,398 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 09:57:40,015 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 09:57:57,329 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 09:58:01,945 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 09:58:05,851 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 09:58:14,174 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 09:58:17,849 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 09:58:26,197 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 09:58:26,197 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 09:58:29,874 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 09:58:42,986 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 09:58:46,142 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:05:16,957 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:05:29,254 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 10:05:33,357 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:05:45,951 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:06:01,882 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 10:06:06,983 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:06:10,931 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:06:19,560 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:06:23,260 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:06:31,663 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 10:06:31,664 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:06:35,383 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:06:48,821 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 10:06:51,971 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:24:48,069 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:24:59,887 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 10:25:03,481 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:25:15,905 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:25:33,332 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 10:25:38,439 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:25:42,149 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:25:50,457 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:25:53,973 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:26:03,043 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 10:26:03,043 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:26:06,642 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:26:19,241 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 10:26:22,906 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:26:49,111 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:27:35,316 - ERROR - [root.selenium_util.start:65] - Failed to start the browser session: Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=150.0.7871.129)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff770ce0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff770ce0d80+15600]
+	chromedriver!(No symbol) [0x7ff77083594d]
+	chromedriver!(No symbol) [0x7ff770832709]
+	chromedriver!(No symbol) [0x7ff770822a91]
+	chromedriver!(No symbol) [0x7ff7708248ff]
+	chromedriver!(No symbol) [0x7ff770823033]
+	chromedriver!(No symbol) [0x7ff7708227fb]
+	chromedriver!(No symbol) [0x7ff7708224b1]
+	chromedriver!(No symbol) [0x7ff770820167]
+	chromedriver!(No symbol) [0x7ff7708208e2]
+	chromedriver!(No symbol) [0x7ff770839bf6]
+	chromedriver!(No symbol) [0x7ff7708dee24]
+	chromedriver!(No symbol) [0x7ff7708b91ca]
+	chromedriver!(No symbol) [0x7ff7708de01b]
+	chromedriver!(No symbol) [0x7ff770882e6c]
+	chromedriver!(No symbol) [0x7ff770883d93]
+	chromedriver!GetHandleVerifier [0x7ff7712c6431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff7712c0a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff7712e5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff770cfdace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff770d0661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff770ceab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff770cead04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff770ccd9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ff8a708e957+17]
+	ntdll!RtlUserThreadStart [0x7ff8a8b4ad6c+2c]
+
+2026-08-03 10:27:35,316 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:27:38,346 - ERROR - [root.Check_GUI_Loaded.<module>:35] - web scraping failed
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP-2024B\TLA\TesterSpecific\Webscraper\Check_GUI_Loaded.py", line 26, in <module>
+    with Browser(TARGET_URL, headless=False) as browser:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP-2024B\TLA\TesterSpecific\Webscraper\tde_utilities\selenium_util.py", line 88, in __enter__
+    self.start()
+    ~~~~~~~~~~^^
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP-2024B\TLA\TesterSpecific\Webscraper\tde_utilities\selenium_util.py", line 62, in start
+    self.driver.get(self.url)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 488, in get
+    self.execute(Command.GET, {"url": url})
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 468, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=150.0.7871.129)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff770ce0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff770ce0d80+15600]
+	chromedriver!(No symbol) [0x7ff77083594d]
+	chromedriver!(No symbol) [0x7ff770832709]
+	chromedriver!(No symbol) [0x7ff770822a91]
+	chromedriver!(No symbol) [0x7ff7708248ff]
+	chromedriver!(No symbol) [0x7ff770823033]
+	chromedriver!(No symbol) [0x7ff7708227fb]
+	chromedriver!(No symbol) [0x7ff7708224b1]
+	chromedriver!(No symbol) [0x7ff770820167]
+	chromedriver!(No symbol) [0x7ff7708208e2]
+	chromedriver!(No symbol) [0x7ff770839bf6]
+	chromedriver!(No symbol) [0x7ff7708dee24]
+	chromedriver!(No symbol) [0x7ff7708b91ca]
+	chromedriver!(No symbol) [0x7ff7708de01b]
+	chromedriver!(No symbol) [0x7ff770882e6c]
+	chromedriver!(No symbol) [0x7ff770883d93]
+	chromedriver!GetHandleVerifier [0x7ff7712c6431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff7712c0a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff7712e5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff770cfdace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff770d0661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff770ceab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff770cead04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff770ccd9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ff8a708e957+17]
+	ntdll!RtlUserThreadStart [0x7ff8a8b4ad6c+2c]
+
+2026-08-03 10:45:15,137 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:45:23,506 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:45:27,199 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:45:35,503 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 10:45:35,503 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:45:40,609 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:45:55,043 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:46:07,707 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:46:19,437 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 10:46:23,535 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:46:36,069 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:46:50,512 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 10:46:53,690 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:46:57,900 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:47:12,361 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:47:16,778 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:47:29,756 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:49:51,047 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:50:09,323 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:50:13,904 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:50:22,747 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 10:50:32,112 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:50:36,323 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:50:48,118 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 10:50:48,241 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:50:52,391 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:51:00,115 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 10:51:01,236 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 10:51:05,229 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 10:51:21,510 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:04:14,852 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:04:23,618 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:04:28,524 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:04:36,924 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 11:04:36,924 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:04:41,594 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:04:55,999 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:05:08,580 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:05:19,777 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 11:05:23,375 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:05:35,957 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:05:50,049 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 11:05:53,185 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:05:57,345 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:06:11,606 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:06:15,900 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:06:28,606 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:08:54,040 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:09:12,027 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:09:16,230 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:09:25,047 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 11:09:34,373 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:09:38,593 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:09:50,273 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 11:09:50,410 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:09:54,579 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:10:02,308 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 11:10:03,377 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:10:07,362 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:10:23,738 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:16:58,409 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:17:06,762 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:17:11,679 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:17:20,021 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 11:17:20,021 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:17:23,975 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:17:38,211 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:17:50,983 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:18:02,815 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 11:18:06,912 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:18:19,356 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:18:34,557 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 11:18:37,698 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:18:41,836 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:18:56,365 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:19:00,651 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:19:13,400 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:21:21,911 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:21:39,980 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:21:46,950 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:21:55,834 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 11:22:05,250 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:22:09,566 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:22:21,316 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 11:22:21,438 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:22:24,982 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:22:32,664 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 11:22:33,741 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:22:37,702 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:22:54,207 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:39:07,278 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:39:54,872 - ERROR - [root.selenium_util.start:65] - Failed to start the browser session: Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=150.0.7871.129)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff770ce0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff770ce0d80+15600]
+	chromedriver!(No symbol) [0x7ff77083594d]
+	chromedriver!(No symbol) [0x7ff770832709]
+	chromedriver!(No symbol) [0x7ff770822a91]
+	chromedriver!(No symbol) [0x7ff7708248ff]
+	chromedriver!(No symbol) [0x7ff770823033]
+	chromedriver!(No symbol) [0x7ff7708227fb]
+	chromedriver!(No symbol) [0x7ff7708224b1]
+	chromedriver!(No symbol) [0x7ff770820167]
+	chromedriver!(No symbol) [0x7ff7708208e2]
+	chromedriver!(No symbol) [0x7ff770839bf6]
+	chromedriver!(No symbol) [0x7ff7708dee24]
+	chromedriver!(No symbol) [0x7ff7708b91ca]
+	chromedriver!(No symbol) [0x7ff7708de01b]
+	chromedriver!(No symbol) [0x7ff770882e6c]
+	chromedriver!(No symbol) [0x7ff770883d93]
+	chromedriver!GetHandleVerifier [0x7ff7712c6431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff7712c0a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff7712e5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff770cfdace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff770d0661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff770ceab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff770cead04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff770ccd9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ff8a708e957+17]
+	ntdll!RtlUserThreadStart [0x7ff8a8b4ad6c+2c]
+
+2026-08-03 11:39:54,872 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:39:57,889 - ERROR - [root.Check_GUI_Loaded.<module>:35] - web scraping failed
+Traceback (most recent call last):
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP-2024B\TLA\TesterSpecific\Webscraper\Check_GUI_Loaded.py", line 26, in <module>
+    with Browser(TARGET_URL, headless=False) as browser:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP-2024B\TLA\TesterSpecific\Webscraper\tde_utilities\selenium_util.py", line 88, in __enter__
+    self.start()
+    ~~~~~~~~~~^^
+  File "C:\Emerson\SolaHD\SDU-DC-UPS-EIP-2024B\TLA\TesterSpecific\Webscraper\tde_utilities\selenium_util.py", line 62, in start
+    self.driver.get(self.url)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 488, in get
+    self.execute(Command.GET, {"url": url})
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\webdriver.py", line 468, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\pgb-adc-tst\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=150.0.7871.129)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff770ce0d25+155a5]
+	chromedriver!GetHandleVerifier [0x7ff770ce0d80+15600]
+	chromedriver!(No symbol) [0x7ff77083594d]
+	chromedriver!(No symbol) [0x7ff770832709]
+	chromedriver!(No symbol) [0x7ff770822a91]
+	chromedriver!(No symbol) [0x7ff7708248ff]
+	chromedriver!(No symbol) [0x7ff770823033]
+	chromedriver!(No symbol) [0x7ff7708227fb]
+	chromedriver!(No symbol) [0x7ff7708224b1]
+	chromedriver!(No symbol) [0x7ff770820167]
+	chromedriver!(No symbol) [0x7ff7708208e2]
+	chromedriver!(No symbol) [0x7ff770839bf6]
+	chromedriver!(No symbol) [0x7ff7708dee24]
+	chromedriver!(No symbol) [0x7ff7708b91ca]
+	chromedriver!(No symbol) [0x7ff7708de01b]
+	chromedriver!(No symbol) [0x7ff770882e6c]
+	chromedriver!(No symbol) [0x7ff770883d93]
+	chromedriver!GetHandleVerifier [0x7ff7712c6431+5facb1]
+	chromedriver!GetHandleVerifier [0x7ff7712c0a9b+5f531b]
+	chromedriver!GetHandleVerifier [0x7ff7712e5865+61a0e5]
+	chromedriver!GetHandleVerifier [0x7ff770cfdace+3234e]
+	chromedriver!GetHandleVerifier [0x7ff770d0661c+3ae9c]
+	chromedriver!GetHandleVerifier [0x7ff770ceab74+1f3f4]
+	chromedriver!GetHandleVerifier [0x7ff770cead04+1f584]
+	chromedriver!GetHandleVerifier [0x7ff770ccd9d7+2257]
+	KERNEL32!BaseThreadInitThunk [0x7ff8a708e957+17]
+	ntdll!RtlUserThreadStart [0x7ff8a8b4ad6c+2c]
+
+2026-08-03 11:40:39,682 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:40:48,093 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:40:52,844 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:41:01,155 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 11:41:01,156 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:41:05,278 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:41:19,542 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:41:32,223 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:41:43,989 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 11:41:47,580 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:42:00,110 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:42:15,180 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 11:42:19,329 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:42:23,466 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:42:37,858 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:42:42,131 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:42:54,873 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:44:45,463 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:45:03,400 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:45:07,851 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:45:17,085 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 11:45:26,808 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:45:31,233 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:45:42,990 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 11:45:43,110 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:45:47,328 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:45:55,114 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 11:45:56,222 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 11:46:00,293 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 11:46:16,649 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:00:12,896 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:00:25,656 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:00:29,260 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:00:41,768 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:00:57,269 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:01:00,867 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:01:04,736 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:01:13,526 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:01:17,136 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:01:26,500 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 14:01:26,500 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:01:30,121 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:01:41,897 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:01:45,047 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:02:11,166 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:02:19,544 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:02:23,050 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:02:31,348 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 14:02:31,348 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:02:36,162 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:02:50,662 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:03:03,357 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:03:14,956 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:03:19,055 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:03:31,600 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:03:46,350 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:03:49,498 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:03:53,625 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:04:07,984 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:04:12,246 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:04:24,817 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:06:06,884 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:06:24,823 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:06:28,973 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:06:37,804 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:06:47,175 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:06:51,342 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:07:02,973 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:07:03,097 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:07:07,113 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:07:14,830 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:07:15,937 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:07:19,800 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:07:36,174 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:14:48,059 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:15:00,728 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:15:04,331 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:15:16,870 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:15:35,827 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:15:39,420 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:15:43,218 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:15:51,842 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:15:55,466 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:16:05,261 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 14:16:05,261 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:16:08,884 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:16:20,630 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:16:23,776 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:16:49,898 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:16:58,485 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:17:02,101 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:17:10,509 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 14:17:10,509 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:17:15,284 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:17:29,642 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:17:42,207 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:17:54,161 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:17:57,754 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:18:10,296 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:18:24,072 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:18:27,217 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:18:31,306 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:18:45,776 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:18:50,632 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:19:03,184 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:20:49,571 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:21:07,600 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:21:11,757 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:21:20,493 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:21:29,853 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:21:34,025 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:21:45,870 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:21:45,997 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:21:50,106 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:21:57,851 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:21:58,932 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:22:02,849 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:22:19,241 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:27:44,520 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:27:56,323 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:27:59,922 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:28:12,462 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:28:27,893 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:28:31,484 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:28:35,341 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:28:44,546 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:28:48,201 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:28:57,032 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 14:28:57,032 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:29:00,716 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:29:13,133 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:29:16,312 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:29:42,998 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:29:51,906 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:29:55,561 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:30:04,046 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 14:30:04,046 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:30:08,646 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:30:23,068 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:30:35,731 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:30:47,800 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:30:51,899 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:31:04,486 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:31:20,890 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:31:24,068 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:31:28,239 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:31:43,083 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:31:47,454 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:32:00,217 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:33:42,842 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:34:00,932 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:34:05,085 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:34:13,963 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:34:23,346 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:34:27,527 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:34:39,375 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:34:39,498 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:34:43,562 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:34:50,918 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:34:51,943 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:34:55,879 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:35:12,368 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:43:54,942 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:44:06,979 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:44:10,573 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:44:23,150 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:44:40,943 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:44:45,049 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:44:48,892 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:44:58,136 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:45:01,795 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:45:10,062 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 14:45:10,062 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:45:13,709 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:45:25,586 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:45:28,746 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:45:54,915 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:46:03,302 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:46:06,970 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:46:15,306 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 14:46:15,306 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:46:19,237 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:46:33,646 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:46:46,306 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:46:58,218 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:47:01,811 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:47:14,401 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:47:29,416 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:47:32,576 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:47:36,693 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:47:51,138 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:47:55,468 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:48:08,202 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:49:51,398 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:50:09,525 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:50:13,670 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:50:22,356 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:50:31,890 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:50:36,071 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:50:47,869 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:50:48,050 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:50:52,166 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:50:59,944 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 14:51:01,071 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 14:51:05,024 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 14:51:21,489 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:18:00,652 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:18:13,877 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 15:18:17,482 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:18:30,041 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:18:44,578 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 15:18:48,166 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:18:52,010 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:19:00,787 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:19:04,404 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:19:13,869 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 15:19:13,869 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:19:17,394 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:19:29,114 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 15:19:32,275 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:19:58,374 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:20:06,678 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:20:10,281 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:20:18,709 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 15:20:18,709 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:20:23,510 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:20:37,840 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:20:50,610 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:21:02,374 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 15:21:06,468 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:21:19,043 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:21:33,303 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 15:21:36,447 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:21:40,546 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:21:54,810 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:21:59,110 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:22:11,916 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:23:56,806 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:24:14,761 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:24:18,918 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:24:27,640 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 15:24:37,035 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:24:41,220 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:24:52,994 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 15:24:53,133 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:24:57,308 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:25:05,060 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 15:25:06,160 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:25:10,118 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:25:26,356 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:57:42,097 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:57:54,132 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 15:57:58,226 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:58:10,836 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:58:25,226 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 15:58:28,850 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:58:32,665 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:58:40,929 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:58:44,566 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:58:52,918 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 15:58:52,918 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:58:56,580 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:59:08,356 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 15:59:12,008 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:59:38,248 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:59:46,609 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 15:59:50,243 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 15:59:58,717 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 15:59:58,717 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:00:02,677 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:00:17,116 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:00:29,712 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:00:41,511 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:00:45,103 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:00:57,698 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:01:15,042 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:01:18,193 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:01:24,446 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:01:39,518 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:01:43,823 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:01:56,548 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:04:18,898 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:04:36,856 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:04:41,027 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:04:49,852 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:04:59,268 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:05:03,451 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:05:15,145 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:05:15,287 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:05:19,474 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:05:27,210 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:05:28,328 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:05:32,309 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:05:48,678 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:10:55,250 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:11:07,096 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:11:10,704 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:11:23,257 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:11:37,553 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:11:41,143 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:11:44,825 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:11:53,574 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:11:57,092 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:12:05,610 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 16:12:05,610 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:12:09,145 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:12:20,446 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:12:23,596 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:12:49,857 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:12:58,271 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:13:01,912 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:13:10,403 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 16:13:10,403 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:13:14,345 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:13:28,829 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:13:41,512 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:13:53,181 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:13:56,773 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:14:09,371 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:14:23,621 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:14:27,284 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:14:31,445 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:14:45,758 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:14:50,060 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:15:02,547 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:16:45,514 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:17:03,230 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:17:07,412 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:17:16,105 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:17:25,595 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:17:29,793 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:17:41,342 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:17:41,464 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:17:45,559 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:17:53,243 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:17:54,374 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:17:58,320 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:18:14,700 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:25:44,878 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:25:57,558 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:26:01,184 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:26:13,613 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:26:26,974 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:26:30,580 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:26:34,395 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:26:42,835 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:26:46,478 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:26:54,811 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 16:26:54,811 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:26:58,439 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:27:10,202 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:27:13,357 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:27:39,452 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:27:47,772 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:27:51,452 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:27:59,730 - DEBUG - [root.selenium_util.get_element_size:158] - Element ('id', 'header') width: 800px, height: 86px
+2026-08-03 16:27:59,730 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:28:03,642 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:28:18,052 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:28:30,611 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:28:42,441 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:28:46,534 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:28:59,070 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:29:15,270 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:29:18,409 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:29:22,514 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:29:36,785 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:29:41,005 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:29:53,696 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:31:36,917 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:31:54,833 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:31:59,000 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:32:07,770 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:32:17,093 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:32:21,300 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:32:32,808 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:32:32,932 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:32:37,073 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:32:44,818 - INFO - [root.selenium_util.wait_for_javascript_ready:129] - Waiting for background JavaScript engine to settle...
+2026-08-03 16:32:45,879 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.
+2026-08-03 16:32:49,815 - INFO - [root.selenium_util.start:50] - Launching Chrome session for: http://192.168.1.5
+2026-08-03 16:33:06,162 - INFO - [root.selenium_util.close:78] - Closing browser session cleanly.

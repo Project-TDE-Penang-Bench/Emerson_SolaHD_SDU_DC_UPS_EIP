@@ -4836,3 +4836,96 @@ Error Code: -17300, Value invalid or out of range.
 Message: 'Error executing step post action.
 Cannot find go to target. The step 'ID#:V21KGTUk7BG6gAAwGAiQvD' is not in the current sequence.' at step 'Goto' in seq 'ProcessModelPostStepRuntimeError'
 
+    30/7/2026 5:51:17 PM ProcessModelError
+Error Code: -1073807339, Code Module/User-defined error code.
+Message: 'VISA Read in BK Precision 8500B Series.lvlib:Error Query.vi->BK Precision 8500B Series.lvlib:Close.vi
+VISA:  (Hex 0xBFFF0015) Timeout expired before operation completed.' at step 'Disconnect E-Load1' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    30/7/2026 6:03:43 PM ProcessModelError
+Error Code: 7, Code Module/User-defined error code.
+Message: 'NI_LVConfig.lvlib:Load.vi
+C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA-2024B\TesterSpecific\ST-LINK\Config\STLINK_PCB_FCT.ini
+
+
+Complete call chain:
+     NI_LVConfig.lvlib:Load.vi
+     NI_LVConfig.lvlib:Open Config Data.vi
+     ST-LINK.lvlib:Configure Command - Connect Device.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi.ProxyCaller
+LabVIEW: (Hex 0x7) File not found. The file might be in a different location or deleted. Use the command prompt or the file explorer to verify that the path is correct.
+=========================
+Nonexistent GPIB interface.' at step 'TRS01.1 - Erase Flash' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    30/7/2026 6:43:53 PM ProcessModelError
+Error Code: 2, Code Module/User-defined error code.
+Message: 'ST-LINK.lvlib:Parse Return Codes.vi
+Connection problem.
+
+
+Complete call chain:
+     ST-LINK.lvlib:Parse Return Codes.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi.ProxyCaller
+LabVIEW: (Hex 0x2) Memory is full.
+=========================
+LabVIEW: (Hex 0x2) ERROR_FILE_NOT_FOUND.
+=========================
+No Listeners on the GPIB.' at step 'TRS01.1 - Erase Flash' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    30/7/2026 6:49:10 PM ProcessModelError
+Error Code: 2, Code Module/User-defined error code.
+Message: 'ST-LINK.lvlib:Parse Return Codes.vi
+Connection problem.
+
+
+Complete call chain:
+     ST-LINK.lvlib:Parse Return Codes.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi.ProxyCaller
+LabVIEW: (Hex 0x2) Memory is full.
+=========================
+LabVIEW: (Hex 0x2) ERROR_FILE_NOT_FOUND.
+=========================
+No Listeners on the GPIB.' at step 'TRS01.1 - Erase Flash' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    30/7/2026 6:54:23 PM ProcessModelError
+Error Code: 7, Code Module/User-defined error code.
+Message: 'Open File+.vi:Open File
+LabVIEW: (Hex 0x7) File not found. The file might be in a different location or deleted. Use the command prompt or the file explorer to verify that the path is correct.
+=========================
+Nonexistent GPIB interface.' at step 'EEPROM Major Version' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    30/7/2026 6:54:41 PM ProcessModelError
+Error Code: 7, Code Module/User-defined error code.
+Message: 'Open File+.vi:Open File
+LabVIEW: (Hex 0x7) File not found. The file might be in a different location or deleted. Use the command prompt or the file explorer to verify that the path is correct.
+=========================
+Nonexistent GPIB interface.' at step 'EEPROM Major Version' in seq 'ProcessModelPostStepRuntimeError'
+
+TST-C-ROS-T2935    30/7/2026 8:57:41 PM ProcessModelError
+Error Code: 7, Code Module/User-defined error code.
+Message: 'NI_LVConfig.lvlib:Load.vi
+C:\Emerson\SolaHD\SDU-DC-UPS-EIP-2024B\PCBA\TesterSpecific\ST-LINK\Config\STLINK_1024B.ini
+
+
+Complete call chain:
+     NI_LVConfig.lvlib:Load.vi
+     NI_LVConfig.lvlib:Open Config Data.vi
+     ST-LINK.lvlib:Configure Command - Connect Device.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi
+     ST-LINK.lvlib:ST-LINK Engine With Options.vi.ProxyCaller
+LabVIEW: (Hex 0x7) File not found. The file might be in a different location or deleted. Use the command prompt or the file explorer to verify that the path is correct.
+=========================
+Nonexistent GPIB interface.' at step 'TRS06,7 - Program 2024B' in seq 'ProcessModelPostStepRuntimeError'
+
+    3/8/2026 6:10:22 PM ProcessModelError
+Error Code: -1073807343, Code Module/User-defined error code.
+Message: 'VISA Open in RIGOL MHO900 Series.lvlib:Initialize.vi
+VISA:  (Hex 0xBFFF0011) Insufficient location information or the device or resource is not present in the system.' at step 'Initialize Scope' in seq 'ProcessModelPostStepRuntimeError'
+
+    3/8/2026 6:10:38 PM ProcessModelError
+Error Code: -1073807343, Code Module/User-defined error code.
+Message: 'VISA Open in RIGOL MHO900 Series.lvlib:Initialize.vi
+VISA:  (Hex 0xBFFF0011) Insufficient location information or the device or resource is not present in the system.' at step 'Initialize Scope' in seq 'ProcessModelPostStepRuntimeError'
+

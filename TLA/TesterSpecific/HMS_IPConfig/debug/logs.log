@@ -501,3 +501,147 @@ TimeoutError: RPA Search Failure: Pattern target 'Retrieve IP' was not discovere
 2026-07-21 16:09:59,445 - INFO - [root.HMS_IPConfig.<module>:39] - overwritting subnet mask
 2026-07-21 16:10:02,146 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
 2026-07-21 16:10:03,191 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 24.57s
+2026-08-03 10:47:48,427 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:17] - begin: Check for default IP and DHCP
+2026-08-03 10:47:48,427 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 10:48:09,293 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:29] - overwritting IP
+2026-08-03 10:48:11,625 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:34] - overwritting subnet mask
+2026-08-03 10:48:14,351 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 10:48:14,873 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:40] - end: Static IP Set-up via HMS IPConfig, took 26.45s
+2026-08-03 10:48:24,227 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-08-03 10:48:24,227 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 10:48:41,868 - INFO - [root.HMS_IPConfig.<module>:34] - overwritting IP
+2026-08-03 10:48:44,109 - INFO - [root.HMS_IPConfig.<module>:39] - overwritting subnet mask
+2026-08-03 10:48:46,771 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 10:48:47,657 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 23.43s
+2026-08-03 11:06:46,829 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:17] - begin: Check for default IP and DHCP
+2026-08-03 11:06:46,829 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 11:07:08,478 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:29] - overwritting IP
+2026-08-03 11:07:11,239 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:34] - overwritting subnet mask
+2026-08-03 11:07:14,291 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 11:07:15,241 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:40] - end: Static IP Set-up via HMS IPConfig, took 28.41s
+2026-08-03 11:07:24,553 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-08-03 11:07:24,553 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 11:07:44,092 - INFO - [root.HMS_IPConfig.<module>:34] - overwritting IP
+2026-08-03 11:07:46,869 - INFO - [root.HMS_IPConfig.<module>:39] - overwritting subnet mask
+2026-08-03 11:07:49,933 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 11:07:50,872 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 26.32s
+2026-08-03 11:19:31,542 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:17] - begin: Check for default IP and DHCP
+2026-08-03 11:19:31,542 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 11:19:49,637 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:29] - overwritting IP
+2026-08-03 11:19:52,331 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:34] - overwritting subnet mask
+2026-08-03 11:19:54,247 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 11:19:54,415 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:40] - end: Static IP Set-up via HMS IPConfig, took 22.87s
+2026-08-03 11:20:03,696 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-08-03 11:20:03,696 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 11:20:23,102 - INFO - [root.HMS_IPConfig.<module>:34] - overwritting IP
+2026-08-03 11:20:25,663 - INFO - [root.HMS_IPConfig.<module>:39] - overwritting subnet mask
+2026-08-03 11:20:28,665 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 11:20:29,747 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 26.05s
+2026-08-03 11:43:13,010 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:17] - begin: Check for default IP and DHCP
+2026-08-03 11:43:13,011 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 11:43:32,379 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:29] - overwritting IP
+2026-08-03 11:43:34,738 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:34] - overwritting subnet mask
+2026-08-03 11:43:37,603 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 11:43:38,180 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:40] - end: Static IP Set-up via HMS IPConfig, took 25.17s
+2026-08-03 11:43:47,456 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-08-03 11:43:47,456 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 11:44:06,223 - INFO - [root.HMS_IPConfig.<module>:34] - overwritting IP
+2026-08-03 11:44:08,772 - INFO - [root.HMS_IPConfig.<module>:39] - overwritting subnet mask
+2026-08-03 11:44:10,810 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 11:44:11,823 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 24.37s
+2026-08-03 14:04:43,092 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:17] - begin: Check for default IP and DHCP
+2026-08-03 14:04:43,092 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 14:05:03,306 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:29] - overwritting IP
+2026-08-03 14:05:04,997 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:34] - overwritting subnet mask
+2026-08-03 14:05:07,226 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 14:05:08,241 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:40] - end: Static IP Set-up via HMS IPConfig, took 25.15s
+2026-08-03 14:05:17,488 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-08-03 14:05:17,489 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 14:05:34,611 - INFO - [root.HMS_IPConfig.<module>:34] - overwritting IP
+2026-08-03 14:05:35,485 - INFO - [root.HMS_IPConfig.<module>:39] - overwritting subnet mask
+2026-08-03 14:05:37,637 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 14:05:38,535 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 21.05s
+2026-08-03 14:19:21,449 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:17] - begin: Check for default IP and DHCP
+2026-08-03 14:19:21,450 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 14:19:42,750 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:29] - overwritting IP
+2026-08-03 14:19:45,141 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:34] - overwritting subnet mask
+2026-08-03 14:19:47,059 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 14:19:47,728 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:40] - end: Static IP Set-up via HMS IPConfig, took 26.28s
+2026-08-03 14:19:56,997 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-08-03 14:19:56,997 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 14:20:15,767 - INFO - [root.HMS_IPConfig.<module>:34] - overwritting IP
+2026-08-03 14:20:17,809 - INFO - [root.HMS_IPConfig.<module>:39] - overwritting subnet mask
+2026-08-03 14:20:20,154 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 14:20:21,211 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 24.21s
+2026-08-03 14:32:18,502 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:17] - begin: Check for default IP and DHCP
+2026-08-03 14:32:18,502 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 14:32:38,901 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:29] - overwritting IP
+2026-08-03 14:32:40,634 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:34] - overwritting subnet mask
+2026-08-03 14:32:43,261 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 14:32:43,868 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:40] - end: Static IP Set-up via HMS IPConfig, took 25.37s
+2026-08-03 14:32:53,145 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-08-03 14:32:53,145 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 14:33:12,229 - INFO - [root.HMS_IPConfig.<module>:34] - overwritting IP
+2026-08-03 14:33:14,784 - INFO - [root.HMS_IPConfig.<module>:39] - overwritting subnet mask
+2026-08-03 14:33:17,825 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 14:33:18,890 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 25.74s
+2026-08-03 14:48:26,226 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:17] - begin: Check for default IP and DHCP
+2026-08-03 14:48:26,227 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 14:48:43,827 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:29] - overwritting IP
+2026-08-03 14:48:45,866 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:34] - overwritting subnet mask
+2026-08-03 14:48:47,444 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 14:48:48,102 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:40] - end: Static IP Set-up via HMS IPConfig, took 21.88s
+2026-08-03 14:48:57,374 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-08-03 14:48:57,375 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 14:49:17,146 - INFO - [root.HMS_IPConfig.<module>:34] - overwritting IP
+2026-08-03 14:49:19,002 - INFO - [root.HMS_IPConfig.<module>:39] - overwritting subnet mask
+2026-08-03 14:49:22,047 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 14:49:23,095 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 25.72s
+2026-08-03 15:22:30,226 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:17] - begin: Check for default IP and DHCP
+2026-08-03 15:22:30,227 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 15:22:50,478 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:29] - overwritting IP
+2026-08-03 15:22:52,721 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:34] - overwritting subnet mask
+2026-08-03 15:22:55,578 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 15:22:55,960 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:40] - end: Static IP Set-up via HMS IPConfig, took 25.73s
+2026-08-03 15:23:05,219 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-08-03 15:23:05,219 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 15:23:23,511 - INFO - [root.HMS_IPConfig.<module>:34] - overwritting IP
+2026-08-03 15:23:26,058 - INFO - [root.HMS_IPConfig.<module>:39] - overwritting subnet mask
+2026-08-03 15:23:27,925 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 15:23:28,449 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 23.23s
+2026-08-03 16:02:14,898 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:17] - begin: Check for default IP and DHCP
+2026-08-03 16:02:14,899 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 16:02:35,754 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:29] - overwritting IP
+2026-08-03 16:02:38,462 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:34] - overwritting subnet mask
+2026-08-03 16:02:41,461 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 16:02:41,856 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:40] - end: Static IP Set-up via HMS IPConfig, took 26.96s
+2026-08-03 16:02:51,148 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-08-03 16:02:51,148 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 16:03:10,097 - INFO - [root.HMS_IPConfig.<module>:34] - overwritting IP
+2026-08-03 16:03:12,297 - INFO - [root.HMS_IPConfig.<module>:39] - overwritting subnet mask
+2026-08-03 16:03:14,478 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 16:03:15,542 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 24.39s
+2026-08-03 16:15:20,677 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:17] - begin: Check for default IP and DHCP
+2026-08-03 16:15:20,678 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 16:15:40,120 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:29] - overwritting IP
+2026-08-03 16:15:42,817 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:34] - overwritting subnet mask
+2026-08-03 16:15:45,215 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 16:15:45,749 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:40] - end: Static IP Set-up via HMS IPConfig, took 25.07s
+2026-08-03 16:15:55,057 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-08-03 16:15:55,057 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 16:16:13,085 - INFO - [root.HMS_IPConfig.<module>:34] - overwritting IP
+2026-08-03 16:16:14,824 - INFO - [root.HMS_IPConfig.<module>:39] - overwritting subnet mask
+2026-08-03 16:16:16,841 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 16:16:17,049 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 21.99s
+2026-08-03 16:30:11,697 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:17] - begin: Check for default IP and DHCP
+2026-08-03 16:30:11,698 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 16:30:30,658 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:29] - overwritting IP
+2026-08-03 16:30:32,032 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:34] - overwritting subnet mask
+2026-08-03 16:30:34,740 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 16:30:35,277 - INFO - [root.HMS_IPConfig_Conflict_IP.<module>:40] - end: Static IP Set-up via HMS IPConfig, took 23.58s
+2026-08-03 16:30:44,591 - INFO - [root.HMS_IPConfig.<module>:17] - begin: Static IP Set-up via HMS IPConfig
+2026-08-03 16:30:44,591 - INFO - [root.win_util.start:19] - Starting application: C:\PROGRA~2\HMS\IPconfig\Hms.IPConfig.exe
+2026-08-03 16:31:03,321 - INFO - [root.HMS_IPConfig.<module>:34] - overwritting IP
+2026-08-03 16:31:05,012 - INFO - [root.HMS_IPConfig.<module>:39] - overwritting subnet mask
+2026-08-03 16:31:08,005 - INFO - [root.win_util.close:32] - Closing window: HMS IPconfig
+2026-08-03 16:31:08,597 - INFO - [root.HMS_IPConfig.<module>:45] - end: Static IP Set-up via HMS IPConfig, took 24.01s

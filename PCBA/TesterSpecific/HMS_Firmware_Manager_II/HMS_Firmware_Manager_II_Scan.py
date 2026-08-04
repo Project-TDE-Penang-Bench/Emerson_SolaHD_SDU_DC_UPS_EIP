@@ -39,7 +39,7 @@ class CustomWorkflow:
         self.ui.ensure_active_and_front()
         
         # Path to your template image
-        scan_img_path = r"C:\Emerson\SolaHD\SDU-DC-UPS-EIP\PCBA\TesterSpecific\HMS_Firmware_Manager_II\Picture\scan.png"
+        scan_img_path = os.path.join(os.path.dirname(__file__), "Picture", "scan.png")
         
         print("Looking for 'Scan' button on screen...")
         try:
